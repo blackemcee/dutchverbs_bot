@@ -1,0 +1,19 @@
+{
+  "werken": {
+    "tegenwoordige_tijd": {
+      "ik": "werk",
+      "jij": "werkt",
+      "hij": "werkt",
+      "wij": "werken",
+      "jullie": "werken",
+      "zij": "werken"
+    },
+    "verleden_tijd": {
+      "ik": "werkte",
+      "wij": "werkten"
+    },
+    "voltooid_deelwoord": "gewerkt",
+    "hulpwerkwoord": "hebben",
+    "russisch": "работать"
+  }
+}
