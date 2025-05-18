@@ -14,7 +14,7 @@
     },
     "voltooid_deelwoord": "geraved",
     "hulpwerkwoord": "hebben",
-    "russisch": "ворон"
+    "russisch": "рейвить"
   },
   "zijn": {
     "tegenwoordige_tijd": {
@@ -31,7 +31,7 @@
     },
     "voltooid_deelwoord": "geweest",
     "hulpwerkwoord": "zijn",
-    "russisch": "являются"
+    "russisch": "быть"
   },
   "aanbidden": {
     "tegenwoordige_tijd": {
@@ -48,7 +48,7 @@
     },
     "voltooid_deelwoord": "aanbeden",
     "hulpwerkwoord": "hebben",
-    "russisch": "поклонение"
+    "russisch": "поклоняться"
   },
   "wassen": {
     "tegenwoordige_tijd": {
@@ -65,7 +65,7 @@
     },
     "voltooid_deelwoord": "gewast",
     "hulpwerkwoord": "hebben",
-    "russisch": "чтобы мыть"
+    "russisch": "мыть"
   },
   "benen": {
     "tegenwoordige_tijd": {
