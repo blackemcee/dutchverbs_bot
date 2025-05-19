@@ -11,7 +11,7 @@ from telegram.ext import (
 
 # Load verbs from JSON
 def load_verbs():
-    with open("verbs_with_conjugations_and_translations.json", encoding="utf-8") as f:
+    with open("verbs.json", encoding="utf-8") as f:
         return json.load(f)
 
 VERBS = load_verbs()
@@ -122,7 +122,7 @@ async def handle_callback(update: Update, context: ContextTypes.DEFAULT_TYPE):
         await send_verb_selection(update, context)
 
 # App initialization
-app = ApplicationBuilder().token("YOUR_TELEGRAM_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
@@ -130,4 +130,3 @@ app.add_handler(CallbackQueryHandler(handle_callback))
 
 if __name__ == '__main__':
     app.run_polling()
-    
