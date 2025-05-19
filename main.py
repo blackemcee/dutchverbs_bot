@@ -1,10 +1,12 @@
 import os
 import json
+from datetime import datetime
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-# --- User counter functions ---
 USERS_FILE = "users.txt"
+LOG_FILE = "logs.txt"
+
 
 def load_users():
     if not os.path.exists(USERS_FILE):
@@ -12,21 +14,30 @@ def load_users():
     with open(USERS_FILE, "r") as f:
         return set(line.strip() for line in f if line.strip())
 
+
 def save_user(user_id):
     users = load_users()
     if str(user_id) not in users:
         with open(USERS_FILE, "a") as f:
             f.write(f"{user_id}\n")
 
+
 def get_user_count():
     users = load_users()
     return len(users)
+
+
+def log_user_verb(user_id, text):
+    with open(LOG_FILE, "a", encoding="utf-8") as f:
+        now = datetime.now().isoformat(sep=' ', timespec='seconds')
+        f.write(f"{now}\t{user_id}\t{text.strip()}\n")
 
 
 # --- Load verbs
 def load_verbs():
     with open("verbs.json", encoding="utf-8") as f:
         return json.load(f)
+
 
 VERBS = load_verbs()
 VERBS_LIST = list(VERBS.keys())
@@ -71,6 +82,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     save_user(update.effective_user.id)  # <--- сохраняем пользователя
+    log_user_verb(update.effective_user.id, update.message.text)
     verb = update.message.text
     matches = find_verb(verb)
 
