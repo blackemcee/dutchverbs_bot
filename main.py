@@ -4,7 +4,7 @@ from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, Con
 
 # Загрузка словаря глаголов
 def load_verbs():
-    with open("verbs_with_conjugations_and_translations.json", encoding="utf-8") as f:
+    with open("verbs.json", encoding="utf-8") as f:
         return json.load(f)
 
 VERBS = load_verbs()
