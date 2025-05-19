@@ -60,7 +60,7 @@ async def send_verb_info(update_or_callback, infinitive, data):
     translation = data.get("english", "translation unknown")
 
     if hulp:
-        voltooid_str = f"{hulp} {vd}" if "/" not in hulp else f"{' / '.join(hulp.split('/'))} {vd}"
+        voltooid_str = f"{hulp} {vd}".strip() if hulp and vd else vd or "-"
     else:
         voltooid_str = vd or "-"
 
