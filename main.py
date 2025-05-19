@@ -45,14 +45,15 @@ def build_verb_keyboard(matches, page=0):
     return InlineKeyboardMarkup(keyboard)
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text("Stuur me een Nederlands werkwoord — ik geef je alle vormen en vertaling.")
+    await update.message.reply_text("Send me a Dutch verb — I'll send you "
+                                    "back all the forms and translation.")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     verb = update.message.text
     matches = find_verb(verb)
 
     if not matches:
-        await update.message.reply_text("Sorry, ik ken dit werkwoord niet. Probeer een ander.")
+        await update.message.reply_text("Sorry, I don't know this verb. Try another.")
         return
 
     if len(matches) == 1:
@@ -62,7 +63,7 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         # Multiple matches, show paginated list
         keyboard = build_verb_keyboard(matches, page=0)
         await update.message.reply_text(
-            f"Meerdere werkwoorden gevonden, kies een van de lijst:",
+            f"Multiple verbs found, choose one from the list:",
             reply_markup=keyboard
         )
         # Store matches in user_data for paging
@@ -113,7 +114,7 @@ async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TY
         matches = context.user_data.get("matches", [])
         keyboard = build_verb_keyboard(matches, page)
         await query.edit_message_text(
-            "Meerdere werkwoorden gevonden, kies een van de lijst:",
+            "Multiple verbs found, choose one from the list:",
             reply_markup=keyboard
         )
 
