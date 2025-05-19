@@ -106,7 +106,7 @@ async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TY
             reply_markup=keyboard
         )
 
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN").build()
+app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
 
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
