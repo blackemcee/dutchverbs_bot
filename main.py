@@ -6,7 +6,7 @@ from telegram.ext import (
 )
 
 # Загрузка словаря глаголов
-with open("verbs_with_conjugations_and_translations.json", encoding="utf-8") as f:
+with open("verbs.json", encoding="utf-8") as f:
     VERBS = json.load(f)
 
 # Формирование ответа
@@ -84,7 +84,7 @@ async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
             await query.edit_message_text(response, parse_mode="Markdown")
 
 # Запуск бота
-app = ApplicationBuilder().token("YOUR_BOT_TOKEN_HERE").build()
+app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 app.add_handler(CallbackQueryHandler(handle_button))
