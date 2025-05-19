@@ -71,6 +71,15 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
 async def send_verb_info(update_or_query, infinitive, data, edit=False):
     tt = data.get("tegenwoordige_tijd", {})
     vt = data.get("verleden_tijd", {})
+
+    hulp = data.get('hulpwerkwoord', '')
+    if isinstance(hulp, list):
+        hulp_str = " / ".join(hulp)
+    elif "," in hulp:
+        hulp_str = " / ".join([h.strip() for h in hulp.split(",")])
+    else:
+        hulp_str = hulp
+
     response = (
         f"\U0001F4D6 *{infinitive}* — "
         f"{data.get('english', 'translation unknown')}\n"
@@ -78,15 +87,16 @@ async def send_verb_info(update_or_query, infinitive, data, edit=False):
         f"\n*Tegenwoordige tijd:* ik {tt.get('ik')}, jij {tt.get('jij')}, hij {tt.get('hij')}\n"
         f"  wij {tt.get('wij')}, jullie {tt.get('jullie')}, zij {tt.get('zij')}"
         f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
-        f"\n*Voltooid deelwoord:* {data.get('voltooid_deelwoord')}"
-        f"\n*Hulpwerkwoord:* {data.get('hulpwerkwoord')}"
+        f"\n*Voltooid deelwoord:* {hulp_str} {data.get('voltooid_deelwoord')}"
     )
+
     if hasattr(update_or_query, "edit_message_text") and edit:
         await update_or_query.edit_message_text(
             response, parse_mode="Markdown"
         )
     else:
         await update_or_query.message.reply_markdown(response)
+
 
 async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
