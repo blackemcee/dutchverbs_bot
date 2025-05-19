@@ -72,7 +72,8 @@ async def send_verb_info(update_or_query, infinitive, data, edit=False):
     tt = data.get("tegenwoordige_tijd", {})
     vt = data.get("verleden_tijd", {})
     response = (
-        f"\U0001F4D6 *{infinitive}* — {data.get('russisch', 'перевод неизвестен')}\n"
+        f"\U0001F4D6 *{infinitive}* — "
+        f"{data.get('english', 'translation unknown')}\n"
         f"\n*Infinitief:* {infinitive}"
         f"\n*Tegenwoordige tijd:* ik {tt.get('ik')}, jij {tt.get('jij')}, hij {tt.get('hij')}\n"
         f"  wij {tt.get('wij')}, jullie {tt.get('jullie')}, zij {tt.get('zij')}"
