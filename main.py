@@ -1,6 +1,27 @@
+import os
 import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
+
+# --- User counter functions ---
+USERS_FILE = "users.txt"
+
+def load_users():
+    if not os.path.exists(USERS_FILE):
+        return set()
+    with open(USERS_FILE, "r") as f:
+        return set(line.strip() for line in f if line.strip())
+
+def save_user(user_id):
+    users = load_users()
+    if str(user_id) not in users:
+        with open(USERS_FILE, "a") as f:
+            f.write(f"{user_id}\n")
+
+def get_user_count():
+    users = load_users()
+    return len(users)
+
 
 # --- Load verbs
 def load_verbs():
@@ -49,6 +70,7 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                     "back all the forms and translation.")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    save_user(update.effective_user.id)  # <--- сохраняем пользователя
     verb = update.message.text
     matches = find_verb(verb)
 
@@ -118,9 +140,15 @@ async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TY
             reply_markup=keyboard
         )
 
+# --- Команда для просмотра статистики
+async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
+    count = get_user_count()
+    await update.message.reply_text(f"Уникальных пользователей: {count}")
+
 app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
 
 app.add_handler(CommandHandler("start", start))
+app.add_handler(CommandHandler("stats", stats))  # команда /stats
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 app.add_handler(CallbackQueryHandler(handle_callback_query))
 
