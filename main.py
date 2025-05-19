@@ -1,93 +1,117 @@
 import json
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
-from telegram.ext import (
-    ApplicationBuilder, CommandHandler, MessageHandler,
-    CallbackQueryHandler, ContextTypes, filters
-)
+from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-# Загрузка словаря глаголов
-with open("verbs.json", encoding="utf-8") as f:
-    VERBS = json.load(f)
+# --- Load verbs
+def load_verbs():
+    with open("verbs.json", encoding="utf-8") as f:
+        return json.load(f)
 
-# Формирование ответа
-def format_verb_output(infinitive: str, data: dict) -> str:
-    tt = data.get("tegenwoordige_tijd", {})
-    vt = data.get("verleden_tijd", {})
-    vd = data.get("voltooid_deelwoord", "")
-    hw = data.get("hulpwerkwoord", "")
-    eng = data.get("english", "")
+VERBS = load_verbs()
+VERBS_LIST = list(VERBS.keys())
+PAGE_SIZE = 10
 
-    if isinstance(hw, list):
-        hw_str = " / ".join(hw)
-    else:
-        hw_str = hw
-
-    response = f"📖 *{infinitive}* — {eng or 'no translation'}\n"
-    response += f"\n*Infinitief:* {infinitive}"
-    response += f"\n*Tegenwoordige tijd:* ik {tt.get('ik')}, jij {tt.get('jij')}, hij {tt.get('hij')}\n"
-    response += f"  wij {tt.get('wij')}, jullie {tt.get('jullie')}, zij {tt.get('zij')}"
-    response += f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
-    response += f"\n*Voltooid deelwoord:* {hw_str} {vd}" if vd else ""
-    return response
-
-# Поиск по инфинитиву или частичному совпадению
-def search_verbs(query: str):
+def find_verb(query):
     query = query.lower().strip()
-    if query in VERBS:
-        return [(query, VERBS[query])], True
-
-    results = []
+    matches = []
     for infinitive, data in VERBS.items():
-        if query in infinitive:
-            results.append((infinitive, data))
-    return results, False
+        forms = [infinitive]
+        forms += list(data.get("tegenwoordige_tijd", {}).values())
+        forms += list(data.get("verleden_tijd", {}).values())
+        forms.append(data.get("voltooid_deelwoord", ""))
+        if any(query == form for form in forms if form):
+            # Exact match
+            return [(infinitive, data)]
+        if any(query in form for form in forms if form):
+            matches.append((infinitive, data))
+    return matches
 
-# Команда /start
+def build_verb_keyboard(matches, page=0):
+    start = page * PAGE_SIZE
+    end = start + PAGE_SIZE
+    page_matches = matches[start:end]
+    keyboard = [
+        [InlineKeyboardButton(text=inf, callback_data=f"showverb:{inf}")]
+        for inf, _ in page_matches
+    ]
+    # Add pagination controls
+    controls = []
+    if start > 0:
+        controls.append(InlineKeyboardButton("⬅️ Prev", callback_data=f"page:{page-1}"))
+    if end < len(matches):
+        controls.append(InlineKeyboardButton("Next ➡️", callback_data=f"page:{page+1}"))
+    if controls:
+        keyboard.append(controls)
+    return InlineKeyboardMarkup(keyboard)
+
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    await update.message.reply_text(
-        "Отправь мне голландский глагол, и я покажу его спряжения и перевод."
-    )
+    await update.message.reply_text("Stuur me een Nederlands werkwoord — ik geef je alle vormen en vertaling.")
 
-# Обработка текстового сообщения
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    query = update.message.text
-    matches, exact = search_verbs(query)
+    verb = update.message.text
+    matches = find_verb(verb)
 
     if not matches:
-        await update.message.reply_text("Извини, я не знаю такого глагола.")
+        await update.message.reply_text("Sorry, ik ken dit werkwoord niet. Probeer een ander.")
         return
 
-    if exact:
+    if len(matches) == 1:
         infinitive, data = matches[0]
-        response = format_verb_output(infinitive, data)
-        await update.message.reply_markdown(response)
+        await send_verb_info(update, infinitive, data)
     else:
-        keyboard = [
-            [InlineKeyboardButton(word, callback_data=f"verb:{word}")]
-            for word, _ in matches[:20]
-        ]
-        reply_markup = InlineKeyboardMarkup(keyboard)
+        # Multiple matches, show paginated list
+        keyboard = build_verb_keyboard(matches, page=0)
         await update.message.reply_text(
-            "Выбери нужный глагол:", reply_markup=reply_markup
+            f"Meerdere werkwoorden gevonden, kies een van de lijst:",
+            reply_markup=keyboard
         )
+        # Store matches in user_data for paging
+        context.user_data["matches"] = matches
 
-# Обработка нажатия кнопки
-async def handle_button(update: Update, context: ContextTypes.DEFAULT_TYPE):
+async def send_verb_info(update_or_query, infinitive, data, edit=False):
+    tt = data.get("tegenwoordige_tijd", {})
+    vt = data.get("verleden_tijd", {})
+    response = (
+        f"\U0001F4D6 *{infinitive}* — "
+        f"{data.get('english', 'translation unknown')}\n"
+        f"\n*Infinitief:* {infinitive}"
+        f"\n*Tegenwoordige tijd:* ik {tt.get('ik')}, jij {tt.get('jij')}, hij {tt.get('hij')}\n"
+        f"  wij {tt.get('wij')}, jullie {tt.get('jullie')}, zij {tt.get('zij')}"
+        f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
+        f"\n*Voltooid deelwoord:* {data.get('voltooid_deelwoord')}"
+        f"\n*Hulpwerkwoord:* {data.get('hulpwerkwoord')}"
+    )
+    if hasattr(update_or_query, "edit_message_text") and edit:
+        await update_or_query.edit_message_text(
+            response, parse_mode="Markdown"
+        )
+    else:
+        await update_or_query.message.reply_markdown(response)
+
+async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
+    data = query.data
 
-    if query.data.startswith("verb:"):
-        infinitive = query.data[5:]
-        data = VERBS.get(infinitive)
-        if data:
-            response = format_verb_output(infinitive, data)
-            await query.edit_message_text(response, parse_mode="Markdown")
+    if data.startswith("showverb:"):
+        infinitive = data.split(":", 1)[1]
+        verb_data = VERBS.get(infinitive)
+        if verb_data:
+            await send_verb_info(query, infinitive, verb_data, edit=True)
+    elif data.startswith("page:"):
+        page = int(data.split(":", 1)[1])
+        matches = context.user_data.get("matches", [])
+        keyboard = build_verb_keyboard(matches, page)
+        await query.edit_message_text(
+            "Meerdere werkwoorden gevonden, kies een van de lijst:",
+            reply_markup=keyboard
+        )
 
-# Запуск бота
 app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
+
 app.add_handler(CommandHandler("start", start))
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
-app.add_handler(CallbackQueryHandler(handle_button))
+app.add_handler(CallbackQueryHandler(handle_callback_query))
 
 if __name__ == '__main__':
     app.run_polling()
