@@ -5,15 +5,11 @@ from telegram.ext import (
     ContextTypes, CallbackQueryHandler, filters
 )
 
-# --- 1. LOAD VERBS DATA ---
-
 def load_verbs():
     with open("verbs.json", encoding="utf-8") as f:
         return json.load(f)
 
 VERBS = load_verbs()
-
-# --- 2. FIND MATCHING VERBS ---
 
 def find_matching_verbs(query):
     query = query.lower().strip()
@@ -23,22 +19,16 @@ def find_matching_verbs(query):
         forms += list(data.get("tegenwoordige_tijd", {}).values())
         forms += list(data.get("verleden_tijd", {}).values())
         forms.append(data.get("voltooid_deelwoord", ""))
-        # Exact match: immediately return
         if any(query == form for form in forms if form):
             return [infinitive]
-        # Partial match: add to list
         if any(query in form for form in forms if form):
             matches.append(infinitive)
     return matches
-
-# --- 3. BOT COMMANDS ---
 
 async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
     await update.message.reply_text(
         "Stuur me een Nederlands werkwoord — ik geef je alle vormen en vertaling."
     )
-
-# --- 4. SEND VERB INFO ---
 
 async def send_verb_info(target, data, infinitive):
     tt = data.get("tegenwoordige_tijd", {})
@@ -49,9 +39,7 @@ async def send_verb_info(target, data, infinitive):
     response += f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
     response += f"\n*Voltooid deelwoord:* {data.get('voltooid_deelwoord')}"
     response += f"\n*Hulpwerkwoord:* {data.get('hulpwerkwoord')}"
-    await target.reply_markdown(response)
-
-# --- 5. MESSAGE HANDLER ---
+    await target.edit_message_text(response, parse_mode="Markdown")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.message.text
@@ -64,13 +52,20 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     if len(matches) == 1:
         infinitive = matches[0]
         data = VERBS[infinitive]
-        await send_verb_info(update.message, data, infinitive)
+        await update.message.reply_markdown(
+            f"\U0001F4D6 *{infinitive}* — {data.get('russisch', 'перевод неизвестен')}\n"
+            f"\n*Infinitief:* {infinitive}"
+            f"\n*Tegenwoordige tijd:* ik {data['tegenwoordige_tijd']['ik']}, jij {data['tegenwoordige_tijd']['jij']}, hij {data['tegenwoordige_tijd']['hij']}\n"
+            f"  wij {data['tegenwoordige_tijd']['wij']}, jullie {data['tegenwoordige_tijd']['jullie']}, zij {data['tegenwoordige_tijd']['zij']}"
+            f"\n*Verleden tijd:* ik {data['verleden_tijd']['ik']}, wij {data['verleden_tijd']['wij']}"
+            f"\n*Voltooid deelwoord:* {data['voltooid_deelwoord']}"
+            f"\n*Hulpwerkwoord:* {data['hulpwerkwoord']}"
+        )
         return
 
     # Multiple matches: show options as buttons
     keyboard = [
-        [InlineKeyboardButton(verb, callback_data=f"showverb_{verb}")]
-        for verb in matches
+        [InlineKeyboardButton(verb, callback_data=verb[:64])] for verb in matches[:10]
     ]
     reply_markup = InlineKeyboardMarkup(keyboard)
     await update.message.reply_text(
@@ -78,20 +73,23 @@ async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
         reply_markup=reply_markup
     )
 
-# --- 6. BUTTON HANDLER ---
-
 async def button_handler(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
-    if query.data.startswith("showverb_"):
-        verb = query.data.replace("showverb_", "")
-        data = VERBS.get(verb)
-        if data:
-            await send_verb_info(query, data, verb)
-        else:
-            await query.edit_message_text("Dit werkwoord bestaat niet (meer).")
-
-# --- 7. MAIN APP ---
+    verb = query.data
+    data = VERBS.get(verb)
+    if data:
+        tt = data.get("tegenwoordige_tijd", {})
+        vt = data.get("verleden_tijd", {})
+        response = f"\U0001F4D6 *{verb}* — {data.get('russisch', 'перевод неизвестен')}\n"
+        response += f"\n*Infinitief:* {verb}"
+        response += f"\n*Tegenwoordige tijd:* ik {tt.get('ik')}, jij {tt.get('jij')}, hij {tt.get('hij')}\n  wij {tt.get('wij')}, jullie {tt.get('jullie')}, zij {tt.get('zij')}"
+        response += f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
+        response += f"\n*Voltooid deelwoord:* {data.get('voltooid_deelwoord')}"
+        response += f"\n*Hulpwerkwoord:* {data.get('hulpwerkwoord')}"
+        await query.edit_message_text(response, parse_mode="Markdown")
+    else:
+        await query.edit_message_text("Dit werkwoord bestaat niet (meer).")
 
 def main():
     app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
