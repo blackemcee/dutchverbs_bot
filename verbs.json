@@ -43519,22 +43519,22 @@
     "hulpwerkwoord": "hebben",
     "russisch": "затвердевать"
   },
-  "rijen": {
+  "rijden": {
     "tegenwoordige_tijd": {
-      "ik": "rij",
-      "jij": "rijt",
-      "hij": "rijt",
-      "wij": "rijen",
-      "jullie": "rijen",
-      "zij": "rijen"
+      "ik": "rijd",
+      "jij": "rijdt",
+      "hij": "rijdt",
+      "wij": "rijden",
+      "jullie": "rijden",
+      "zij": "rijden"
     },
     "verleden_tijd": {
       "ik": "rijde",
       "wij": "rijden"
     },
     "voltooid_deelwoord": "gerijd",
-    "hulpwerkwoord": "hebben",
-    "russisch": "ряд"
+    "hulpwerkwoord": "zijn",
+    "russisch": "ехать"
   },
   "inleiden": {
     "tegenwoordige_tijd": {
