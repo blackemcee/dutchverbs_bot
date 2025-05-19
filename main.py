@@ -46,7 +46,8 @@ def format_verb_output(infinitive, data):
     )
     output += f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
     if hulp and vd:
-        output += f"\n*Voltooid deelwoord:* {hulp} {vd}"
+        hulp_clean = " / ".join(part.strip() for part in hulp.split(","))
+        output += f"\n*Voltooid deelwoord:* {hulp_clean} {vd}"
     elif vd:
         output += f"\n*Voltooid deelwoord:* {vd}"
     else:
