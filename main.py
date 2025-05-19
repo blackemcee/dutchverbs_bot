@@ -49,24 +49,32 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
     verb = update.message.text
-    matches = find_verb(verb)
+    infinitive, data = find_verb(verb)
 
-    if not matches:
+    if not data:
         await update.message.reply_text("Sorry, ik ken dit werkwoord niet. Probeer een ander.")
         return
 
-    if len(matches) == 1:
-        infinitive, data = matches[0]
-        await send_verb_info(update, infinitive, data)
+    tt = data.get("tegenwoordige_tijd", {})
+    vt = data.get("verleden_tijd", {})
+    vd = data.get("voltooid_deelwoord", "")
+    hulp = data.get("hulpwerkwoord", "").strip()
+    translation = data.get("english", "translation unknown")
+
+    # Format voltooid deelwoord
+    if hulp:
+        voltooid_str = f"{hulp} {vd}" if "/" not in hulp else f"{' / '.join(hulp.split('/'))} {vd}"
     else:
-        # Multiple matches, show paginated list
-        keyboard = build_verb_keyboard(matches, page=0)
-        await update.message.reply_text(
-            f"Meerdere werkwoorden gevonden, kies een van de lijst:",
-            reply_markup=keyboard
-        )
-        # Store matches in user_data for paging
-        context.user_data["matches"] = matches
+        voltooid_str = vd or "-"
+
+    response = f"📖 *{infinitive}* — {translation}\n"
+    response += f"\n*Infinitief:* {infinitive}"
+    response += f"\n*Tegenwoordige tijd:* ik {tt.get('ik')}, jij {tt.get('jij')}, hij {tt.get('hij')}\n" \
+                f"  wij {tt.get('wij')}, jullie {tt.get('jullie')}, zij {tt.get('zij')}"
+    response += f"\n*Verleden tijd:* ik {vt.get('ik')}, wij {vt.get('wij')}"
+    response += f"\n*Voltooid deelwoord:* {voltooid_str}"
+
+    await update.message.reply_markdown(response)
 
 async def send_verb_info(update_or_query, infinitive, data, edit=False):
     tt = data.get("tegenwoordige_tijd", {})

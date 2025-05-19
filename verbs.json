@@ -30,7 +30,7 @@
       "wij": "waren"
     },
     "voltooid_deelwoord": "geweest",
-    "hulpwerkwoord": "hebben",
+    "hulpwerkwoord": "zijn",
     "english": "to be, to exist"
   },
   "aanbidden": {
@@ -149,7 +149,7 @@
       "wij": "werden"
     },
     "voltooid_deelwoord": "geworden",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to become, to get, to grow, to turn"
   },
   "zullen": {
@@ -373,6 +373,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to take a bite"
   },
+  "baden": {
+    "tegenwoordige_tijd": {
+      "ik": "baad",
+      "jij": "baadt",
+      "hij": "baadt",
+      "wij": "baden",
+      "jullie": "baden",
+      "zij": "baden"
+    },
+    "verleden_tijd": {
+      "ik": "baadde",
+      "wij": "baadden"
+    },
+    "voltooid_deelwoord": "gebaad",
+    "hulpwerkwoord": "hebben",
+    "english": "to bathe"
+  },
   "wiegen": {
     "tegenwoordige_tijd": {
       "ik": "wieg",
@@ -489,8 +506,25 @@
       "wij": "vlogen"
     },
     "voltooid_deelwoord": "gevlogen",
-    "hulpwerkwoord": "hebben",
+    "hulpwerkwoord": "hebben, zijn",
     "english": "to fly"
+  },
+  "slaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla",
+      "jij": "slaat",
+      "hij": "slaat",
+      "wij": "slaan",
+      "jullie": "slaan",
+      "zij": "slaan"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg",
+      "wij": "sloegen"
+    },
+    "voltooid_deelwoord": "geslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to hit, to slap"
   },
   "leven": {
     "tegenwoordige_tijd": {
@@ -557,8 +591,25 @@
       "wij": "gingen"
     },
     "voltooid_deelwoord": "gegaan",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to go, to move from one place to another"
+  },
+  "bogen": {
+    "tegenwoordige_tijd": {
+      "ik": "boog",
+      "jij": "boogt",
+      "hij": "boogt",
+      "wij": "bogen",
+      "jullie": "bogen",
+      "zij": "bogen"
+    },
+    "verleden_tijd": {
+      "ik": "boogde",
+      "wij": "boogden"
+    },
+    "voltooid_deelwoord": "geboogd",
+    "hulpwerkwoord": "hebben",
+    "english": "to (cause to) bend"
   },
   "eten": {
     "tegenwoordige_tijd": {
@@ -897,7 +948,7 @@
       "wij": "volgden"
     },
     "voltooid_deelwoord": "gevolgd",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to follow (go after)"
   },
   "herkennen": {
@@ -1084,7 +1135,7 @@
       "wij": "vielen"
     },
     "voltooid_deelwoord": "gevallen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to fall, to tumble"
   },
   "klimmen": {
@@ -1154,6 +1205,23 @@
     "voltooid_deelwoord": "geboord",
     "hulpwerkwoord": "hebben",
     "english": "to drill"
+  },
+  "zagen": {
+    "tegenwoordige_tijd": {
+      "ik": "zaag",
+      "jij": "zaagt",
+      "hij": "zaagt",
+      "wij": "zagen",
+      "jullie": "zagen",
+      "zij": "zagen"
+    },
+    "verleden_tijd": {
+      "ik": "zaagde",
+      "wij": "zaagden"
+    },
+    "voltooid_deelwoord": "gezaagd",
+    "hulpwerkwoord": "hebben",
+    "english": "to saw"
   },
   "boeken": {
     "tegenwoordige_tijd": {
@@ -1325,6 +1393,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to cry; to weep"
   },
+  "reden": {
+    "tegenwoordige_tijd": {
+      "ik": "reed",
+      "jij": "reedt",
+      "hij": "reedt",
+      "wij": "reden",
+      "jullie": "reden",
+      "zij": "reden"
+    },
+    "verleden_tijd": {
+      "ik": "reedde",
+      "wij": "reedden"
+    },
+    "voltooid_deelwoord": "gereed",
+    "hulpwerkwoord": "hebben",
+    "english": "to equip (a ship)"
+  },
   "kommen": {
     "tegenwoordige_tijd": {
       "ik": "kom",
@@ -1407,7 +1492,7 @@
       "wij": "verdwenen"
     },
     "voltooid_deelwoord": "verdwenen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to disappear"
   },
   "fluisteren": {
@@ -1528,6 +1613,23 @@
     "voltooid_deelwoord": "geleid",
     "hulpwerkwoord": "hebben",
     "english": "to lead, to take the lead"
+  },
+  "scheren": {
+    "tegenwoordige_tijd": {
+      "ik": "scheer",
+      "jij": "scheert",
+      "hij": "scheert",
+      "wij": "scheren",
+      "jullie": "scheren",
+      "zij": "scheren"
+    },
+    "verleden_tijd": {
+      "ik": "scheerde",
+      "wij": "scheerden"
+    },
+    "voltooid_deelwoord": "gescheerd",
+    "hulpwerkwoord": "hebben",
+    "english": "to skim, fleet; to go over something really quickly"
   },
   "sparen": {
     "tegenwoordige_tijd": {
@@ -1696,7 +1798,7 @@
       "wij": "begonnen"
     },
     "voltooid_deelwoord": "begonnen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to begin"
   },
   "denken": {
@@ -1953,6 +2055,23 @@
     "voltooid_deelwoord": "gegiecheld",
     "hulpwerkwoord": "hebben",
     "english": "to giggle"
+  },
+  "waren": {
+    "tegenwoordige_tijd": {
+      "ik": "waar",
+      "jij": "waart",
+      "hij": "waart",
+      "wij": "waren",
+      "jullie": "waren",
+      "zij": "waren"
+    },
+    "verleden_tijd": {
+      "ik": "waarde",
+      "wij": "waarden"
+    },
+    "voltooid_deelwoord": "gewaard",
+    "hulpwerkwoord": "hebben",
+    "english": "to watch"
   },
   "atten": {
     "tegenwoordige_tijd": {
@@ -2260,6 +2379,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to lignify"
   },
+  "onderscheiden": {
+    "tegenwoordige_tijd": {
+      "ik": "onderscheid",
+      "jij": "onderscheidt",
+      "hij": "onderscheidt",
+      "wij": "onderscheiden",
+      "jullie": "onderscheiden",
+      "zij": "onderscheiden"
+    },
+    "verleden_tijd": {
+      "ik": "onderscheidde",
+      "wij": "onderscheidden"
+    },
+    "voltooid_deelwoord": "onderscheiden",
+    "hulpwerkwoord": "hebben",
+    "english": "to distinguish, to discriminate"
+  },
   "onterven": {
     "tegenwoordige_tijd": {
       "ik": "onterf",
@@ -2529,7 +2665,7 @@
       "wij": "braken"
     },
     "voltooid_deelwoord": "gebroken",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to break"
   },
   "brengen": {
@@ -2767,7 +2903,7 @@
       "wij": "wonnen"
     },
     "voltooid_deelwoord": "gewonnen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to win, to triumph, to be victorious (in)"
   },
   "wachten": {
@@ -2835,7 +2971,7 @@
       "wij": "zaten"
     },
     "voltooid_deelwoord": "gezeten",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to sit"
   },
   "verrassen": {
@@ -2920,7 +3056,7 @@
       "wij": "kwamen"
     },
     "voltooid_deelwoord": "gekomen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to come"
   },
   "jagen": {
@@ -2988,7 +3124,7 @@
       "wij": "scheidden"
     },
     "voltooid_deelwoord": "gescheiden",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to separate"
   },
   "vechten": {
@@ -3090,7 +3226,7 @@
       "wij": "reisden"
     },
     "voltooid_deelwoord": "gereisd",
-    "hulpwerkwoord": "hebben",
+    "hulpwerkwoord": "hebben, zijn",
     "english": "to travel"
   },
   "schieten": {
@@ -3277,8 +3413,25 @@
       "wij": "vroren"
     },
     "voltooid_deelwoord": "gevroren",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to freeze"
+  },
+  "vergeven": {
+    "tegenwoordige_tijd": {
+      "ik": "vergeef",
+      "jij": "vergeeft",
+      "hij": "vergeeft",
+      "wij": "vergeven",
+      "jullie": "vergeven",
+      "zij": "vergeven"
+    },
+    "verleden_tijd": {
+      "ik": "vergaf",
+      "wij": "vergaven"
+    },
+    "voltooid_deelwoord": "vergeven",
+    "hulpwerkwoord": "hebben",
+    "english": "to forgive"
   },
   "verdienen": {
     "tegenwoordige_tijd": {
@@ -3447,7 +3600,7 @@
       "wij": "draaiden"
     },
     "voltooid_deelwoord": "gedraaid",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to turn, to turn round"
   },
   "groeien": {
@@ -3464,7 +3617,7 @@
       "wij": "groeiden"
     },
     "voltooid_deelwoord": "gegroeid",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to grow physically"
   },
   "falen": {
@@ -3481,7 +3634,7 @@
       "wij": "faalden"
     },
     "voltooid_deelwoord": "gefaald",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to fail"
   },
   "koken": {
@@ -3535,6 +3688,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to wage war, to battle"
   },
+  "kennen": {
+    "tegenwoordige_tijd": {
+      "ik": "ken",
+      "jij": "kent",
+      "hij": "kent",
+      "wij": "kennen",
+      "jullie": "kennen",
+      "zij": "kennen"
+    },
+    "verleden_tijd": {
+      "ik": "kende",
+      "wij": "kenden"
+    },
+    "voltooid_deelwoord": "gekend",
+    "hulpwerkwoord": "hebben",
+    "english": "to know (a person, a thing), be acquainted with, to have knowledge of the properties of a particular person, object or concept, through personal experience, teaching, practice, or habit; to be familiar with"
+  },
   "vragen": {
     "tegenwoordige_tijd": {
       "ik": "vraag",
@@ -3549,7 +3719,7 @@
       "wij": "vroegen"
     },
     "voltooid_deelwoord": "gevraagd",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to ask (a question)"
   },
   "vangen": {
@@ -3719,7 +3889,7 @@
       "wij": "vertrokken"
     },
     "voltooid_deelwoord": "vertrokken",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to depart, to leave"
   },
   "verkopen": {
@@ -3875,6 +4045,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to touch"
   },
+  "vergeten": {
+    "tegenwoordige_tijd": {
+      "ik": "vergeet",
+      "jij": "vergeet",
+      "hij": "vergeet",
+      "wij": "vergeten",
+      "jullie": "vergeten",
+      "zij": "vergeten"
+    },
+    "verleden_tijd": {
+      "ik": "vergat",
+      "wij": "vergaten"
+    },
+    "voltooid_deelwoord": "vergeten",
+    "hulpwerkwoord": "hebben",
+    "english": "to forget (lose remembrance of)"
+  },
   "vinden": {
     "tegenwoordige_tijd": {
       "ik": "vind",
@@ -3940,7 +4127,7 @@
       "wij": "haalden"
     },
     "voltooid_deelwoord": "gehaald",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to fetch, to get"
   },
   "opnemen": {
@@ -4147,6 +4334,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to remind, prompt"
   },
+  "gedragen": {
+    "tegenwoordige_tijd": {
+      "ik": "gedraag",
+      "jij": "gedraagt",
+      "hij": "gedraagt",
+      "wij": "gedragen",
+      "jullie": "gedragen",
+      "zij": "gedragen"
+    },
+    "verleden_tijd": {
+      "ik": "gedroeg",
+      "wij": "gedroegen"
+    },
+    "voltooid_deelwoord": "gedragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to behave, to behave oneself"
+  },
   "aangeven": {
     "tegenwoordige_tijd": {
       "ik": "geef aan",
@@ -4198,6 +4402,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to fill"
   },
+  "voorkomen": {
+    "tegenwoordige_tijd": {
+      "ik": "voorkom",
+      "jij": "voorkomt",
+      "hij": "voorkomt",
+      "wij": "voorkomen",
+      "jullie": "voorkomen",
+      "zij": "voorkomen"
+    },
+    "verleden_tijd": {
+      "ik": "voorkwam",
+      "wij": "voorkwamen"
+    },
+    "voltooid_deelwoord": "voorkomen",
+    "hulpwerkwoord": "hebben",
+    "english": "to prevent; to avert"
+  },
   "vouwen": {
     "tegenwoordige_tijd": {
       "ik": "vouw",
@@ -4214,6 +4435,23 @@
     "voltooid_deelwoord": "gevouwen",
     "hulpwerkwoord": "hebben",
     "english": "to fold"
+  },
+  "voorzien": {
+    "tegenwoordige_tijd": {
+      "ik": "voorzie",
+      "jij": "voorziet",
+      "hij": "voorziet",
+      "wij": "voorzien",
+      "jullie": "voorzien",
+      "zij": "voorzien"
+    },
+    "verleden_tijd": {
+      "ik": "voorzag",
+      "wij": "voorzagen"
+    },
+    "voltooid_deelwoord": "voorzien",
+    "hulpwerkwoord": "hebben",
+    "english": "to provide, to supply (optionally [with van ‘with’])"
   },
   "voeden": {
     "tegenwoordige_tijd": {
@@ -4283,6 +4521,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to nominate"
   },
+  "weten": {
+    "tegenwoordige_tijd": {
+      "ik": "weet",
+      "jij": "weet",
+      "hij": "weet",
+      "wij": "weten",
+      "jullie": "weten",
+      "zij": "weten"
+    },
+    "verleden_tijd": {
+      "ik": "wist",
+      "wij": "wisten"
+    },
+    "voltooid_deelwoord": "geweten",
+    "hulpwerkwoord": "hebben",
+    "english": "to know (knowledge), to be aware of something"
+  },
   "wegen": {
     "tegenwoordige_tijd": {
       "ik": "weeg",
@@ -4316,6 +4571,57 @@
     "voltooid_deelwoord": "ontbeten",
     "hulpwerkwoord": "hebben",
     "english": "to breakfast, have breakfast"
+  },
+  "afslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla af",
+      "jij": "slaat af",
+      "hij": "slaat af",
+      "wij": "slaan af",
+      "jullie": "slaan af",
+      "zij": "slaan af"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg af",
+      "wij": "sloegen af"
+    },
+    "voltooid_deelwoord": "afgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to decline, to reject"
+  },
+  "genezen": {
+    "tegenwoordige_tijd": {
+      "ik": "genees",
+      "jij": "geneest",
+      "hij": "geneest",
+      "wij": "genezen",
+      "jullie": "genezen",
+      "zij": "genezen"
+    },
+    "verleden_tijd": {
+      "ik": "genas",
+      "wij": "genazen"
+    },
+    "voltooid_deelwoord": "genezen",
+    "hulpwerkwoord": "hebben",
+    "english": "to heal"
+  },
+  "ontvangen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontvang",
+      "jij": "ontvangt",
+      "hij": "ontvangt",
+      "wij": "ontvangen",
+      "jullie": "ontvangen",
+      "zij": "ontvangen"
+    },
+    "verleden_tijd": {
+      "ik": "ontving",
+      "wij": "ontvingen"
+    },
+    "voltooid_deelwoord": "ontvangen",
+    "hulpwerkwoord": "hebben",
+    "english": "to receive"
   },
   "flauwvallen": {
     "tegenwoordige_tijd": {
@@ -4606,6 +4912,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to agree"
   },
+  "overvallen": {
+    "tegenwoordige_tijd": {
+      "ik": "overval",
+      "jij": "overvalt",
+      "hij": "overvalt",
+      "wij": "overvallen",
+      "jullie": "overvallen",
+      "zij": "overvallen"
+    },
+    "verleden_tijd": {
+      "ik": "overviel",
+      "wij": "overvielen"
+    },
+    "voltooid_deelwoord": "overvallen",
+    "hulpwerkwoord": "hebben",
+    "english": "to raid"
+  },
   "passeren": {
     "tegenwoordige_tijd": {
       "ik": "passeer",
@@ -4671,7 +4994,7 @@
       "wij": "rezen"
     },
     "voltooid_deelwoord": "gerezen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to rise"
   },
   "schetsen": {
@@ -4844,6 +5167,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to freeze in; to freeze"
   },
+  "opstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta op",
+      "jij": "staat op",
+      "hij": "staat op",
+      "wij": "staan op",
+      "jullie": "staan op",
+      "zij": "staan op"
+    },
+    "verleden_tijd": {
+      "ik": "stond op",
+      "wij": "stonden op"
+    },
+    "voltooid_deelwoord": "opgestaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to stand up"
+  },
   "stijgen": {
     "tegenwoordige_tijd": {
       "ik": "stijg",
@@ -4858,7 +5198,7 @@
       "wij": "stegen"
     },
     "voltooid_deelwoord": "gestegen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to climb, to go up, to rise"
   },
   "heten": {
@@ -4892,8 +5232,25 @@
       "wij": "stegen op"
     },
     "voltooid_deelwoord": "opgestegen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to ascend, to rise"
+  },
+  "behangen": {
+    "tegenwoordige_tijd": {
+      "ik": "behang",
+      "jij": "behangt",
+      "hij": "behangt",
+      "wij": "behangen",
+      "jullie": "behangen",
+      "zij": "behangen"
+    },
+    "verleden_tijd": {
+      "ik": "behing",
+      "wij": "behingen"
+    },
+    "voltooid_deelwoord": "behangen",
+    "hulpwerkwoord": "hebben",
+    "english": "to hang things on, to behang"
   },
   "braden": {
     "tegenwoordige_tijd": {
@@ -4928,6 +5285,23 @@
     "voltooid_deelwoord": "gehangen",
     "hulpwerkwoord": "hebben",
     "english": "to hang"
+  },
+  "verlopen": {
+    "tegenwoordige_tijd": {
+      "ik": "verloop",
+      "jij": "verloopt",
+      "hij": "verloopt",
+      "wij": "verlopen",
+      "jullie": "verlopen",
+      "zij": "verlopen"
+    },
+    "verleden_tijd": {
+      "ik": "verliep",
+      "wij": "verliepen"
+    },
+    "voltooid_deelwoord": "verlopen",
+    "hulpwerkwoord": "hebben",
+    "english": "to proceed, to go by"
   },
   "opkomen": {
     "tegenwoordige_tijd": {
@@ -5013,6 +5387,40 @@
     "voltooid_deelwoord": "overgestoken",
     "hulpwerkwoord": "hebben",
     "english": "to cross, to traverse"
+  },
+  "ondergaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga onder",
+      "jij": "gaat onder",
+      "hij": "gaat onder",
+      "wij": "gaan onder",
+      "jullie": "gaan onder",
+      "zij": "gaan onder"
+    },
+    "verleden_tijd": {
+      "ik": "ging onder",
+      "wij": "gingen onder"
+    },
+    "voltooid_deelwoord": "ondergegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go down; to set"
+  },
+  "omslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla om",
+      "jij": "slaat om",
+      "hij": "slaat om",
+      "wij": "slaan om",
+      "jullie": "slaan om",
+      "zij": "slaan om"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg om",
+      "wij": "sloegen om"
+    },
+    "voltooid_deelwoord": "omgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to turn over"
   },
   "aanbakken": {
     "tegenwoordige_tijd": {
@@ -5147,7 +5555,7 @@
       "wij": "stopten"
     },
     "voltooid_deelwoord": "gestopt",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to stop, to halt"
   },
   "wekken": {
@@ -5234,6 +5642,23 @@
     "voltooid_deelwoord": "verast",
     "hulpwerkwoord": "hebben",
     "english": "to incinerate"
+  },
+  "roken": {
+    "tegenwoordige_tijd": {
+      "ik": "rook",
+      "jij": "rookt",
+      "hij": "rookt",
+      "wij": "roken",
+      "jullie": "roken",
+      "zij": "roken"
+    },
+    "verleden_tijd": {
+      "ik": "rookte",
+      "wij": "rookten"
+    },
+    "voltooid_deelwoord": "gerookt",
+    "hulpwerkwoord": "hebben",
+    "english": "to smoke (a tobacco product, another drug, a surrogate, a foodstuff)"
   },
   "wringen": {
     "tegenwoordige_tijd": {
@@ -5966,6 +6391,23 @@
     "hulpwerkwoord": "hebben",
     "english": "Alternative form of steden"
   },
+  "rijden": {
+    "tegenwoordige_tijd": {
+      "ik": "rij",
+      "jij": "rijdt",
+      "hij": "rijdt",
+      "wij": "rijden",
+      "jullie": "rijden",
+      "zij": "rijden"
+    },
+    "verleden_tijd": {
+      "ik": "reed",
+      "wij": "reden"
+    },
+    "voltooid_deelwoord": "gereden",
+    "hulpwerkwoord": "hebben, zijn",
+    "english": "to ride"
+  },
   "sollen": {
     "tegenwoordige_tijd": {
       "ik": "sol",
@@ -6101,6 +6543,23 @@
     "voltooid_deelwoord": "bedreigd",
     "hulpwerkwoord": "hebben",
     "english": "to threaten (to pose a risk to)"
+  },
+  "wenden": {
+    "tegenwoordige_tijd": {
+      "ik": "wend",
+      "jij": "wendt",
+      "hij": "wendt",
+      "wij": "wenden",
+      "jullie": "wenden",
+      "zij": "wenden"
+    },
+    "verleden_tijd": {
+      "ik": "wendde",
+      "wij": "wendden"
+    },
+    "voltooid_deelwoord": "gewend",
+    "hulpwerkwoord": "hebben",
+    "english": "to direct oneself, turn"
   },
   "rekenen": {
     "tegenwoordige_tijd": {
@@ -6459,6 +6918,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to fish with a longline"
   },
+  "borgen": {
+    "tegenwoordige_tijd": {
+      "ik": "borg",
+      "jij": "borgt",
+      "hij": "borgt",
+      "wij": "borgen",
+      "jullie": "borgen",
+      "zij": "borgen"
+    },
+    "verleden_tijd": {
+      "ik": "borgde",
+      "wij": "borgden"
+    },
+    "voltooid_deelwoord": "geborgd",
+    "hulpwerkwoord": "hebben",
+    "english": "to secure, to keep safe"
+  },
   "dichten": {
     "tegenwoordige_tijd": {
       "ik": "dicht",
@@ -6798,6 +7274,23 @@
     "voltooid_deelwoord": "veropenbaard",
     "hulpwerkwoord": "hebben",
     "english": "disclose"
+  },
+  "zogen": {
+    "tegenwoordige_tijd": {
+      "ik": "zoog",
+      "jij": "zoogt",
+      "hij": "zoogt",
+      "wij": "zogen",
+      "jullie": "zogen",
+      "zij": "zogen"
+    },
+    "verleden_tijd": {
+      "ik": "zoogde",
+      "wij": "zoogden"
+    },
+    "voltooid_deelwoord": "gezoogd",
+    "hulpwerkwoord": "hebben",
+    "english": "to breastfeed, to suckle"
   },
   "diagnosticeren": {
     "tegenwoordige_tijd": {
@@ -7258,6 +7751,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to paint"
   },
+  "bestaan": {
+    "tegenwoordige_tijd": {
+      "ik": "besta",
+      "jij": "bestaat",
+      "hij": "bestaat",
+      "wij": "bestaan",
+      "jullie": "bestaan",
+      "zij": "bestaan"
+    },
+    "verleden_tijd": {
+      "ik": "bestond",
+      "wij": "bestonden"
+    },
+    "voltooid_deelwoord": "bestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to exist, to be"
+  },
   "schilderen": {
     "tegenwoordige_tijd": {
       "ik": "schilder",
@@ -7683,6 +8193,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to live (in a certain place)"
   },
+  "verslapen": {
+    "tegenwoordige_tijd": {
+      "ik": "verslaap",
+      "jij": "verslaapt",
+      "hij": "verslaapt",
+      "wij": "verslapen",
+      "jullie": "verslapen",
+      "zij": "verslapen"
+    },
+    "verleden_tijd": {
+      "ik": "versliep",
+      "wij": "versliepen"
+    },
+    "voltooid_deelwoord": "verslapen",
+    "hulpwerkwoord": "hebben",
+    "english": "to oversleep"
+  },
   "opvallen": {
     "tegenwoordige_tijd": {
       "ik": "val op",
@@ -7852,6 +8379,23 @@
     "voltooid_deelwoord": "geslaagd",
     "hulpwerkwoord": "zijn",
     "english": "to succeed (obtaining what was desired)"
+  },
+  "verstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "versta",
+      "jij": "verstaat",
+      "hij": "verstaat",
+      "wij": "verstaan",
+      "jullie": "verstaan",
+      "zij": "verstaan"
+    },
+    "verleden_tijd": {
+      "ik": "verstond",
+      "wij": "verstonden"
+    },
+    "voltooid_deelwoord": "verstaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to understand (language, words), to hear clearly"
   },
   "onderhandelen": {
     "tegenwoordige_tijd": {
@@ -8037,7 +8581,7 @@
       "wij": "kwamen terug"
     },
     "voltooid_deelwoord": "teruggekomen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to come back, to return"
   },
   "jeuken": {
@@ -8088,7 +8632,7 @@
       "wij": "vluchtten"
     },
     "voltooid_deelwoord": "gevlucht",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to flee"
   },
   "afleveren": {
@@ -8615,7 +9159,7 @@
       "wij": "verhuisden"
     },
     "voltooid_deelwoord": "verhuisd",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to move house (to move from one residence to another)"
   },
   "inschrijven": {
@@ -8666,8 +9210,25 @@
       "wij": "liepen op"
     },
     "voltooid_deelwoord": "opgelopen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to incur, to receive or suffer (an injury)"
+  },
+  "bevochten": {
+    "tegenwoordige_tijd": {
+      "ik": "bevocht",
+      "jij": "bevocht",
+      "hij": "bevocht",
+      "wij": "bevochten",
+      "jullie": "bevochten",
+      "zij": "bevochten"
+    },
+    "verleden_tijd": {
+      "ik": "bevochtte",
+      "wij": "bevochtten"
+    },
+    "voltooid_deelwoord": "bevocht",
+    "hulpwerkwoord": "hebben",
+    "english": "Synonym of bevochtigen"
   },
   "beperken": {
     "tegenwoordige_tijd": {
@@ -8753,6 +9314,23 @@
     "voltooid_deelwoord": "opgeroepen",
     "hulpwerkwoord": "hebben",
     "english": "to call, invoke"
+  },
+  "omgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "omga",
+      "jij": "omgaat",
+      "hij": "omgaat",
+      "wij": "omgaan",
+      "jullie": "omgaan",
+      "zij": "omgaan"
+    },
+    "verleden_tijd": {
+      "ik": "omging",
+      "wij": "omgingen"
+    },
+    "voltooid_deelwoord": "omgaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to go around completely"
   },
   "geschieden": {
     "tegenwoordige_tijd": {
@@ -9125,7 +9703,7 @@
       "wij": "kropen"
     },
     "voltooid_deelwoord": "gekropen",
-    "hulpwerkwoord": "hebben",
+    "hulpwerkwoord": "hebben, zijn",
     "english": "to crawl"
   },
   "leggen": {
@@ -9161,6 +9739,23 @@
     "voltooid_deelwoord": "geleden",
     "hulpwerkwoord": "hebben",
     "english": "to undergo, endure, suffer"
+  },
+  "voorzijn": {
+    "tegenwoordige_tijd": {
+      "ik": "ben voor",
+      "jij": "bent voor",
+      "hij": "is voor",
+      "wij": "zijn voor",
+      "jullie": "zijn voor",
+      "zij": "zijn voor"
+    },
+    "verleden_tijd": {
+      "ik": "was voor",
+      "wij": "waren voor"
+    },
+    "voltooid_deelwoord": "voorgeweest",
+    "hulpwerkwoord": "zijn",
+    "english": "to precede, to get to a place before (someone else)"
   },
   "afdingen": {
     "tegenwoordige_tijd": {
@@ -9686,7 +10281,7 @@
       "wij": "streken"
     },
     "voltooid_deelwoord": "gestreken",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to stroke"
   },
   "keten": {
@@ -9944,6 +10539,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to introduce"
   },
+  "voeren": {
+    "tegenwoordige_tijd": {
+      "ik": "voer",
+      "jij": "voert",
+      "hij": "voert",
+      "wij": "voeren",
+      "jullie": "voeren",
+      "zij": "voeren"
+    },
+    "verleden_tijd": {
+      "ik": "voerde",
+      "wij": "voerden"
+    },
+    "voltooid_deelwoord": "gevoerd",
+    "hulpwerkwoord": "hebben",
+    "english": "to feed"
+  },
   "wensen": {
     "tegenwoordige_tijd": {
       "ik": "wens",
@@ -10079,6 +10691,23 @@
     "voltooid_deelwoord": "aangekeken",
     "hulpwerkwoord": "hebben",
     "english": "to look at, to look in the eye"
+  },
+  "vermogen": {
+    "tegenwoordige_tijd": {
+      "ik": "vermag",
+      "jij": "vermag",
+      "hij": "vermag",
+      "wij": "vermogen",
+      "jullie": "vermogen",
+      "zij": "vermogen"
+    },
+    "verleden_tijd": {
+      "ik": "vermocht",
+      "wij": "vermochten"
+    },
+    "voltooid_deelwoord": "vermogen",
+    "hulpwerkwoord": "hebben",
+    "english": "to be able to do, to be able to achieve"
   },
   "vervoegen": {
     "tegenwoordige_tijd": {
@@ -10366,7 +10995,7 @@
       "wij": "weken"
     },
     "voltooid_deelwoord": "geweken",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to yield, make way"
   },
   "terugtrekken": {
@@ -10385,6 +11014,40 @@
     "voltooid_deelwoord": "teruggetrokken",
     "hulpwerkwoord": "hebben",
     "english": "to withdraw, to pull back"
+  },
+  "achteruitgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga achteruit",
+      "jij": "gaat achteruit",
+      "hij": "gaat achteruit",
+      "wij": "gaan achteruit",
+      "jullie": "gaan achteruit",
+      "zij": "gaan achteruit"
+    },
+    "verleden_tijd": {
+      "ik": "ging achteruit",
+      "wij": "gingen achteruit"
+    },
+    "voltooid_deelwoord": "achteruitgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to decline, recede"
+  },
+  "uitgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga uit",
+      "jij": "gaat uit",
+      "hij": "gaat uit",
+      "wij": "gaan uit",
+      "jullie": "gaan uit",
+      "zij": "gaan uit"
+    },
+    "verleden_tijd": {
+      "ik": "ging uit",
+      "wij": "gingen uit"
+    },
+    "voltooid_deelwoord": "uitgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go out (to go to public places for leisure)"
   },
   "aanranden": {
     "tegenwoordige_tijd": {
@@ -10538,6 +11201,23 @@
     "voltooid_deelwoord": "opgemerkt",
     "hulpwerkwoord": "hebben",
     "english": "to remark, notice"
+  },
+  "ontstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ontsta",
+      "jij": "ontstaat",
+      "hij": "ontstaat",
+      "wij": "ontstaan",
+      "jullie": "ontstaan",
+      "zij": "ontstaan"
+    },
+    "verleden_tijd": {
+      "ik": "ontstond",
+      "wij": "ontstonden"
+    },
+    "voltooid_deelwoord": "ontstaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to arise, to come into being"
   },
   "beetpakken": {
     "tegenwoordige_tijd": {
@@ -11032,6 +11712,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to emphasize, to accent"
   },
+  "wonden": {
+    "tegenwoordige_tijd": {
+      "ik": "wond",
+      "jij": "wondt",
+      "hij": "wondt",
+      "wij": "wonden",
+      "jullie": "wonden",
+      "zij": "wonden"
+    },
+    "verleden_tijd": {
+      "ik": "wondde",
+      "wij": "wondden"
+    },
+    "voltooid_deelwoord": "gewond",
+    "hulpwerkwoord": "hebben",
+    "english": "to wound, hurt"
+  },
   "ontploffen": {
     "tegenwoordige_tijd": {
       "ik": "ontplof",
@@ -11167,6 +11864,23 @@
     "voltooid_deelwoord": "gepland",
     "hulpwerkwoord": "hebben",
     "english": "to plan"
+  },
+  "doorgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga door",
+      "jij": "gaat door",
+      "hij": "gaat door",
+      "wij": "gaan door",
+      "jullie": "gaan door",
+      "zij": "gaan door"
+    },
+    "verleden_tijd": {
+      "ik": "ging door",
+      "wij": "gingen door"
+    },
+    "voltooid_deelwoord": "doorgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go through (with), to proceed, to continue"
   },
   "kampen": {
     "tegenwoordige_tijd": {
@@ -11590,8 +12304,25 @@
       "wij": "blusten"
     },
     "voltooid_deelwoord": "geblust",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to extinguish, to put out"
+  },
+  "vervangen": {
+    "tegenwoordige_tijd": {
+      "ik": "vervang",
+      "jij": "vervangt",
+      "hij": "vervangt",
+      "wij": "vervangen",
+      "jullie": "vervangen",
+      "zij": "vervangen"
+    },
+    "verleden_tijd": {
+      "ik": "verving",
+      "wij": "vervingen"
+    },
+    "voltooid_deelwoord": "vervangen",
+    "hulpwerkwoord": "hebben",
+    "english": "to replace, substitute"
   },
   "verrichten": {
     "tegenwoordige_tijd": {
@@ -11811,7 +12542,7 @@
       "wij": "liepen af"
     },
     "voltooid_deelwoord": "afgelopen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to walk down"
   },
   "neigen": {
@@ -12000,6 +12731,23 @@
     "voltooid_deelwoord": "toegevoegd",
     "hulpwerkwoord": "hebben",
     "english": "to add"
+  },
+  "verhouden": {
+    "tegenwoordige_tijd": {
+      "ik": "verhou",
+      "jij": "verhoudt",
+      "hij": "verhoudt",
+      "wij": "verhouden",
+      "jullie": "verhouden",
+      "zij": "verhouden"
+    },
+    "verleden_tijd": {
+      "ik": "verhield",
+      "wij": "verhielden"
+    },
+    "voltooid_deelwoord": "verhouden",
+    "hulpwerkwoord": "hebben",
+    "english": "to stand in relation to"
   },
   "raadplegen": {
     "tegenwoordige_tijd": {
@@ -12239,6 +12987,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to continue working"
   },
+  "voortgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga voort",
+      "jij": "gaat voort",
+      "hij": "gaat voort",
+      "wij": "gaan voort",
+      "jullie": "gaan voort",
+      "zij": "gaan voort"
+    },
+    "verleden_tijd": {
+      "ik": "ging voort",
+      "wij": "gingen voort"
+    },
+    "voltooid_deelwoord": "voortgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go forth, to progress"
+  },
   "samenstellen": {
     "tegenwoordige_tijd": {
       "ik": "stel samen",
@@ -12460,6 +13225,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to row (with oars)"
   },
+  "verstoten": {
+    "tegenwoordige_tijd": {
+      "ik": "verstoot",
+      "jij": "verstoot",
+      "hij": "verstoot",
+      "wij": "verstoten",
+      "jullie": "verstoten",
+      "zij": "verstoten"
+    },
+    "verleden_tijd": {
+      "ik": "verstootte",
+      "wij": "verstootten"
+    },
+    "voltooid_deelwoord": "verstoten",
+    "hulpwerkwoord": "hebben",
+    "english": "to repudiate, to reject, to expel"
+  },
   "stoten": {
     "tegenwoordige_tijd": {
       "ik": "stoot",
@@ -12576,7 +13358,7 @@
       "wij": "overleden"
     },
     "voltooid_deelwoord": "overleden",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to die"
   },
   "vertakken": {
@@ -12664,6 +13446,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to eliminate, get rid of"
   },
+  "slepen": {
+    "tegenwoordige_tijd": {
+      "ik": "sleep",
+      "jij": "sleept",
+      "hij": "sleept",
+      "wij": "slepen",
+      "jullie": "slepen",
+      "zij": "slepen"
+    },
+    "verleden_tijd": {
+      "ik": "sleepte",
+      "wij": "sleepten"
+    },
+    "voltooid_deelwoord": "gesleept",
+    "hulpwerkwoord": "hebben",
+    "english": "to drag, tow"
+  },
+  "wezen": {
+    "tegenwoordige_tijd": {
+      "ik": "wees",
+      "jij": "weest",
+      "hij": "weest",
+      "wij": "wezen",
+      "jullie": "wezen",
+      "zij": "wezen"
+    },
+    "verleden_tijd": {
+      "ik": "was",
+      "wij": "waren"
+    },
+    "voltooid_deelwoord": "geweest",
+    "hulpwerkwoord": "hebben",
+    "english": "Synonym of zijn"
+  },
   "uitsteken": {
     "tegenwoordige_tijd": {
       "ik": "steek uit",
@@ -12683,18 +13499,18 @@
   },
   "downloaden": {
     "tegenwoordige_tijd": {
-      "ik": "load down",
-      "jij": "loadt down",
-      "hij": "loadt down",
-      "wij": "loaden down",
-      "jullie": "loaden down",
-      "zij": "loaden down"
+      "ik": "download",
+      "jij": "downloadt",
+      "hij": "downloadt",
+      "wij": "downloaden",
+      "jullie": "downloaden",
+      "zij": "downloaden"
     },
     "verleden_tijd": {
-      "ik": "loadde down",
-      "wij": "loadden down"
+      "ik": "downloadde",
+      "wij": "downloadden"
     },
-    "voltooid_deelwoord": "downgeload",
+    "voltooid_deelwoord": "gedownload",
     "hulpwerkwoord": "hebben",
     "english": "to download"
   },
@@ -13035,7 +13851,7 @@
       "wij": "zwierven"
     },
     "voltooid_deelwoord": "gezworven",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to wander, to roam"
   },
   "schuiven": {
@@ -13341,7 +14157,7 @@
       "wij": "krompen"
     },
     "voltooid_deelwoord": "gekrompen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to shrink, crimp"
   },
   "zenden": {
@@ -13360,6 +14176,23 @@
     "voltooid_deelwoord": "gezonden",
     "hulpwerkwoord": "hebben",
     "english": "to send"
+  },
+  "schelden": {
+    "tegenwoordige_tijd": {
+      "ik": "scheld",
+      "jij": "scheldt",
+      "hij": "scheldt",
+      "wij": "schelden",
+      "jullie": "schelden",
+      "zij": "schelden"
+    },
+    "verleden_tijd": {
+      "ik": "schold",
+      "wij": "scholden"
+    },
+    "voltooid_deelwoord": "gescholden",
+    "hulpwerkwoord": "hebben",
+    "english": "to scold, to swear"
   },
   "vermijden": {
     "tegenwoordige_tijd": {
@@ -13987,7 +14820,7 @@
       "wij": "fietsten"
     },
     "voltooid_deelwoord": "gefietst",
-    "hulpwerkwoord": "hebben",
+    "hulpwerkwoord": "hebben, zijn",
     "english": "to ride or cycle a bicycle, to bike"
   },
   "latten": {
@@ -14006,6 +14839,23 @@
     "voltooid_deelwoord": "gelat",
     "hulpwerkwoord": "hebben",
     "english": "to have a LAT relationship"
+  },
+  "verslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "versla",
+      "jij": "verslaat",
+      "hij": "verslaat",
+      "wij": "verslaan",
+      "jullie": "verslaan",
+      "zij": "verslaan"
+    },
+    "verleden_tijd": {
+      "ik": "versloeg",
+      "wij": "versloegen"
+    },
+    "voltooid_deelwoord": "verslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to defeat"
   },
   "klokken": {
     "tegenwoordige_tijd": {
@@ -14074,6 +14924,23 @@
     "voltooid_deelwoord": "bericht",
     "hulpwerkwoord": "hebben",
     "english": "to report, inform"
+  },
+  "hosten": {
+    "tegenwoordige_tijd": {
+      "ik": "host",
+      "jij": "host",
+      "hij": "host",
+      "wij": "hosten",
+      "jullie": "hosten",
+      "zij": "hosten"
+    },
+    "verleden_tijd": {
+      "ik": "hostte",
+      "wij": "hostten"
+    },
+    "voltooid_deelwoord": "gehost",
+    "hulpwerkwoord": "hebben",
+    "english": "to host (to perform the role of a host for/at)"
   },
   "stuiven": {
     "tegenwoordige_tijd": {
@@ -14380,6 +15247,23 @@
     "voltooid_deelwoord": "opgesloten",
     "hulpwerkwoord": "hebben",
     "english": "to lock in"
+  },
+  "omgeven": {
+    "tegenwoordige_tijd": {
+      "ik": "omgeef",
+      "jij": "omgeeft",
+      "hij": "omgeeft",
+      "wij": "omgeven",
+      "jullie": "omgeven",
+      "zij": "omgeven"
+    },
+    "verleden_tijd": {
+      "ik": "omgaf",
+      "wij": "omgaven"
+    },
+    "voltooid_deelwoord": "omgeven",
+    "hulpwerkwoord": "hebben",
+    "english": "to surround"
   },
   "insluiten": {
     "tegenwoordige_tijd": {
@@ -14721,6 +15605,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to request"
   },
+  "gevallen": {
+    "tegenwoordige_tijd": {
+      "ik": "geval",
+      "jij": "gevalt",
+      "hij": "gevalt",
+      "wij": "gevallen",
+      "jullie": "gevallen",
+      "zij": "gevallen"
+    },
+    "verleden_tijd": {
+      "ik": "geviel",
+      "wij": "gevielen"
+    },
+    "voltooid_deelwoord": "gevallen",
+    "hulpwerkwoord": "hebben",
+    "english": "to happen, to occur"
+  },
   "pleiten": {
     "tegenwoordige_tijd": {
       "ik": "pleit",
@@ -14854,7 +15755,7 @@
       "wij": "bevroren"
     },
     "voltooid_deelwoord": "bevroren",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to freeze (solid)"
   },
   "zuiveren": {
@@ -14941,6 +15842,23 @@
     "voltooid_deelwoord": "gehanteerd",
     "hulpwerkwoord": "hebben",
     "english": "to utilize, wield"
+  },
+  "teruggaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga terug",
+      "jij": "gaat terug",
+      "hij": "gaat terug",
+      "wij": "gaan terug",
+      "jullie": "gaan terug",
+      "zij": "gaan terug"
+    },
+    "verleden_tijd": {
+      "ik": "ging terug",
+      "wij": "gingen terug"
+    },
+    "voltooid_deelwoord": "teruggegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to return, go back"
   },
   "voortbrengen": {
     "tegenwoordige_tijd": {
@@ -15043,6 +15961,23 @@
     "voltooid_deelwoord": "bijgesteld",
     "hulpwerkwoord": "hebben",
     "english": "to adjust, to adapt, to amend"
+  },
+  "behouden": {
+    "tegenwoordige_tijd": {
+      "ik": "behou",
+      "jij": "behoudt",
+      "hij": "behoudt",
+      "wij": "behouden",
+      "jullie": "behouden",
+      "zij": "behouden"
+    },
+    "verleden_tijd": {
+      "ik": "behield",
+      "wij": "behielden"
+    },
+    "voltooid_deelwoord": "behouden",
+    "hulpwerkwoord": "hebben",
+    "english": "to save, keep"
   },
   "weigeren": {
     "tegenwoordige_tijd": {
@@ -15384,6 +16319,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to accuse, blame"
   },
+  "verraden": {
+    "tegenwoordige_tijd": {
+      "ik": "verraad",
+      "jij": "verraadt",
+      "hij": "verraadt",
+      "wij": "verraden",
+      "jullie": "verraden",
+      "zij": "verraden"
+    },
+    "verleden_tijd": {
+      "ik": "verried",
+      "wij": "verrieden"
+    },
+    "voltooid_deelwoord": "verraden",
+    "hulpwerkwoord": "hebben",
+    "english": "to betray"
+  },
   "differentiëren": {
     "tegenwoordige_tijd": {
       "ik": "differentieer",
@@ -15502,6 +16454,23 @@
     "voltooid_deelwoord": "neergebogen",
     "hulpwerkwoord": "hebben",
     "english": "bow down"
+  },
+  "lasten": {
+    "tegenwoordige_tijd": {
+      "ik": "last",
+      "jij": "last",
+      "hij": "last",
+      "wij": "lasten",
+      "jullie": "lasten",
+      "zij": "lasten"
+    },
+    "verleden_tijd": {
+      "ik": "lastte",
+      "wij": "lastten"
+    },
+    "voltooid_deelwoord": "gelast",
+    "hulpwerkwoord": "hebben",
+    "english": "to emburden with a load"
   },
   "ballasten": {
     "tegenwoordige_tijd": {
@@ -15993,7 +16962,7 @@
       "wij": "verwondden"
     },
     "voltooid_deelwoord": "verwond",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to wound"
   },
   "verdenken": {
@@ -16012,6 +16981,23 @@
     "voltooid_deelwoord": "verdacht",
     "hulpwerkwoord": "hebben",
     "english": "to suspect (that someone is guilty)"
+  },
+  "bedragen": {
+    "tegenwoordige_tijd": {
+      "ik": "bedraag",
+      "jij": "bedraagt",
+      "hij": "bedraagt",
+      "wij": "bedragen",
+      "jullie": "bedragen",
+      "zij": "bedragen"
+    },
+    "verleden_tijd": {
+      "ik": "bedroeg",
+      "wij": "bedroegen"
+    },
+    "voltooid_deelwoord": "bedragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to amount to"
   },
   "bassen": {
     "tegenwoordige_tijd": {
@@ -16081,6 +17067,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to moor"
   },
+  "begraven": {
+    "tegenwoordige_tijd": {
+      "ik": "begraaf",
+      "jij": "begraaft",
+      "hij": "begraaft",
+      "wij": "begraven",
+      "jullie": "begraven",
+      "zij": "begraven"
+    },
+    "verleden_tijd": {
+      "ik": "begroef",
+      "wij": "begroeven"
+    },
+    "voltooid_deelwoord": "begraven",
+    "hulpwerkwoord": "hebben",
+    "english": "to bury"
+  },
   "blaffen": {
     "tegenwoordige_tijd": {
       "ik": "blaf",
@@ -16148,6 +17151,23 @@
     "voltooid_deelwoord": "gedeugd",
     "hulpwerkwoord": "hebben",
     "english": "to be good, well-behaved, moral, etc."
+  },
+  "stoven": {
+    "tegenwoordige_tijd": {
+      "ik": "stoof",
+      "jij": "stooft",
+      "hij": "stooft",
+      "wij": "stoven",
+      "jullie": "stoven",
+      "zij": "stoven"
+    },
+    "verleden_tijd": {
+      "ik": "stoofde",
+      "wij": "stoofden"
+    },
+    "voltooid_deelwoord": "gestoofd",
+    "hulpwerkwoord": "hebben",
+    "english": "to stew on a fire"
   },
   "vuren": {
     "tegenwoordige_tijd": {
@@ -16369,6 +17389,23 @@
     "voltooid_deelwoord": "ontsproten",
     "hulpwerkwoord": "hebben",
     "english": "spring (start to exist)"
+  },
+  "inblikken": {
+    "tegenwoordige_tijd": {
+      "ik": "blik in",
+      "jij": "blikt in",
+      "hij": "blikt in",
+      "wij": "blikken in",
+      "jullie": "blikken in",
+      "zij": "blikken in"
+    },
+    "verleden_tijd": {
+      "ik": "blikte in",
+      "wij": "blikten in"
+    },
+    "voltooid_deelwoord": "ingeblikt",
+    "hulpwerkwoord": "hebben",
+    "english": "to can (to preserve)"
   },
   "conserveren": {
     "tegenwoordige_tijd": {
@@ -16829,6 +17866,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to water, to irrigate, to soak"
   },
+  "beslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "besla",
+      "jij": "beslaat",
+      "hij": "beslaat",
+      "wij": "beslaan",
+      "jullie": "beslaan",
+      "zij": "beslaan"
+    },
+    "verleden_tijd": {
+      "ik": "besloeg",
+      "wij": "besloegen"
+    },
+    "voltooid_deelwoord": "beslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to cover, occupy"
+  },
   "doorkruisen": {
     "tegenwoordige_tijd": {
       "ik": "kruis door",
@@ -16962,7 +18016,7 @@
       "wij": "eindigden"
     },
     "voltooid_deelwoord": "geëindigd",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to end, to finish, to conclude, to come to an end"
   },
   "betonnen": {
@@ -17594,6 +18648,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to push aside or away"
   },
+  "doorstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "doorsta",
+      "jij": "doorstaat",
+      "hij": "doorstaat",
+      "wij": "doorstaan",
+      "jullie": "doorstaan",
+      "zij": "doorstaan"
+    },
+    "verleden_tijd": {
+      "ik": "doorstond",
+      "wij": "doorstonden"
+    },
+    "voltooid_deelwoord": "doorstaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to endure, to weather, to withstand"
+  },
   "uitstoten": {
     "tegenwoordige_tijd": {
       "ik": "stoot uit",
@@ -17627,6 +18698,23 @@
     "voltooid_deelwoord": "getracht",
     "hulpwerkwoord": "hebben",
     "english": "to try, attempt"
+  },
+  "toestaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta toe",
+      "jij": "staat toe",
+      "hij": "staat toe",
+      "wij": "staan toe",
+      "jullie": "staan toe",
+      "zij": "staan toe"
+    },
+    "verleden_tijd": {
+      "ik": "stond toe",
+      "wij": "stonden toe"
+    },
+    "voltooid_deelwoord": "toegestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to permit, allow"
   },
   "gutsen": {
     "tegenwoordige_tijd": {
@@ -17710,7 +18798,7 @@
       "wij": "trokken aan"
     },
     "voltooid_deelwoord": "aangetrokken",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to attract, exert a pulling force (on an object) such as gravity"
   },
   "schitteren": {
@@ -18067,7 +19155,7 @@
       "wij": "daalden"
     },
     "voltooid_deelwoord": "gedaald",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to descend"
   },
   "afnemen": {
@@ -18342,6 +19430,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to drop in (especially unannounced)"
   },
+  "afstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta af",
+      "jij": "staat af",
+      "hij": "staat af",
+      "wij": "staan af",
+      "jullie": "staan af",
+      "zij": "staan af"
+    },
+    "verleden_tijd": {
+      "ik": "stond af",
+      "wij": "stonden af"
+    },
+    "voltooid_deelwoord": "afgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to relinquish, to give up"
+  },
   "verzwakken": {
     "tegenwoordige_tijd": {
       "ik": "verzwak",
@@ -18444,6 +19549,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to sweep"
   },
+  "gelopen": {
+    "tegenwoordige_tijd": {
+      "ik": "geloop",
+      "jij": "geloopt",
+      "hij": "geloopt",
+      "wij": "gelopen",
+      "jullie": "gelopen",
+      "zij": "gelopen"
+    },
+    "verleden_tijd": {
+      "ik": "geliep",
+      "wij": "geliepen"
+    },
+    "voltooid_deelwoord": "gelopen",
+    "hulpwerkwoord": "hebben",
+    "english": "to walk"
+  },
   "bombarderen": {
     "tegenwoordige_tijd": {
       "ik": "bombardeer",
@@ -18511,6 +19633,40 @@
     "voltooid_deelwoord": "gechat",
     "hulpwerkwoord": "hebben",
     "english": "to chat"
+  },
+  "ervaren": {
+    "tegenwoordige_tijd": {
+      "ik": "ervaar",
+      "jij": "ervaart",
+      "hij": "ervaart",
+      "wij": "ervaren",
+      "jullie": "ervaren",
+      "zij": "ervaren"
+    },
+    "verleden_tijd": {
+      "ik": "ervoer",
+      "wij": "ervoeren"
+    },
+    "voltooid_deelwoord": "ervaren",
+    "hulpwerkwoord": "hebben",
+    "english": "to experience, to undergo"
+  },
+  "weerhouden": {
+    "tegenwoordige_tijd": {
+      "ik": "weerhou",
+      "jij": "weerhoudt",
+      "hij": "weerhoudt",
+      "wij": "weerhouden",
+      "jullie": "weerhouden",
+      "zij": "weerhouden"
+    },
+    "verleden_tijd": {
+      "ik": "weerhield",
+      "wij": "weerhielden"
+    },
+    "voltooid_deelwoord": "weerhouden",
+    "hulpwerkwoord": "hebben",
+    "english": "to hold back"
   },
   "gelieven": {
     "tegenwoordige_tijd": {
@@ -18886,6 +20042,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to knock on the door"
   },
+  "volstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "volsta",
+      "jij": "volstaat",
+      "hij": "volstaat",
+      "wij": "volstaan",
+      "jullie": "volstaan",
+      "zij": "volstaan"
+    },
+    "verleden_tijd": {
+      "ik": "volstond",
+      "wij": "volstonden"
+    },
+    "voltooid_deelwoord": "volstaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to suffice"
+  },
   "schrijden": {
     "tegenwoordige_tijd": {
       "ik": "schrijd",
@@ -18987,6 +20160,23 @@
     "voltooid_deelwoord": "beëdigd",
     "hulpwerkwoord": "hebben",
     "english": "to swear in, to give an oath to"
+  },
+  "betreden": {
+    "tegenwoordige_tijd": {
+      "ik": "betreed",
+      "jij": "betreedt",
+      "hij": "betreedt",
+      "wij": "betreden",
+      "jullie": "betreden",
+      "zij": "betreden"
+    },
+    "verleden_tijd": {
+      "ik": "betrad",
+      "wij": "betraden"
+    },
+    "voltooid_deelwoord": "betreden",
+    "hulpwerkwoord": "hebben",
+    "english": "to tread upon"
   },
   "aftreden": {
     "tegenwoordige_tijd": {
@@ -19225,6 +20415,40 @@
     "voltooid_deelwoord": "gekloot",
     "hulpwerkwoord": "hebben",
     "english": "to mess, to screw around (to waste time)"
+  },
+  "stallen": {
+    "tegenwoordige_tijd": {
+      "ik": "stal",
+      "jij": "stalt",
+      "hij": "stalt",
+      "wij": "stallen",
+      "jullie": "stallen",
+      "zij": "stallen"
+    },
+    "verleden_tijd": {
+      "ik": "stalde",
+      "wij": "stalden"
+    },
+    "voltooid_deelwoord": "gestald",
+    "hulpwerkwoord": "hebben",
+    "english": "to put an animal in a stable"
+  },
+  "doven": {
+    "tegenwoordige_tijd": {
+      "ik": "doof",
+      "jij": "dooft",
+      "hij": "dooft",
+      "wij": "doven",
+      "jullie": "doven",
+      "zij": "doven"
+    },
+    "verleden_tijd": {
+      "ik": "doofde",
+      "wij": "doofden"
+    },
+    "voltooid_deelwoord": "gedoofd",
+    "hulpwerkwoord": "hebben",
+    "english": "to extinguish"
   },
   "plassen": {
     "tegenwoordige_tijd": {
@@ -19495,7 +20719,7 @@
       "wij": "zeilden"
     },
     "voltooid_deelwoord": "gezeild",
-    "hulpwerkwoord": "hebben",
+    "hulpwerkwoord": "hebben, zijn",
     "english": "to sail (to ride in a sailboat)"
   },
   "tatoeëren": {
@@ -19735,6 +20959,23 @@
     "voltooid_deelwoord": "gesneeuwd",
     "hulpwerkwoord": "hebben",
     "english": "to snow"
+  },
+  "e-mailen": {
+    "tegenwoordige_tijd": {
+      "ik": "e-mail",
+      "jij": "e-mailt",
+      "hij": "e-mailt",
+      "wij": "e-mailen",
+      "jullie": "e-mailen",
+      "zij": "e-mailen"
+    },
+    "verleden_tijd": {
+      "ik": "e-mailde",
+      "wij": "e-mailden"
+    },
+    "voltooid_deelwoord": "ge-e-maild",
+    "hulpwerkwoord": "hebben",
+    "english": "to e-mail"
   },
   "rammen": {
     "tegenwoordige_tijd": {
@@ -20143,6 +21384,23 @@
     "voltooid_deelwoord": "verzonden",
     "hulpwerkwoord": "hebben",
     "english": "to send, to ship"
+  },
+  "ontslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ontsla",
+      "jij": "ontslaat",
+      "hij": "ontslaat",
+      "wij": "ontslaan",
+      "jullie": "ontslaan",
+      "zij": "ontslaan"
+    },
+    "verleden_tijd": {
+      "ik": "ontsloeg",
+      "wij": "ontsloegen"
+    },
+    "voltooid_deelwoord": "ontslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to discharge, to let go, to free of one's duties"
   },
   "vormen": {
     "tegenwoordige_tijd": {
@@ -20722,6 +21980,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to communicate, to disseminate (share information)"
   },
+  "ingaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga in",
+      "jij": "gaat in",
+      "hij": "gaat in",
+      "wij": "gaan in",
+      "jullie": "gaan in",
+      "zij": "gaan in"
+    },
+    "verleden_tijd": {
+      "ik": "ging in",
+      "wij": "gingen in"
+    },
+    "voltooid_deelwoord": "ingegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to enter, to go inside"
+  },
   "vastbinden": {
     "tegenwoordige_tijd": {
       "ik": "bind vast",
@@ -20841,6 +22116,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to sole, to put a sole on (a shoe or boot)"
   },
+  "rooien": {
+    "tegenwoordige_tijd": {
+      "ik": "rooi",
+      "jij": "rooit",
+      "hij": "rooit",
+      "wij": "rooien",
+      "jullie": "rooien",
+      "zij": "rooien"
+    },
+    "verleden_tijd": {
+      "ik": "rooide",
+      "wij": "rooiden"
+    },
+    "voltooid_deelwoord": "gerooid",
+    "hulpwerkwoord": "hebben",
+    "english": "to dig, dig up, excavate"
+  },
   "opschrijven": {
     "tegenwoordige_tijd": {
       "ik": "schrijf op",
@@ -20874,6 +22166,23 @@
     "voltooid_deelwoord": "rondgetrokken",
     "hulpwerkwoord": "hebben",
     "english": "wander (move without purpose)"
+  },
+  "vreemdgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga vreemd",
+      "jij": "gaat vreemd",
+      "hij": "gaat vreemd",
+      "wij": "gaan vreemd",
+      "jullie": "gaan vreemd",
+      "zij": "gaan vreemd"
+    },
+    "verleden_tijd": {
+      "ik": "ging vreemd",
+      "wij": "gingen vreemd"
+    },
+    "voltooid_deelwoord": "vreemdgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to cheat; to wander (have sexual or romantic relations with another than one's stable partner, typically in secrecy)"
   },
   "organiseren": {
     "tegenwoordige_tijd": {
@@ -21265,6 +22574,40 @@
     "voltooid_deelwoord": "geput",
     "hulpwerkwoord": "hebben",
     "english": "to putt"
+  },
+  "echoën": {
+    "tegenwoordige_tijd": {
+      "ik": "echo",
+      "jij": "echoot",
+      "hij": "echoot",
+      "wij": "echoën",
+      "jullie": "echoën",
+      "zij": "echoën"
+    },
+    "verleden_tijd": {
+      "ik": "echode",
+      "wij": "echoden"
+    },
+    "voltooid_deelwoord": "geëchood",
+    "hulpwerkwoord": "hebben",
+    "english": "to echo (to repeat back what another has just said)"
+  },
+  "skiën": {
+    "tegenwoordige_tijd": {
+      "ik": "ski",
+      "jij": "skiet",
+      "hij": "skiet",
+      "wij": "skiën",
+      "jullie": "skiën",
+      "zij": "skiën"
+    },
+    "verleden_tijd": {
+      "ik": "skiede",
+      "wij": "skieden"
+    },
+    "voltooid_deelwoord": "geskied",
+    "hulpwerkwoord": "hebben",
+    "english": "to ski (to move on skis)"
   },
   "verdichten": {
     "tegenwoordige_tijd": {
@@ -21708,6 +23051,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to let go"
   },
+  "vochten": {
+    "tegenwoordige_tijd": {
+      "ik": "vocht",
+      "jij": "vocht",
+      "hij": "vocht",
+      "wij": "vochten",
+      "jullie": "vochten",
+      "zij": "vochten"
+    },
+    "verleden_tijd": {
+      "ik": "vochtte",
+      "wij": "vochtten"
+    },
+    "voltooid_deelwoord": "gevocht",
+    "hulpwerkwoord": "hebben",
+    "english": "Synonym of bevochtigen"
+  },
   "aanvechten": {
     "tegenwoordige_tijd": {
       "ik": "vecht aan",
@@ -21861,6 +23221,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to crucify"
   },
+  "verscheiden": {
+    "tegenwoordige_tijd": {
+      "ik": "verscheid",
+      "jij": "verscheidt",
+      "hij": "verscheidt",
+      "wij": "verscheiden",
+      "jullie": "verscheiden",
+      "zij": "verscheiden"
+    },
+    "verleden_tijd": {
+      "ik": "verscheidde",
+      "wij": "verscheidden"
+    },
+    "voltooid_deelwoord": "verscheiden",
+    "hulpwerkwoord": "hebben",
+    "english": "to pass away, to die"
+  },
   "toedichten": {
     "tegenwoordige_tijd": {
       "ik": "dicht toe",
@@ -21928,6 +23305,23 @@
     "voltooid_deelwoord": "beziggehouden",
     "hulpwerkwoord": "hebben",
     "english": "to keep busy, to occupy"
+  },
+  "onthouden": {
+    "tegenwoordige_tijd": {
+      "ik": "onthou",
+      "jij": "onthoudt",
+      "hij": "onthoudt",
+      "wij": "onthouden",
+      "jullie": "onthouden",
+      "zij": "onthouden"
+    },
+    "verleden_tijd": {
+      "ik": "onthield",
+      "wij": "onthielden"
+    },
+    "voltooid_deelwoord": "onthouden",
+    "hulpwerkwoord": "hebben",
+    "english": "to keep in mind, to remember"
   },
   "afklemmen": {
     "tegenwoordige_tijd": {
@@ -22368,7 +23762,7 @@
       "wij": "stortten"
     },
     "voltooid_deelwoord": "gestort",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to dump, to deposit"
   },
   "achterlaten": {
@@ -22421,6 +23815,23 @@
     "voltooid_deelwoord": "geïntrigeerd",
     "hulpwerkwoord": "hebben",
     "english": "to intrigue"
+  },
+  "gisten": {
+    "tegenwoordige_tijd": {
+      "ik": "gist",
+      "jij": "gist",
+      "hij": "gist",
+      "wij": "gisten",
+      "jullie": "gisten",
+      "zij": "gisten"
+    },
+    "verleden_tijd": {
+      "ik": "gistte",
+      "wij": "gistten"
+    },
+    "voltooid_deelwoord": "gegist",
+    "hulpwerkwoord": "hebben",
+    "english": "to be likely to cause commotion and restlessness; to be prone to rebellion"
   },
   "toelaten": {
     "tegenwoordige_tijd": {
@@ -22523,6 +23934,23 @@
     "voltooid_deelwoord": "uitgezonderd",
     "hulpwerkwoord": "hebben",
     "english": "to exclude, to except"
+  },
+  "opslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla op",
+      "jij": "slaat op",
+      "hij": "slaat op",
+      "wij": "slaan op",
+      "jullie": "slaan op",
+      "zij": "slaan op"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg op",
+      "wij": "sloegen op"
+    },
+    "voltooid_deelwoord": "opgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to save, to store (a file, page)"
   },
   "verwelkomen": {
     "tegenwoordige_tijd": {
@@ -22813,6 +24241,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to recommend"
   },
+  "doodgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga dood",
+      "jij": "gaat dood",
+      "hij": "gaat dood",
+      "wij": "gaan dood",
+      "jullie": "gaan dood",
+      "zij": "gaan dood"
+    },
+    "verleden_tijd": {
+      "ik": "ging dood",
+      "wij": "gingen dood"
+    },
+    "voltooid_deelwoord": "doodgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to die"
+  },
   "valsspelen": {
     "tegenwoordige_tijd": {
       "ik": "speel vals",
@@ -22863,6 +24308,23 @@
     "voltooid_deelwoord": "geplukt",
     "hulpwerkwoord": "hebben",
     "english": "to pluck (i.e. to pull something sharply or to pull something out)"
+  },
+  "verbannen": {
+    "tegenwoordige_tijd": {
+      "ik": "verban",
+      "jij": "verbant",
+      "hij": "verbant",
+      "wij": "verbannen",
+      "jullie": "verbannen",
+      "zij": "verbannen"
+    },
+    "verleden_tijd": {
+      "ik": "verbande",
+      "wij": "verbanden"
+    },
+    "voltooid_deelwoord": "verbannen",
+    "hulpwerkwoord": "hebben",
+    "english": "to banish, exile"
   },
   "arriveren": {
     "tegenwoordige_tijd": {
@@ -22982,6 +24444,23 @@
     "voltooid_deelwoord": "afgezien",
     "hulpwerkwoord": "hebben",
     "english": "to give up, to relinquish"
+  },
+  "ontkomen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontkom",
+      "jij": "ontkomt",
+      "hij": "ontkomt",
+      "wij": "ontkomen",
+      "jullie": "ontkomen",
+      "zij": "ontkomen"
+    },
+    "verleden_tijd": {
+      "ik": "ontkwam",
+      "wij": "ontkwamen"
+    },
+    "voltooid_deelwoord": "ontkomen",
+    "hulpwerkwoord": "hebben",
+    "english": "to escape"
   },
   "uitzetten": {
     "tegenwoordige_tijd": {
@@ -23153,6 +24632,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to sow onto"
   },
+  "tegengaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga tegen",
+      "jij": "gaat tegen",
+      "hij": "gaat tegen",
+      "wij": "gaan tegen",
+      "jullie": "gaan tegen",
+      "zij": "gaan tegen"
+    },
+    "verleden_tijd": {
+      "ik": "ging tegen",
+      "wij": "gingen tegen"
+    },
+    "voltooid_deelwoord": "tegengegaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to counteract"
+  },
   "mededelen": {
     "tegenwoordige_tijd": {
       "ik": "deel mede",
@@ -23220,6 +24716,23 @@
     "voltooid_deelwoord": "weerkaatst",
     "hulpwerkwoord": "hebben",
     "english": "to reflect"
+  },
+  "braken": {
+    "tegenwoordige_tijd": {
+      "ik": "braak",
+      "jij": "braakt",
+      "hij": "braakt",
+      "wij": "braken",
+      "jullie": "braken",
+      "zij": "braken"
+    },
+    "verleden_tijd": {
+      "ik": "braakte",
+      "wij": "braakten"
+    },
+    "voltooid_deelwoord": "gebraakt",
+    "hulpwerkwoord": "hebben",
+    "english": "to vomit"
   },
   "splijten": {
     "tegenwoordige_tijd": {
@@ -23425,6 +24938,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to gargle"
   },
+  "kloven": {
+    "tegenwoordige_tijd": {
+      "ik": "kloof",
+      "jij": "klooft",
+      "hij": "klooft",
+      "wij": "kloven",
+      "jullie": "kloven",
+      "zij": "kloven"
+    },
+    "verleden_tijd": {
+      "ik": "kloofde",
+      "wij": "kloofden"
+    },
+    "voltooid_deelwoord": "gekloofd",
+    "hulpwerkwoord": "hebben",
+    "english": "to cleave, to cut"
+  },
   "sieren": {
     "tegenwoordige_tijd": {
       "ik": "sier",
@@ -23560,6 +25090,23 @@
     "voltooid_deelwoord": "gewikkeld",
     "hulpwerkwoord": "hebben",
     "english": "to wrap"
+  },
+  "ontspannen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontspan",
+      "jij": "ontspant",
+      "hij": "ontspant",
+      "wij": "ontspannen",
+      "jullie": "ontspannen",
+      "zij": "ontspannen"
+    },
+    "verleden_tijd": {
+      "ik": "ontspande",
+      "wij": "ontspanden"
+    },
+    "voltooid_deelwoord": "ontspannen",
+    "hulpwerkwoord": "hebben",
+    "english": "to relax"
   },
   "gijzelen": {
     "tegenwoordige_tijd": {
@@ -23832,6 +25379,23 @@
     "voltooid_deelwoord": "gepromoveerd",
     "hulpwerkwoord": "hebben",
     "english": "to be promoted"
+  },
+  "weerstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "weersta",
+      "jij": "weerstaat",
+      "hij": "weerstaat",
+      "wij": "weerstaan",
+      "jullie": "weerstaan",
+      "zij": "weerstaan"
+    },
+    "verleden_tijd": {
+      "ik": "weerstond",
+      "wij": "weerstonden"
+    },
+    "voltooid_deelwoord": "weerstaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to resist, withstand"
   },
   "drammen": {
     "tegenwoordige_tijd": {
@@ -24223,6 +25787,23 @@
     "voltooid_deelwoord": "uitgedoofd",
     "hulpwerkwoord": "hebben",
     "english": "to extinguish"
+  },
+  "neerslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla neer",
+      "jij": "slaat neer",
+      "hij": "slaat neer",
+      "wij": "slaan neer",
+      "jullie": "slaan neer",
+      "zij": "slaan neer"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg neer",
+      "wij": "sloegen neer"
+    },
+    "voltooid_deelwoord": "neergeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to fall down"
   },
   "vervagen": {
     "tegenwoordige_tijd": {
@@ -25227,6 +26808,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to hide, to make hidden"
   },
+  "afgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga af",
+      "jij": "gaat af",
+      "hij": "gaat af",
+      "wij": "gaan af",
+      "jullie": "gaan af",
+      "zij": "gaan af"
+    },
+    "verleden_tijd": {
+      "ik": "ging af",
+      "wij": "gingen af"
+    },
+    "voltooid_deelwoord": "afgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go off"
+  },
   "symboliseren": {
     "tegenwoordige_tijd": {
       "ik": "symboliseer",
@@ -25258,8 +26856,25 @@
       "wij": "verschoven"
     },
     "voltooid_deelwoord": "verschoven",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to move, shift"
+  },
+  "staken": {
+    "tegenwoordige_tijd": {
+      "ik": "staak",
+      "jij": "staakt",
+      "hij": "staakt",
+      "wij": "staken",
+      "jullie": "staken",
+      "zij": "staken"
+    },
+    "verleden_tijd": {
+      "ik": "staakte",
+      "wij": "staakten"
+    },
+    "voltooid_deelwoord": "gestaakt",
+    "hulpwerkwoord": "hebben",
+    "english": "to strike, go on a strike"
   },
   "kidnappen": {
     "tegenwoordige_tijd": {
@@ -25516,6 +27131,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to continue, persevere"
   },
+  "bijstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta bij",
+      "jij": "staat bij",
+      "hij": "staat bij",
+      "wij": "staan bij",
+      "jullie": "staan bij",
+      "zij": "staan bij"
+    },
+    "verleden_tijd": {
+      "ik": "stond bij",
+      "wij": "stonden bij"
+    },
+    "voltooid_deelwoord": "bijgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to assist"
+  },
   "transporteren": {
     "tegenwoordige_tijd": {
       "ik": "transporteer",
@@ -25703,6 +27335,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to climb, to mount"
   },
+  "ontlopen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontloop",
+      "jij": "ontloopt",
+      "hij": "ontloopt",
+      "wij": "ontlopen",
+      "jullie": "ontlopen",
+      "zij": "ontlopen"
+    },
+    "verleden_tijd": {
+      "ik": "ontliep",
+      "wij": "ontliepen"
+    },
+    "voltooid_deelwoord": "ontlopen",
+    "hulpwerkwoord": "hebben",
+    "english": "to outrun, evade"
+  },
   "uitdagen": {
     "tegenwoordige_tijd": {
       "ik": "daag uit",
@@ -25719,6 +27368,23 @@
     "voltooid_deelwoord": "uitgedaagd",
     "hulpwerkwoord": "hebben",
     "english": "to challenge"
+  },
+  "herzien": {
+    "tegenwoordige_tijd": {
+      "ik": "herzie",
+      "jij": "herziet",
+      "hij": "herziet",
+      "wij": "herzien",
+      "jullie": "herzien",
+      "zij": "herzien"
+    },
+    "verleden_tijd": {
+      "ik": "herzag",
+      "wij": "herzagen"
+    },
+    "voltooid_deelwoord": "herzien",
+    "hulpwerkwoord": "hebben",
+    "english": "to revise, to review"
   },
   "boeten": {
     "tegenwoordige_tijd": {
@@ -26417,6 +28083,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to curb, rein"
   },
+  "slopen": {
+    "tegenwoordige_tijd": {
+      "ik": "sloop",
+      "jij": "sloopt",
+      "hij": "sloopt",
+      "wij": "slopen",
+      "jullie": "slopen",
+      "zij": "slopen"
+    },
+    "verleden_tijd": {
+      "ik": "sloopte",
+      "wij": "sloopten"
+    },
+    "voltooid_deelwoord": "gesloopt",
+    "hulpwerkwoord": "hebben",
+    "english": "to demolish"
+  },
   "ontvolken": {
     "tegenwoordige_tijd": {
       "ik": "ontvolk",
@@ -26518,6 +28201,23 @@
     "voltooid_deelwoord": "geplunderd",
     "hulpwerkwoord": "hebben",
     "english": "to plunder, to pillage, to ransack"
+  },
+  "overgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga over",
+      "jij": "gaat over",
+      "hij": "gaat over",
+      "wij": "gaan over",
+      "jullie": "gaan over",
+      "zij": "gaan over"
+    },
+    "verleden_tijd": {
+      "ik": "ging over",
+      "wij": "gingen over"
+    },
+    "voltooid_deelwoord": "overgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to turn into"
   },
   "detecteren": {
     "tegenwoordige_tijd": {
@@ -26723,6 +28423,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to stun, to intoxicate, to daze"
   },
+  "voorafgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga vooraf",
+      "jij": "gaat vooraf",
+      "hij": "gaat vooraf",
+      "wij": "gaan vooraf",
+      "jullie": "gaan vooraf",
+      "zij": "gaan vooraf"
+    },
+    "verleden_tijd": {
+      "ik": "ging vooraf",
+      "wij": "gingen vooraf"
+    },
+    "voltooid_deelwoord": "voorafgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to precede"
+  },
   "ontwaken": {
     "tegenwoordige_tijd": {
       "ik": "ontwaak",
@@ -26737,8 +28454,25 @@
       "wij": "ontwaakten"
     },
     "voltooid_deelwoord": "ontwaakt",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to wake up, to awaken"
+  },
+  "vergaan": {
+    "tegenwoordige_tijd": {
+      "ik": "verga",
+      "jij": "vergaat",
+      "hij": "vergaat",
+      "wij": "vergaan",
+      "jullie": "vergaan",
+      "zij": "vergaan"
+    },
+    "verleden_tijd": {
+      "ik": "verging",
+      "wij": "vergingen"
+    },
+    "voltooid_deelwoord": "vergaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to rot, to perish, to expire"
   },
   "inlaten": {
     "tegenwoordige_tijd": {
@@ -26875,6 +28609,23 @@
     "voltooid_deelwoord": "versmald",
     "hulpwerkwoord": "hebben",
     "english": "to narrow, narrow down"
+  },
+  "houwen": {
+    "tegenwoordige_tijd": {
+      "ik": "houw",
+      "jij": "houwt",
+      "hij": "houwt",
+      "wij": "houwen",
+      "jullie": "houwen",
+      "zij": "houwen"
+    },
+    "verleden_tijd": {
+      "ik": "hieuw",
+      "wij": "hieuwen"
+    },
+    "voltooid_deelwoord": "gehouwen",
+    "hulpwerkwoord": "hebben",
+    "english": "to hew"
   },
   "blootleggen": {
     "tegenwoordige_tijd": {
@@ -27096,6 +28847,23 @@
     "voltooid_deelwoord": "gefrituurd",
     "hulpwerkwoord": "hebben",
     "english": "to deep-fry"
+  },
+  "kruiden": {
+    "tegenwoordige_tijd": {
+      "ik": "kruid",
+      "jij": "kruidt",
+      "hij": "kruidt",
+      "wij": "kruiden",
+      "jullie": "kruiden",
+      "zij": "kruiden"
+    },
+    "verleden_tijd": {
+      "ik": "kruidde",
+      "wij": "kruidden"
+    },
+    "voltooid_deelwoord": "gekruid",
+    "hulpwerkwoord": "hebben",
+    "english": "to season, to spice"
   },
   "aanleggen": {
     "tegenwoordige_tijd": {
@@ -27332,7 +29100,7 @@
       "wij": "beschikten"
     },
     "voltooid_deelwoord": "beschikt",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to direct, have influence over, decide"
   },
   "neerstorten": {
@@ -27349,7 +29117,7 @@
       "wij": "stortten neer"
     },
     "voltooid_deelwoord": "neergestort",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to crash down"
   },
   "afstraffen": {
@@ -27402,6 +29170,23 @@
     "voltooid_deelwoord": "geschoeid",
     "hulpwerkwoord": "hebben",
     "english": "to shoe"
+  },
+  "vervallen": {
+    "tegenwoordige_tijd": {
+      "ik": "verval",
+      "jij": "vervalt",
+      "hij": "vervalt",
+      "wij": "vervallen",
+      "jullie": "vervallen",
+      "zij": "vervallen"
+    },
+    "verleden_tijd": {
+      "ik": "verviel",
+      "wij": "vervielen"
+    },
+    "voltooid_deelwoord": "vervallen",
+    "hulpwerkwoord": "hebben",
+    "english": "to decline, reject"
   },
   "mislukken": {
     "tegenwoordige_tijd": {
@@ -28032,6 +29817,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to inaugurate"
   },
+  "bekwamen": {
+    "tegenwoordige_tijd": {
+      "ik": "bekwaam",
+      "jij": "bekwaamt",
+      "hij": "bekwaamt",
+      "wij": "bekwamen",
+      "jullie": "bekwamen",
+      "zij": "bekwamen"
+    },
+    "verleden_tijd": {
+      "ik": "bekwaamde",
+      "wij": "bekwaamden"
+    },
+    "voltooid_deelwoord": "bekwaamd",
+    "hulpwerkwoord": "hebben",
+    "english": "to train"
+  },
   "verwijten": {
     "tegenwoordige_tijd": {
       "ik": "verwijt",
@@ -28099,6 +29901,23 @@
     "voltooid_deelwoord": "uitgedragen",
     "hulpwerkwoord": "hebben",
     "english": "to disseminate"
+  },
+  "aanslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla aan",
+      "jij": "slaat aan",
+      "hij": "slaat aan",
+      "wij": "slaan aan",
+      "jullie": "slaan aan",
+      "zij": "slaan aan"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg aan",
+      "wij": "sloegen aan"
+    },
+    "voltooid_deelwoord": "aangeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to strike physically so as to activate or produce an effect"
   },
   "plaveien": {
     "tegenwoordige_tijd": {
@@ -28321,6 +30140,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to manufacture"
   },
+  "aangaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga aan",
+      "jij": "gaat aan",
+      "hij": "gaat aan",
+      "wij": "gaan aan",
+      "jullie": "gaan aan",
+      "zij": "gaan aan"
+    },
+    "verleden_tijd": {
+      "ik": "ging aan",
+      "wij": "gingen aan"
+    },
+    "voltooid_deelwoord": "aangegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to be a concern to, to concern"
+  },
   "smeren": {
     "tegenwoordige_tijd": {
       "ik": "smeer",
@@ -28473,6 +30309,23 @@
     "voltooid_deelwoord": "geschuurd",
     "hulpwerkwoord": "hebben",
     "english": "to bring in, notably a crop to the barn"
+  },
+  "voorbehouden": {
+    "tegenwoordige_tijd": {
+      "ik": "behou voor",
+      "jij": "behoudt voor",
+      "hij": "behoudt voor",
+      "wij": "behouden voor",
+      "jullie": "behouden voor",
+      "zij": "behouden voor"
+    },
+    "verleden_tijd": {
+      "ik": "behield voor",
+      "wij": "behielden voor"
+    },
+    "voltooid_deelwoord": "voorbehouden",
+    "hulpwerkwoord": "hebben",
+    "english": "to reserve"
   },
   "verwezenlijken": {
     "tegenwoordige_tijd": {
@@ -28643,6 +30496,23 @@
     "voltooid_deelwoord": "gekruist",
     "hulpwerkwoord": "hebben",
     "english": "to cross, intersect"
+  },
+  "beamen": {
+    "tegenwoordige_tijd": {
+      "ik": "beam",
+      "jij": "beamt",
+      "hij": "beamt",
+      "wij": "beamen",
+      "jullie": "beamen",
+      "zij": "beamen"
+    },
+    "verleden_tijd": {
+      "ik": "beamde",
+      "wij": "beamden"
+    },
+    "voltooid_deelwoord": "gebeamd",
+    "hulpwerkwoord": "hebben",
+    "english": "to (transport by) beam; mainly used in science fiction context"
   },
   "bevoorrechten": {
     "tegenwoordige_tijd": {
@@ -29375,6 +31245,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to make one's mouth water"
   },
+  "belezen": {
+    "tegenwoordige_tijd": {
+      "ik": "belees",
+      "jij": "beleest",
+      "hij": "beleest",
+      "wij": "belezen",
+      "jullie": "belezen",
+      "zij": "belezen"
+    },
+    "verleden_tijd": {
+      "ik": "belas",
+      "wij": "belazen"
+    },
+    "voltooid_deelwoord": "belezen",
+    "hulpwerkwoord": "hebben",
+    "english": "to exorcise"
+  },
   "ontmoedigen": {
     "tegenwoordige_tijd": {
       "ik": "ontmoedig",
@@ -29527,6 +31414,74 @@
     "voltooid_deelwoord": "verstikt",
     "hulpwerkwoord": "hebben",
     "english": "to choke, to suffocate"
+  },
+  "bleken": {
+    "tegenwoordige_tijd": {
+      "ik": "bleek",
+      "jij": "bleekt",
+      "hij": "bleekt",
+      "wij": "bleken",
+      "jullie": "bleken",
+      "zij": "bleken"
+    },
+    "verleden_tijd": {
+      "ik": "bleekte",
+      "wij": "bleekten"
+    },
+    "voltooid_deelwoord": "gebleekt",
+    "hulpwerkwoord": "hebben",
+    "english": "to bleach"
+  },
+  "scheten": {
+    "tegenwoordige_tijd": {
+      "ik": "scheet",
+      "jij": "scheet",
+      "hij": "scheet",
+      "wij": "scheten",
+      "jullie": "scheten",
+      "zij": "scheten"
+    },
+    "verleden_tijd": {
+      "ik": "scheette",
+      "wij": "scheetten"
+    },
+    "voltooid_deelwoord": "gescheet",
+    "hulpwerkwoord": "hebben",
+    "english": "to fart, to waft, to trump"
+  },
+  "verwezen": {
+    "tegenwoordige_tijd": {
+      "ik": "verwees",
+      "jij": "verweest",
+      "hij": "verweest",
+      "wij": "verwezen",
+      "jullie": "verwezen",
+      "zij": "verwezen"
+    },
+    "verleden_tijd": {
+      "ik": "verweesde",
+      "wij": "verweesden"
+    },
+    "voltooid_deelwoord": "verweesd",
+    "hulpwerkwoord": "hebben",
+    "english": "to become orphaned"
+  },
+  "weken": {
+    "tegenwoordige_tijd": {
+      "ik": "week",
+      "jij": "weekt",
+      "hij": "weekt",
+      "wij": "weken",
+      "jullie": "weken",
+      "zij": "weken"
+    },
+    "verleden_tijd": {
+      "ik": "weekte",
+      "wij": "weekten"
+    },
+    "voltooid_deelwoord": "geweekt",
+    "hulpwerkwoord": "hebben",
+    "english": "to soften"
   },
   "pachten": {
     "tegenwoordige_tijd": {
@@ -29902,6 +31857,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to put away"
   },
+  "verdragen": {
+    "tegenwoordige_tijd": {
+      "ik": "verdraag",
+      "jij": "verdraagt",
+      "hij": "verdraagt",
+      "wij": "verdragen",
+      "jullie": "verdragen",
+      "zij": "verdragen"
+    },
+    "verleden_tijd": {
+      "ik": "verdroeg",
+      "wij": "verdroegen"
+    },
+    "voltooid_deelwoord": "verdragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to tolerate"
+  },
   "aanzetten": {
     "tegenwoordige_tijd": {
       "ik": "zet aan",
@@ -30038,6 +32010,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to create, make, put into existence"
   },
+  "ontzien": {
+    "tegenwoordige_tijd": {
+      "ik": "ontzie",
+      "jij": "ontziet",
+      "hij": "ontziet",
+      "wij": "ontzien",
+      "jullie": "ontzien",
+      "zij": "ontzien"
+    },
+    "verleden_tijd": {
+      "ik": "ontzag",
+      "wij": "ontzagen"
+    },
+    "voltooid_deelwoord": "ontzien",
+    "hulpwerkwoord": "hebben",
+    "english": "to spare"
+  },
   "opvoeren": {
     "tegenwoordige_tijd": {
       "ik": "voer op",
@@ -30071,6 +32060,23 @@
     "voltooid_deelwoord": "gezind",
     "hulpwerkwoord": "hebben",
     "english": "to satisfy, to please"
+  },
+  "begeven": {
+    "tegenwoordige_tijd": {
+      "ik": "begeef",
+      "jij": "begeeft",
+      "hij": "begeeft",
+      "wij": "begeven",
+      "jullie": "begeven",
+      "zij": "begeven"
+    },
+    "verleden_tijd": {
+      "ik": "begaf",
+      "wij": "begaven"
+    },
+    "voltooid_deelwoord": "begeven",
+    "hulpwerkwoord": "hebben",
+    "english": "to give way, to collapse, to break down"
   },
   "oplaaien": {
     "tegenwoordige_tijd": {
@@ -30820,6 +32826,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to inform"
   },
+  "overtreden": {
+    "tegenwoordige_tijd": {
+      "ik": "overtreed",
+      "jij": "overtreedt",
+      "hij": "overtreedt",
+      "wij": "overtreden",
+      "jullie": "overtreden",
+      "zij": "overtreden"
+    },
+    "verleden_tijd": {
+      "ik": "overtrad",
+      "wij": "overtraden"
+    },
+    "voltooid_deelwoord": "overtreden",
+    "hulpwerkwoord": "hebben",
+    "english": "to break, to transgress, to violate"
+  },
   "veilen": {
     "tegenwoordige_tijd": {
       "ik": "veil",
@@ -30936,7 +32959,7 @@
       "wij": "stortten in"
     },
     "voltooid_deelwoord": "ingestort",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to collapse"
   },
   "borduren": {
@@ -31925,6 +33948,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to visit"
   },
+  "dorsten": {
+    "tegenwoordige_tijd": {
+      "ik": "dorst",
+      "jij": "dorst",
+      "hij": "dorst",
+      "wij": "dorsten",
+      "jullie": "dorsten",
+      "zij": "dorsten"
+    },
+    "verleden_tijd": {
+      "ik": "dorstte",
+      "wij": "dorstten"
+    },
+    "voltooid_deelwoord": "gedorst",
+    "hulpwerkwoord": "hebben",
+    "english": "to thirst"
+  },
   "vesten": {
     "tegenwoordige_tijd": {
       "ik": "vest",
@@ -32026,6 +34066,23 @@
     "voltooid_deelwoord": "ingeluid",
     "hulpwerkwoord": "hebben",
     "english": "to ring in, herald"
+  },
+  "voorgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga voor",
+      "jij": "gaat voor",
+      "hij": "gaat voor",
+      "wij": "gaan voor",
+      "jullie": "gaan voor",
+      "zij": "gaan voor"
+    },
+    "verleden_tijd": {
+      "ik": "ging voor",
+      "wij": "gingen voor"
+    },
+    "voltooid_deelwoord": "voorgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to lead, precede"
   },
   "aandringen": {
     "tegenwoordige_tijd": {
@@ -32452,6 +34509,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to bawl easily, be a crybaby"
   },
+  "ontkleden": {
+    "tegenwoordige_tijd": {
+      "ik": "ontkleed",
+      "jij": "ontkleedt",
+      "hij": "ontkleedt",
+      "wij": "ontkleeden",
+      "jullie": "ontkleeden",
+      "zij": "ontkleeden"
+    },
+    "verleden_tijd": {
+      "ik": "ontkleedde",
+      "wij": "ontkleedden"
+    },
+    "voltooid_deelwoord": "ontkleed",
+    "hulpwerkwoord": "hebben",
+    "english": "to undress, disrobe someone or something"
+  },
   "aangorden": {
     "tegenwoordige_tijd": {
       "ik": "gord aan",
@@ -32656,6 +34730,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to shape, form"
   },
+  "begaan": {
+    "tegenwoordige_tijd": {
+      "ik": "bega",
+      "jij": "begaat",
+      "hij": "begaat",
+      "wij": "begaan",
+      "jullie": "begaan",
+      "zij": "begaan"
+    },
+    "verleden_tijd": {
+      "ik": "beging",
+      "wij": "begingen"
+    },
+    "voltooid_deelwoord": "begaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to walk upon, to tread on"
+  },
   "bejagen": {
     "tegenwoordige_tijd": {
       "ik": "bejaag",
@@ -32689,6 +34780,23 @@
     "voltooid_deelwoord": "bekleed",
     "hulpwerkwoord": "hebben",
     "english": "to clothe"
+  },
+  "bekomen": {
+    "tegenwoordige_tijd": {
+      "ik": "bekom",
+      "jij": "bekomt",
+      "hij": "bekomt",
+      "wij": "bekomen",
+      "jullie": "bekomen",
+      "zij": "bekomen"
+    },
+    "verleden_tijd": {
+      "ik": "bekwam",
+      "wij": "bekwamen"
+    },
+    "voltooid_deelwoord": "bekomen",
+    "hulpwerkwoord": "hebben",
+    "english": "to recover"
   },
   "bekoren": {
     "tegenwoordige_tijd": {
@@ -33115,6 +35223,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to thresh"
   },
+  "zonnen": {
+    "tegenwoordige_tijd": {
+      "ik": "zon",
+      "jij": "zont",
+      "hij": "zont",
+      "wij": "zonnen",
+      "jullie": "zonnen",
+      "zij": "zonnen"
+    },
+    "verleden_tijd": {
+      "ik": "zonde",
+      "wij": "zonden"
+    },
+    "voltooid_deelwoord": "gezond",
+    "hulpwerkwoord": "hebben",
+    "english": "to sunbathe"
+  },
   "kauwen": {
     "tegenwoordige_tijd": {
       "ik": "kauw",
@@ -33369,6 +35494,23 @@
     "voltooid_deelwoord": "verteerd",
     "hulpwerkwoord": "hebben",
     "english": "to digest"
+  },
+  "brodden": {
+    "tegenwoordige_tijd": {
+      "ik": "brod",
+      "jij": "brodt",
+      "hij": "brodt",
+      "wij": "broden",
+      "jullie": "broden",
+      "zij": "broden"
+    },
+    "verleden_tijd": {
+      "ik": "brodde",
+      "wij": "brodden"
+    },
+    "voltooid_deelwoord": "gebrod",
+    "hulpwerkwoord": "hebben",
+    "english": "to repair with patches, to patch"
   },
   "spreiden": {
     "tegenwoordige_tijd": {
@@ -34186,6 +36328,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to tear (rend)"
   },
+  "stalen": {
+    "tegenwoordige_tijd": {
+      "ik": "staal",
+      "jij": "staalt",
+      "hij": "staalt",
+      "wij": "stalen",
+      "jullie": "stalen",
+      "zij": "stalen"
+    },
+    "verleden_tijd": {
+      "ik": "staalde",
+      "wij": "staalden"
+    },
+    "voltooid_deelwoord": "gestaald",
+    "hulpwerkwoord": "hebben",
+    "english": "To toughen, harden; to steel."
+  },
   "opbouwen": {
     "tegenwoordige_tijd": {
       "ik": "bouw op",
@@ -34492,6 +36651,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to sponsor"
   },
+  "kieken": {
+    "tegenwoordige_tijd": {
+      "ik": "kiek",
+      "jij": "kiekt",
+      "hij": "kiekt",
+      "wij": "kieken",
+      "jullie": "kieken",
+      "zij": "kieken"
+    },
+    "verleden_tijd": {
+      "ik": "kiekte",
+      "wij": "kiekten"
+    },
+    "voltooid_deelwoord": "gekiekt",
+    "hulpwerkwoord": "hebben",
+    "english": "to photograph, take/shoot (a) picture(s)"
+  },
   "procederen": {
     "tegenwoordige_tijd": {
       "ik": "procedeer",
@@ -34763,6 +36939,23 @@
     "voltooid_deelwoord": "bezweken",
     "hulpwerkwoord": "hebben",
     "english": "to give way, succumb"
+  },
+  "voortbestaan": {
+    "tegenwoordige_tijd": {
+      "ik": "besta voort",
+      "jij": "bestaat voort",
+      "hij": "bestaat voort",
+      "wij": "bestaan voort",
+      "jullie": "bestaan voort",
+      "zij": "bestaan voort"
+    },
+    "verleden_tijd": {
+      "ik": "bestond voort",
+      "wij": "bestonden voort"
+    },
+    "voltooid_deelwoord": "voortbestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to continue to exist"
   },
   "terugsturen": {
     "tegenwoordige_tijd": {
@@ -35120,6 +37313,23 @@
     "voltooid_deelwoord": "gehuisvest",
     "hulpwerkwoord": "hebben",
     "english": "to house, to accommodate"
+  },
+  "opgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga op",
+      "jij": "gaat op",
+      "hij": "gaat op",
+      "wij": "gaan op",
+      "jullie": "gaan op",
+      "zij": "gaan op"
+    },
+    "verleden_tijd": {
+      "ik": "ging op",
+      "wij": "gingen op"
+    },
+    "voltooid_deelwoord": "opgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go up, ascend"
   },
   "identificeren": {
     "tegenwoordige_tijd": {
@@ -36124,6 +38334,23 @@
     "hulpwerkwoord": "hebben",
     "english": "Alternative form of wurgen"
   },
+  "teloorgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga teloor",
+      "jij": "gaat teloor",
+      "hij": "gaat teloor",
+      "wij": "gaan teloor",
+      "jullie": "gaan teloor",
+      "zij": "gaan teloor"
+    },
+    "verleden_tijd": {
+      "ik": "ging teloor",
+      "wij": "gingen teloor"
+    },
+    "voltooid_deelwoord": "teloorgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to become lost"
+  },
   "uitdelgen": {
     "tegenwoordige_tijd": {
       "ik": "delg uit",
@@ -36633,6 +38860,40 @@
     "voltooid_deelwoord": "afgelijfd",
     "hulpwerkwoord": "zijn",
     "english": "to depart from life, die"
+  },
+  "scholen": {
+    "tegenwoordige_tijd": {
+      "ik": "school",
+      "jij": "schoolt",
+      "hij": "schoolt",
+      "wij": "scholen",
+      "jullie": "scholen",
+      "zij": "scholen"
+    },
+    "verleden_tijd": {
+      "ik": "schoolde",
+      "wij": "schoolden"
+    },
+    "voltooid_deelwoord": "geschoold",
+    "hulpwerkwoord": "hebben",
+    "english": "to school, give formal/organized training"
+  },
+  "binnengaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga binnen",
+      "jij": "gaat binnen",
+      "hij": "gaat binnen",
+      "wij": "gaan binnen",
+      "jullie": "gaan binnen",
+      "zij": "gaan binnen"
+    },
+    "verleden_tijd": {
+      "ik": "ging binnen",
+      "wij": "gingen binnen"
+    },
+    "voltooid_deelwoord": "binnengegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to enter, go into (a room, etc.)"
   },
   "schellen": {
     "tegenwoordige_tijd": {
@@ -37467,6 +39728,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to bend, to curve"
   },
+  "voorbijgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga voorbij",
+      "jij": "gaat voorbij",
+      "hij": "gaat voorbij",
+      "wij": "gaan voorbij",
+      "jullie": "gaan voorbij",
+      "zij": "gaan voorbij"
+    },
+    "verleden_tijd": {
+      "ik": "ging voorbij",
+      "wij": "gingen voorbij"
+    },
+    "voltooid_deelwoord": "voorbijgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to pass, to go by (in space or time)"
+  },
   "participeren": {
     "tegenwoordige_tijd": {
       "ik": "participeer",
@@ -37756,6 +40034,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to echo, to ring, to make an echoing sound"
   },
+  "overslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla over",
+      "jij": "slaat over",
+      "hij": "slaat over",
+      "wij": "slaan over",
+      "jullie": "slaan over",
+      "zij": "slaan over"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg over",
+      "wij": "sloegen over"
+    },
+    "voltooid_deelwoord": "overgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to reduce the frequency of"
+  },
   "retoucheren": {
     "tegenwoordige_tijd": {
       "ik": "retoucheer",
@@ -37857,6 +40152,23 @@
     "voltooid_deelwoord": "gegrijnsd",
     "hulpwerkwoord": "hebben",
     "english": "to grin"
+  },
+  "bezien": {
+    "tegenwoordige_tijd": {
+      "ik": "bezie",
+      "jij": "beziet",
+      "hij": "beziet",
+      "wij": "bezien",
+      "jullie": "bezien",
+      "zij": "bezien"
+    },
+    "verleden_tijd": {
+      "ik": "bezag",
+      "wij": "bezagen"
+    },
+    "voltooid_deelwoord": "bezien",
+    "hulpwerkwoord": "hebben",
+    "english": "to have a closer look at"
   },
   "opdraven": {
     "tegenwoordige_tijd": {
@@ -38028,6 +40340,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to buzz"
   },
+  "uitslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla uit",
+      "jij": "slaat uit",
+      "hij": "slaat uit",
+      "wij": "slaan uit",
+      "jullie": "slaan uit",
+      "zij": "slaan uit"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg uit",
+      "wij": "sloegen uit"
+    },
+    "voltooid_deelwoord": "uitgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to overplay, hit the ball out"
+  },
   "middelen": {
     "tegenwoordige_tijd": {
       "ik": "middel",
@@ -38095,6 +40424,23 @@
     "voltooid_deelwoord": "ontbrand",
     "hulpwerkwoord": "hebben",
     "english": "to ignite, flare up, take fire"
+  },
+  "toe-eigenen": {
+    "tegenwoordige_tijd": {
+      "ik": "eigen toe",
+      "jij": "eigent toe",
+      "hij": "eigent toe",
+      "wij": "eigenen toe",
+      "jullie": "eigenen toe",
+      "zij": "eigenen toe"
+    },
+    "verleden_tijd": {
+      "ik": "eigende toe",
+      "wij": "eigenden toe"
+    },
+    "voltooid_deelwoord": "toegeëigend",
+    "hulpwerkwoord": "hebben",
+    "english": "to appropriate"
   },
   "opdringen": {
     "tegenwoordige_tijd": {
@@ -38895,6 +41241,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to assign a duty to, to charge with"
   },
+  "ontgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ontga",
+      "jij": "ontgaat",
+      "hij": "ontgaat",
+      "wij": "ontgaan",
+      "jullie": "ontgaan",
+      "zij": "ontgaan"
+    },
+    "verleden_tijd": {
+      "ik": "ontging",
+      "wij": "ontgingen"
+    },
+    "voltooid_deelwoord": "ontgaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to escape, elude"
+  },
   "schuifelen": {
     "tegenwoordige_tijd": {
       "ik": "schuifel",
@@ -39609,6 +41972,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to relativize (US), relativise (UK)"
   },
+  "traliën": {
+    "tegenwoordige_tijd": {
+      "ik": "tralie",
+      "jij": "traliet",
+      "hij": "traliet",
+      "wij": "traliën",
+      "jullie": "traliën",
+      "zij": "traliën"
+    },
+    "verleden_tijd": {
+      "ik": "traliede",
+      "wij": "tralieden"
+    },
+    "voltooid_deelwoord": "getralied",
+    "hulpwerkwoord": "hebben",
+    "english": "to equip with bars or a grill"
+  },
   "wippen": {
     "tegenwoordige_tijd": {
       "ik": "wip",
@@ -39878,7 +42258,7 @@
       "wij": "verslonden"
     },
     "voltooid_deelwoord": "verslonden",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to devour, to eat greedily"
   },
   "volharden": {
@@ -40102,6 +42482,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to moor, anchor"
   },
+  "afzagen": {
+    "tegenwoordige_tijd": {
+      "ik": "zaag af",
+      "jij": "zaagt af",
+      "hij": "zaagt af",
+      "wij": "zagen af",
+      "jullie": "zagen af",
+      "zij": "zagen af"
+    },
+    "verleden_tijd": {
+      "ik": "zaagde af",
+      "wij": "zaagden af"
+    },
+    "voltooid_deelwoord": "afgezaagd",
+    "hulpwerkwoord": "hebben",
+    "english": "to saw off"
+  },
   "koloniseren": {
     "tegenwoordige_tijd": {
       "ik": "koloniseer",
@@ -40238,6 +42635,23 @@
     "hulpwerkwoord": "zijn",
     "english": "to walk up to"
   },
+  "voorstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta voor",
+      "jij": "staat voor",
+      "hij": "staat voor",
+      "wij": "staan voor",
+      "jullie": "staan voor",
+      "zij": "staan voor"
+    },
+    "verleden_tijd": {
+      "ik": "stond voor",
+      "wij": "stonden voor"
+    },
+    "voltooid_deelwoord": "voorgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to uphold, maintain"
+  },
   "aborteren": {
     "tegenwoordige_tijd": {
       "ik": "aborteer",
@@ -40305,6 +42719,23 @@
     "voltooid_deelwoord": "afgekondigd",
     "hulpwerkwoord": "hebben",
     "english": "to declare, proclaim"
+  },
+  "groeven": {
+    "tegenwoordige_tijd": {
+      "ik": "groef",
+      "jij": "groeft",
+      "hij": "groeft",
+      "wij": "groeven",
+      "jullie": "groeven",
+      "zij": "groeven"
+    },
+    "verleden_tijd": {
+      "ik": "groefde",
+      "wij": "groefden"
+    },
+    "voltooid_deelwoord": "gegroefd",
+    "hulpwerkwoord": "hebben",
+    "english": "to create a groove on an object"
   },
   "slokken": {
     "tegenwoordige_tijd": {
@@ -40918,6 +43349,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to drive away, to kick out"
   },
+  "alpineskiën": {
+    "tegenwoordige_tijd": {
+      "ik": "alpineski",
+      "jij": "alpineskiet",
+      "hij": "alpineskiet",
+      "wij": "alpineskiën",
+      "jullie": "alpineskiën",
+      "zij": "alpineskiën"
+    },
+    "verleden_tijd": {
+      "ik": "alpineskiede",
+      "wij": "alpineskieden"
+    },
+    "voltooid_deelwoord": "gealpineskied",
+    "hulpwerkwoord": "hebben",
+    "english": "to do alpine skiing"
+  },
   "afdalen": {
     "tegenwoordige_tijd": {
       "ik": "daal af",
@@ -41274,6 +43722,23 @@
     "voltooid_deelwoord": "gekerstend",
     "hulpwerkwoord": "hebben",
     "english": "to Christianize; to convert to Christianity"
+  },
+  "oliën": {
+    "tegenwoordige_tijd": {
+      "ik": "olie",
+      "jij": "oliet",
+      "hij": "oliet",
+      "wij": "oliën",
+      "jullie": "oliën",
+      "zij": "oliën"
+    },
+    "verleden_tijd": {
+      "ik": "oliede",
+      "wij": "olieden"
+    },
+    "voltooid_deelwoord": "geolied",
+    "hulpwerkwoord": "hebben",
+    "english": "to oil, lubricate"
   },
   "rapporteren": {
     "tegenwoordige_tijd": {
@@ -42108,6 +44573,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to clean with a mop"
   },
+  "uitstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta uit",
+      "jij": "staat uit",
+      "hij": "staat uit",
+      "wij": "staan uit",
+      "jullie": "staan uit",
+      "zij": "staan uit"
+    },
+    "verleden_tijd": {
+      "ik": "stond uit",
+      "wij": "stonden uit"
+    },
+    "voltooid_deelwoord": "uitgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to endure, tolerate"
+  },
   "smaden": {
     "tegenwoordige_tijd": {
       "ik": "smaad",
@@ -42312,6 +44794,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to coerce, obtain by force"
   },
+  "overkomen": {
+    "tegenwoordige_tijd": {
+      "ik": "overkom",
+      "jij": "overkomt",
+      "hij": "overkomt",
+      "wij": "overkomen",
+      "jullie": "overkomen",
+      "zij": "overkomen"
+    },
+    "verleden_tijd": {
+      "ik": "overkwam",
+      "wij": "overkwamen"
+    },
+    "voltooid_deelwoord": "overkomen",
+    "hulpwerkwoord": "hebben",
+    "english": "to happen, befall"
+  },
   "fonkelen": {
     "tegenwoordige_tijd": {
       "ik": "fonkel",
@@ -42328,6 +44827,23 @@
     "voltooid_deelwoord": "gefonkeld",
     "hulpwerkwoord": "hebben",
     "english": "to twinkle, sparkle"
+  },
+  "weggaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga weg",
+      "jij": "gaat weg",
+      "hij": "gaat weg",
+      "wij": "gaan weg",
+      "jullie": "gaan weg",
+      "zij": "gaan weg"
+    },
+    "verleden_tijd": {
+      "ik": "ging weg",
+      "wij": "gingen weg"
+    },
+    "voltooid_deelwoord": "weggegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go away, to leave"
   },
   "ploffen": {
     "tegenwoordige_tijd": {
@@ -42601,6 +45117,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to hasten, hurry"
   },
+  "stilstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta stil",
+      "jij": "staat stil",
+      "hij": "staat stil",
+      "wij": "staan stil",
+      "jullie": "staan stil",
+      "zij": "staan stil"
+    },
+    "verleden_tijd": {
+      "ik": "stond stil",
+      "wij": "stonden stil"
+    },
+    "voltooid_deelwoord": "stilgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to stand still, to not move"
+  },
   "afdrogen": {
     "tegenwoordige_tijd": {
       "ik": "droog af",
@@ -42634,6 +45167,23 @@
     "voltooid_deelwoord": "gemuild",
     "hulpwerkwoord": "hebben",
     "english": "to kiss"
+  },
+  "bevallen": {
+    "tegenwoordige_tijd": {
+      "ik": "beval",
+      "jij": "bevalt",
+      "hij": "bevalt",
+      "wij": "bevallen",
+      "jullie": "bevallen",
+      "zij": "bevallen"
+    },
+    "verleden_tijd": {
+      "ik": "beviel",
+      "wij": "bevielen"
+    },
+    "voltooid_deelwoord": "bevallen",
+    "hulpwerkwoord": "hebben",
+    "english": "to please, satisfy"
   },
   "binnenkomen": {
     "tegenwoordige_tijd": {
@@ -42753,6 +45303,23 @@
     "voltooid_deelwoord": "verkoeld",
     "hulpwerkwoord": "hebben",
     "english": "to cool down"
+  },
+  "vergisten": {
+    "tegenwoordige_tijd": {
+      "ik": "vergist",
+      "jij": "vergist",
+      "hij": "vergist",
+      "wij": "vergisten",
+      "jullie": "vergisten",
+      "zij": "vergisten"
+    },
+    "verleden_tijd": {
+      "ik": "vergistte",
+      "wij": "vergistten"
+    },
+    "voltooid_deelwoord": "vergist",
+    "hulpwerkwoord": "hebben",
+    "english": "to ferment"
   },
   "veinzen": {
     "tegenwoordige_tijd": {
@@ -42923,6 +45490,23 @@
     "voltooid_deelwoord": "bespeurd",
     "hulpwerkwoord": "hebben",
     "english": "to sense, to perceive"
+  },
+  "doorzien": {
+    "tegenwoordige_tijd": {
+      "ik": "doorzie",
+      "jij": "doorziet",
+      "hij": "doorziet",
+      "wij": "doorzien",
+      "jullie": "doorzien",
+      "zij": "doorzien"
+    },
+    "verleden_tijd": {
+      "ik": "doorzag",
+      "wij": "doorzagen"
+    },
+    "voltooid_deelwoord": "doorzien",
+    "hulpwerkwoord": "hebben",
+    "english": "to see through, detect (a lie)"
   },
   "kwaadspreken": {
     "tegenwoordige_tijd": {
@@ -43399,6 +45983,23 @@
     "voltooid_deelwoord": "gekritiseerd",
     "hulpwerkwoord": "hebben",
     "english": "to criticise"
+  },
+  "misten": {
+    "tegenwoordige_tijd": {
+      "ik": "mist",
+      "jij": "mist",
+      "hij": "mist",
+      "wij": "misten",
+      "jullie": "misten",
+      "zij": "misten"
+    },
+    "verleden_tijd": {
+      "ik": "mistte",
+      "wij": "mistten"
+    },
+    "voltooid_deelwoord": "gemist",
+    "hulpwerkwoord": "hebben",
+    "english": "to fog, become covered with mist"
   },
   "gappen": {
     "tegenwoordige_tijd": {
@@ -44641,6 +47242,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to lie or stand against something else"
   },
+  "gemoeten": {
+    "tegenwoordige_tijd": {
+      "ik": "gemoet",
+      "jij": "gemoet",
+      "hij": "gemoet",
+      "wij": "gemoeten",
+      "jullie": "gemoeten",
+      "zij": "gemoeten"
+    },
+    "verleden_tijd": {
+      "ik": "gemoette",
+      "wij": "gemoetten"
+    },
+    "voltooid_deelwoord": "gemoet",
+    "hulpwerkwoord": "hebben",
+    "english": "to meet, to encounter"
+  },
   "bezweren": {
     "tegenwoordige_tijd": {
       "ik": "bezweer",
@@ -44708,6 +47326,23 @@
     "voltooid_deelwoord": "uitgeslapen",
     "hulpwerkwoord": "hebben",
     "english": "to sleep in"
+  },
+  "overspannen": {
+    "tegenwoordige_tijd": {
+      "ik": "overspan",
+      "jij": "overspant",
+      "hij": "overspant",
+      "wij": "overspannen",
+      "jullie": "overspannen",
+      "zij": "overspannen"
+    },
+    "verleden_tijd": {
+      "ik": "overspande",
+      "wij": "overspanden"
+    },
+    "voltooid_deelwoord": "overspannen",
+    "hulpwerkwoord": "hebben",
+    "english": "to overstress, to overstrain"
   },
   "uitblinken": {
     "tegenwoordige_tijd": {
@@ -44845,6 +47480,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to amuse"
   },
+  "opengaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga open",
+      "jij": "gaat open",
+      "hij": "gaat open",
+      "wij": "gaan open",
+      "jullie": "gaan open",
+      "zij": "gaan open"
+    },
+    "verleden_tijd": {
+      "ik": "ging open",
+      "wij": "gingen open"
+    },
+    "voltooid_deelwoord": "opengegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to open"
+  },
   "krijten": {
     "tegenwoordige_tijd": {
       "ik": "krijt",
@@ -44878,6 +47530,23 @@
     "voltooid_deelwoord": "gestrikt",
     "hulpwerkwoord": "hebben",
     "english": "to tie (up a shoelace for example)"
+  },
+  "doorlopen": {
+    "tegenwoordige_tijd": {
+      "ik": "loop door",
+      "jij": "loopt door",
+      "hij": "loopt door",
+      "wij": "lopen door",
+      "jullie": "lopen door",
+      "zij": "lopen door"
+    },
+    "verleden_tijd": {
+      "ik": "liep door",
+      "wij": "liepen door"
+    },
+    "voltooid_deelwoord": "doorgelopen",
+    "hulpwerkwoord": "hebben",
+    "english": "to keep going, to move on, to carry on, to continue"
   },
   "farmen": {
     "tegenwoordige_tijd": {
@@ -45372,6 +48041,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to undermine, subvert, sap"
   },
+  "ondergraven": {
+    "tegenwoordige_tijd": {
+      "ik": "ondergraaf",
+      "jij": "ondergraaft",
+      "hij": "ondergraaft",
+      "wij": "ondergraven",
+      "jullie": "ondergraven",
+      "zij": "ondergraven"
+    },
+    "verleden_tijd": {
+      "ik": "ondergroef",
+      "wij": "ondergroeven"
+    },
+    "voltooid_deelwoord": "ondergraven",
+    "hulpwerkwoord": "hebben",
+    "english": "to sap, wear off from underneath"
+  },
   "ruilen": {
     "tegenwoordige_tijd": {
       "ik": "ruil",
@@ -45456,6 +48142,40 @@
     "voltooid_deelwoord": "verbeuzeld",
     "hulpwerkwoord": "hebben",
     "english": "to waste, fritter away"
+  },
+  "schrokken": {
+    "tegenwoordige_tijd": {
+      "ik": "schrok",
+      "jij": "schrokt",
+      "hij": "schrokt",
+      "wij": "schrokken",
+      "jullie": "schrokken",
+      "zij": "schrokken"
+    },
+    "verleden_tijd": {
+      "ik": "schrokte",
+      "wij": "schrokten"
+    },
+    "voltooid_deelwoord": "geschrokt",
+    "hulpwerkwoord": "hebben",
+    "english": "to devour, glutton"
+  },
+  "logen": {
+    "tegenwoordige_tijd": {
+      "ik": "loog",
+      "jij": "loogt",
+      "hij": "loogt",
+      "wij": "logen",
+      "jullie": "logen",
+      "zij": "logen"
+    },
+    "verleden_tijd": {
+      "ik": "loogde",
+      "wij": "loogden"
+    },
+    "voltooid_deelwoord": "geloogd",
+    "hulpwerkwoord": "hebben",
+    "english": "to leach, to lime"
   },
   "moduleren": {
     "tegenwoordige_tijd": {
@@ -45627,6 +48347,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to shed light upon, explain"
   },
+  "nagaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga na",
+      "jij": "gaat na",
+      "hij": "gaat na",
+      "wij": "gaan na",
+      "jullie": "gaan na",
+      "zij": "gaan na"
+    },
+    "verleden_tijd": {
+      "ik": "ging na",
+      "wij": "gingen na"
+    },
+    "voltooid_deelwoord": "nagegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to check, to verify"
+  },
   "aanzitten": {
     "tegenwoordige_tijd": {
       "ik": "zit aan",
@@ -45779,6 +48516,23 @@
     "voltooid_deelwoord": "geventileerd",
     "hulpwerkwoord": "hebben",
     "english": "to ventilate"
+  },
+  "zoomen": {
+    "tegenwoordige_tijd": {
+      "ik": "zoom",
+      "jij": "zoomt",
+      "hij": "zoomt",
+      "wij": "zoomen",
+      "jullie": "zoomen",
+      "zij": "zoomen"
+    },
+    "verleden_tijd": {
+      "ik": "zoomde",
+      "wij": "zoomden"
+    },
+    "voltooid_deelwoord": "gezoomd",
+    "hulpwerkwoord": "hebben",
+    "english": "to zoom"
   },
   "inzoomen": {
     "tegenwoordige_tijd": {
@@ -45966,6 +48720,23 @@
     "voltooid_deelwoord": "gearceerd",
     "hulpwerkwoord": "hebben",
     "english": "to hatch, shadow with parallel lines"
+  },
+  "berokken": {
+    "tegenwoordige_tijd": {
+      "ik": "berok",
+      "jij": "berokt",
+      "hij": "berokt",
+      "wij": "berokken",
+      "jullie": "berokken",
+      "zij": "berokken"
+    },
+    "verleden_tijd": {
+      "ik": "berokte",
+      "wij": "berokten"
+    },
+    "voltooid_deelwoord": "berokt",
+    "hulpwerkwoord": "hebben",
+    "english": "Alternative form of berokkenen"
   },
   "breiden": {
     "tegenwoordige_tijd": {
@@ -46340,6 +49111,23 @@
     "voltooid_deelwoord": "ingesmeerd",
     "hulpwerkwoord": "hebben",
     "english": "to rub in, to smear"
+  },
+  "verhangen": {
+    "tegenwoordige_tijd": {
+      "ik": "verhang",
+      "jij": "verhangt",
+      "hij": "verhangt",
+      "wij": "verhangen",
+      "jullie": "verhangen",
+      "zij": "verhangen"
+    },
+    "verleden_tijd": {
+      "ik": "verhing",
+      "wij": "verhingen"
+    },
+    "voltooid_deelwoord": "verhangen",
+    "hulpwerkwoord": "hebben",
+    "english": "to cause to hang, to hang"
   },
   "verprutsen": {
     "tegenwoordige_tijd": {
@@ -46731,6 +49519,23 @@
     "voltooid_deelwoord": "gezwoegd",
     "hulpwerkwoord": "hebben",
     "english": "to heave, to breathe heavily"
+  },
+  "toeslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla toe",
+      "jij": "slaat toe",
+      "hij": "slaat toe",
+      "wij": "slaan toe",
+      "jullie": "slaan toe",
+      "zij": "slaan toe"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg toe",
+      "wij": "sloegen toe"
+    },
+    "voltooid_deelwoord": "toegeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to slam closed"
   },
   "ontwrichten": {
     "tegenwoordige_tijd": {
@@ -47378,6 +50183,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to clock in"
   },
+  "sleeën": {
+    "tegenwoordige_tijd": {
+      "ik": "slee",
+      "jij": "sleet",
+      "hij": "sleet",
+      "wij": "sleeën",
+      "jullie": "sleeën",
+      "zij": "sleeën"
+    },
+    "verleden_tijd": {
+      "ik": "sleede",
+      "wij": "sleeden"
+    },
+    "voltooid_deelwoord": "gesleed",
+    "hulpwerkwoord": "hebben",
+    "english": "to sleigh, to sled"
+  },
   "verhaspelen": {
     "tegenwoordige_tijd": {
       "ik": "verhaspel",
@@ -47635,18 +50457,18 @@
   },
   "uploaden": {
     "tegenwoordige_tijd": {
-      "ik": "load up",
-      "jij": "loadt up",
-      "hij": "loadt up",
-      "wij": "loaden up",
-      "jullie": "loaden up",
-      "zij": "loaden up"
+      "ik": "upload",
+      "jij": "uploadt",
+      "hij": "uploadt",
+      "wij": "uploaden",
+      "jullie": "uploaden",
+      "zij": "uploaden"
     },
     "verleden_tijd": {
-      "ik": "loadde up",
-      "wij": "loadden up"
+      "ik": "uploadde",
+      "wij": "uploadden"
     },
-    "voltooid_deelwoord": "upgeload",
+    "voltooid_deelwoord": "geüpload",
     "hulpwerkwoord": "hebben",
     "english": "to upload"
   },
@@ -48108,6 +50930,23 @@
     "voltooid_deelwoord": "uitgeladen",
     "hulpwerkwoord": "hebben",
     "english": "to load out, to unload"
+  },
+  "verladen": {
+    "tegenwoordige_tijd": {
+      "ik": "verlaad",
+      "jij": "verlaadt",
+      "hij": "verlaadt",
+      "wij": "verladen",
+      "jullie": "verladen",
+      "zij": "verladen"
+    },
+    "verleden_tijd": {
+      "ik": "verlaadde",
+      "wij": "verlaadden"
+    },
+    "voltooid_deelwoord": "verladen",
+    "hulpwerkwoord": "hebben",
+    "english": "to transfer, to load to another place"
   },
   "uitpakken": {
     "tegenwoordige_tijd": {
@@ -48873,6 +51712,23 @@
     "voltooid_deelwoord": "gekissebist",
     "hulpwerkwoord": "hebben",
     "english": "to bicker, to quarrel, to squabble (to engage in petty argument)"
+  },
+  "ruziën": {
+    "tegenwoordige_tijd": {
+      "ik": "ruzie",
+      "jij": "ruziet",
+      "hij": "ruziet",
+      "wij": "ruziën",
+      "jullie": "ruziën",
+      "zij": "ruziën"
+    },
+    "verleden_tijd": {
+      "ik": "ruziede",
+      "wij": "ruzieden"
+    },
+    "voltooid_deelwoord": "geruzied",
+    "hulpwerkwoord": "hebben",
+    "english": "to quarrel"
   },
   "ontnuchteren": {
     "tegenwoordige_tijd": {
@@ -49877,6 +52733,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to satisfy, to satiate"
   },
+  "beraden": {
+    "tegenwoordige_tijd": {
+      "ik": "beraad",
+      "jij": "beraadt",
+      "hij": "beraadt",
+      "wij": "beraden",
+      "jullie": "beraden",
+      "zij": "beraden"
+    },
+    "verleden_tijd": {
+      "ik": "beraadde",
+      "wij": "beraadden"
+    },
+    "voltooid_deelwoord": "beraden",
+    "hulpwerkwoord": "hebben",
+    "english": "to consider, to think, to wonder"
+  },
   "boksen": {
     "tegenwoordige_tijd": {
       "ik": "boks",
@@ -50131,6 +53004,23 @@
     "voltooid_deelwoord": "benieuwd",
     "hulpwerkwoord": "hebben",
     "english": "to arouse a feeling of curiosity or longing to see, hear or understand something"
+  },
+  "ontladen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontlaad",
+      "jij": "ontlaadt",
+      "hij": "ontlaadt",
+      "wij": "ontladen",
+      "jullie": "ontladen",
+      "zij": "ontladen"
+    },
+    "verleden_tijd": {
+      "ik": "ontlaadde",
+      "wij": "ontlaadden"
+    },
+    "voltooid_deelwoord": "ontladen",
+    "hulpwerkwoord": "hebben",
+    "english": "to discharge (electricity)"
   },
   "krikken": {
     "tegenwoordige_tijd": {
@@ -50812,6 +53702,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to hyperventilate"
   },
+  "herladen": {
+    "tegenwoordige_tijd": {
+      "ik": "herlaad",
+      "jij": "herlaadt",
+      "hij": "herlaadt",
+      "wij": "herladen",
+      "jullie": "herladen",
+      "zij": "herladen"
+    },
+    "verleden_tijd": {
+      "ik": "herlaadde",
+      "wij": "herlaadden"
+    },
+    "voltooid_deelwoord": "herladen",
+    "hulpwerkwoord": "hebben",
+    "english": "to reload"
+  },
   "vonken": {
     "tegenwoordige_tijd": {
       "ik": "vonk",
@@ -51305,6 +54212,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to interpret"
   },
+  "inslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla in",
+      "jij": "slaat in",
+      "hij": "slaat in",
+      "wij": "slaan in",
+      "jullie": "slaan in",
+      "zij": "slaan in"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg in",
+      "wij": "sloegen in"
+    },
+    "voltooid_deelwoord": "ingeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to shatter, to break with force"
+  },
   "oxideren": {
     "tegenwoordige_tijd": {
       "ik": "oxideer",
@@ -51492,6 +54416,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to cause, to inflict, to wreak"
   },
+  "schaften": {
+    "tegenwoordige_tijd": {
+      "ik": "schaft",
+      "jij": "schaft",
+      "hij": "schaft",
+      "wij": "schaften",
+      "jullie": "schaften",
+      "zij": "schaften"
+    },
+    "verleden_tijd": {
+      "ik": "schaftte",
+      "wij": "schaftten"
+    },
+    "voltooid_deelwoord": "geschaft",
+    "hulpwerkwoord": "hebben",
+    "english": "to pause, rest, to take a break, especially so as to eat"
+  },
   "pauzeren": {
     "tegenwoordige_tijd": {
       "ik": "pauzeer",
@@ -51574,7 +54515,7 @@
       "wij": "draaiden om"
     },
     "voltooid_deelwoord": "omgedraaid",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "hebben",
     "english": "to turn around, turn over, flip"
   },
   "provoceren": {
@@ -51967,6 +54908,23 @@
     "voltooid_deelwoord": "gebarbecued",
     "hulpwerkwoord": "hebben",
     "english": "Superseded spelling of barbecueën."
+  },
+  "barbecueën": {
+    "tegenwoordige_tijd": {
+      "ik": "barbecue",
+      "jij": "barbecuet",
+      "hij": "barbecuet",
+      "wij": "barbecueën",
+      "jullie": "barbecueën",
+      "zij": "barbecueën"
+    },
+    "verleden_tijd": {
+      "ik": "barbecuede",
+      "wij": "barbecueden"
+    },
+    "voltooid_deelwoord": "gebarbecued",
+    "hulpwerkwoord": "hebben",
+    "english": "to barbecue, to have a barbecue"
   },
   "looien": {
     "tegenwoordige_tijd": {
@@ -53512,7 +56470,7 @@
       "wij": "vielen om"
     },
     "voltooid_deelwoord": "omgevallen",
-    "hulpwerkwoord": "hebben, zijn",
+    "hulpwerkwoord": "zijn",
     "english": "to fall over, to topple"
   },
   "villen": {
@@ -53769,6 +56727,23 @@
     "voltooid_deelwoord": "overgereden",
     "hulpwerkwoord": "hebben",
     "english": "to drive over"
+  },
+  "overreden": {
+    "tegenwoordige_tijd": {
+      "ik": "overreed",
+      "jij": "overreedt",
+      "hij": "overreedt",
+      "wij": "overreden",
+      "jullie": "overreden",
+      "zij": "overreden"
+    },
+    "verleden_tijd": {
+      "ik": "overreedde",
+      "wij": "overreedden"
+    },
+    "voltooid_deelwoord": "overreed",
+    "hulpwerkwoord": "hebben",
+    "english": "to convince, persuade"
   },
   "stompen": {
     "tegenwoordige_tijd": {
@@ -54262,6 +57237,23 @@
     "voltooid_deelwoord": "geketend",
     "hulpwerkwoord": "hebben",
     "english": "to chain, shackle"
+  },
+  "opschudden": {
+    "tegenwoordige_tijd": {
+      "ik": "schud op",
+      "jij": "schudt op",
+      "hij": "schudt op",
+      "wij": "schuden op",
+      "jullie": "schuden op",
+      "zij": "schuden op"
+    },
+    "verleden_tijd": {
+      "ik": "schudde op",
+      "wij": "schudden op"
+    },
+    "voltooid_deelwoord": "opgeschud",
+    "hulpwerkwoord": "hebben",
+    "english": "to cause turmoil, to shake up"
   },
   "concurreren": {
     "tegenwoordige_tijd": {
@@ -55453,6 +58445,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to praise, to laud"
   },
+  "hurriën": {
+    "tegenwoordige_tijd": {
+      "ik": "hurrie",
+      "jij": "hurriet",
+      "hij": "hurriet",
+      "wij": "hurriën",
+      "jullie": "hurriën",
+      "zij": "hurriën"
+    },
+    "verleden_tijd": {
+      "ik": "hurriede",
+      "wij": "hurrieden"
+    },
+    "voltooid_deelwoord": "gehurried",
+    "hulpwerkwoord": "hebben",
+    "english": "to hasten, to hurry"
+  },
   "opsommen": {
     "tegenwoordige_tijd": {
       "ik": "som op",
@@ -55571,6 +58580,23 @@
     "voltooid_deelwoord": "ingeblazen",
     "hulpwerkwoord": "hebben",
     "english": "to breathe new life into, to give another chance to, to revive"
+  },
+  "losslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla los",
+      "jij": "slaat los",
+      "hij": "slaat los",
+      "wij": "slaan los",
+      "jullie": "slaan los",
+      "zij": "slaan los"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg los",
+      "wij": "sloegen los"
+    },
+    "voltooid_deelwoord": "losgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to knock open, to knock loose"
   },
   "behappen": {
     "tegenwoordige_tijd": {
@@ -56575,6 +59601,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to metamorphosize, to transform"
   },
+  "losstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta los",
+      "jij": "staat los",
+      "hij": "staat los",
+      "wij": "staan los",
+      "jullie": "staan los",
+      "zij": "staan los"
+    },
+    "verleden_tijd": {
+      "ik": "stond los",
+      "wij": "stonden los"
+    },
+    "voltooid_deelwoord": "losgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to be independent (of), to stand apart (from)"
+  },
   "ontdooien": {
     "tegenwoordige_tijd": {
       "ik": "ontdooi",
@@ -56591,6 +59634,23 @@
     "voltooid_deelwoord": "ontdooid",
     "hulpwerkwoord": "hebben",
     "english": "to thaw, to defrost"
+  },
+  "na-apen": {
+    "tegenwoordige_tijd": {
+      "ik": "aap na",
+      "jij": "aapt na",
+      "hij": "aapt na",
+      "wij": "apen na",
+      "jullie": "apen na",
+      "zij": "apen na"
+    },
+    "verleden_tijd": {
+      "ik": "aapte na",
+      "wij": "aapten na"
+    },
+    "voltooid_deelwoord": "nageaapt",
+    "hulpwerkwoord": "hebben",
+    "english": "to imitate"
   },
   "lobben": {
     "tegenwoordige_tijd": {
@@ -56744,6 +59804,23 @@
     "voltooid_deelwoord": "beplakt",
     "hulpwerkwoord": "hebben",
     "english": "to glue together, to stick together"
+  },
+  "overzien": {
+    "tegenwoordige_tijd": {
+      "ik": "overzie",
+      "jij": "overziet",
+      "hij": "overziet",
+      "wij": "overzien",
+      "jullie": "overzien",
+      "zij": "overzien"
+    },
+    "verleden_tijd": {
+      "ik": "overzag",
+      "wij": "overzagen"
+    },
+    "voltooid_deelwoord": "overzien",
+    "hulpwerkwoord": "hebben",
+    "english": "to oversee, to have a view of"
   },
   "waaieren": {
     "tegenwoordige_tijd": {
@@ -56914,6 +59991,23 @@
     "voltooid_deelwoord": "gegaderd",
     "hulpwerkwoord": "hebben",
     "english": "Alternative form of garen (“gather”)"
+  },
+  "verzouten": {
+    "tegenwoordige_tijd": {
+      "ik": "verzout",
+      "jij": "verzout",
+      "hij": "verzout",
+      "wij": "verzouten",
+      "jullie": "verzouten",
+      "zij": "verzouten"
+    },
+    "verleden_tijd": {
+      "ik": "verzoutte",
+      "wij": "verzoutten"
+    },
+    "voltooid_deelwoord": "verzouten",
+    "hulpwerkwoord": "hebben",
+    "english": "to become salty"
   },
   "inbrengen": {
     "tegenwoordige_tijd": {
@@ -57391,6 +60485,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to reinterview"
   },
+  "meegaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga mee",
+      "jij": "gaat mee",
+      "hij": "gaat mee",
+      "wij": "gaan mee",
+      "jullie": "gaan mee",
+      "zij": "gaan mee"
+    },
+    "verleden_tijd": {
+      "ik": "ging mee",
+      "wij": "gingen mee"
+    },
+    "voltooid_deelwoord": "meegegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go along"
+  },
   "dubbelklikken": {
     "tegenwoordige_tijd": {
       "ik": "dubbelklik",
@@ -57427,18 +60538,18 @@
   },
   "overklokken": {
     "tegenwoordige_tijd": {
-      "ik": "klok over",
-      "jij": "klokt over",
-      "hij": "klokt over",
-      "wij": "klokken over",
-      "jullie": "klokken over",
-      "zij": "klokken over"
+      "ik": "overklok",
+      "jij": "overklokt",
+      "hij": "overklokt",
+      "wij": "overklokken",
+      "jullie": "overklokken",
+      "zij": "overklokken"
     },
     "verleden_tijd": {
-      "ik": "klokte over",
-      "wij": "klokten over"
+      "ik": "overklokte",
+      "wij": "overklokten"
     },
-    "voltooid_deelwoord": "overgeklokt",
+    "voltooid_deelwoord": "geoverklokt",
     "hulpwerkwoord": "hebben",
     "english": "to overclock"
   },
@@ -57730,6 +60841,23 @@
     "voltooid_deelwoord": "voorgesorteerd",
     "hulpwerkwoord": "hebben",
     "english": "to presort (mail)"
+  },
+  "benamen": {
+    "tegenwoordige_tijd": {
+      "ik": "benaam",
+      "jij": "benaamt",
+      "hij": "benaamt",
+      "wij": "benamen",
+      "jullie": "benamen",
+      "zij": "benamen"
+    },
+    "verleden_tijd": {
+      "ik": "benaamde",
+      "wij": "benaamden"
+    },
+    "voltooid_deelwoord": "benaamd",
+    "hulpwerkwoord": "hebben",
+    "english": "to name, to bestow a name on"
   },
   "overdenken": {
     "tegenwoordige_tijd": {
@@ -58258,6 +61386,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to dodge fare, to use public transportation (bus, tram, train) without paying"
   },
+  "ontraden": {
+    "tegenwoordige_tijd": {
+      "ik": "ontraad",
+      "jij": "ontraadt",
+      "hij": "ontraadt",
+      "wij": "ontraden",
+      "jullie": "ontraden",
+      "zij": "ontraden"
+    },
+    "verleden_tijd": {
+      "ik": "ontraadde",
+      "wij": "ontraadden"
+    },
+    "voltooid_deelwoord": "ontraden",
+    "hulpwerkwoord": "hebben",
+    "english": "to advise or counsel against"
+  },
   "verwegen": {
     "tegenwoordige_tijd": {
       "ik": "verweeg",
@@ -58461,6 +61606,23 @@
     "voltooid_deelwoord": "geëigend",
     "hulpwerkwoord": "hebben",
     "english": "to give in ownership, to grant"
+  },
+  "jetskiën": {
+    "tegenwoordige_tijd": {
+      "ik": "jetski",
+      "jij": "jetskiet",
+      "hij": "jetskiet",
+      "wij": "jetskiën",
+      "jullie": "jetskiën",
+      "zij": "jetskiën"
+    },
+    "verleden_tijd": {
+      "ik": "jetskiede",
+      "wij": "jetskieden"
+    },
+    "voltooid_deelwoord": "gejetskied",
+    "hulpwerkwoord": "hebben",
+    "english": "to jetski"
   },
   "wielrennen": {
     "tegenwoordige_tijd": {
@@ -59686,6 +62848,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to shake off (literal sense)"
   },
+  "beschutten": {
+    "tegenwoordige_tijd": {
+      "ik": "beschut",
+      "jij": "beschut",
+      "hij": "beschut",
+      "wij": "beschuten",
+      "jullie": "beschuten",
+      "zij": "beschuten"
+    },
+    "verleden_tijd": {
+      "ik": "beschutte",
+      "wij": "beschutten"
+    },
+    "voltooid_deelwoord": "beschut",
+    "hulpwerkwoord": "hebben",
+    "english": "to protect, to provide cover, to shield"
+  },
   "opgroeien": {
     "tegenwoordige_tijd": {
       "ik": "groei op",
@@ -59770,6 +62949,23 @@
     "voltooid_deelwoord": "geklotst",
     "hulpwerkwoord": "hebben",
     "english": "to slosh, to splash noisily"
+  },
+  "verweven": {
+    "tegenwoordige_tijd": {
+      "ik": "verweef",
+      "jij": "verweeft",
+      "hij": "verweeft",
+      "wij": "verweven",
+      "jullie": "verweven",
+      "zij": "verweven"
+    },
+    "verleden_tijd": {
+      "ik": "verweefde",
+      "wij": "verweefden"
+    },
+    "voltooid_deelwoord": "verweven",
+    "hulpwerkwoord": "hebben",
+    "english": "to interweave"
   },
   "ronselen": {
     "tegenwoordige_tijd": {
@@ -60791,6 +63987,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to emotionally hurt, to cause grief to"
   },
+  "naslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla na",
+      "jij": "slaat na",
+      "hij": "slaat na",
+      "wij": "slaan na",
+      "jullie": "slaan na",
+      "zij": "slaan na"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg na",
+      "wij": "sloegen na"
+    },
+    "voltooid_deelwoord": "nageslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to look up, to check (for reference)"
+  },
   "knotten": {
     "tegenwoordige_tijd": {
       "ik": "knot",
@@ -61777,6 +64990,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to invite"
   },
+  "oehoeën": {
+    "tegenwoordige_tijd": {
+      "ik": "oehoe",
+      "jij": "oehoet",
+      "hij": "oehoet",
+      "wij": "oehoeën",
+      "jullie": "oehoeën",
+      "zij": "oehoeën"
+    },
+    "verleden_tijd": {
+      "ik": "oehoede",
+      "wij": "oehoeden"
+    },
+    "voltooid_deelwoord": "geoehoed",
+    "hulpwerkwoord": "hebben",
+    "english": "to hoot (of owls)"
+  },
   "pijnigen": {
     "tegenwoordige_tijd": {
       "ik": "pijnig",
@@ -62439,6 +65669,23 @@
     "voltooid_deelwoord": "opgetyft",
     "hulpwerkwoord": "hebben",
     "english": "to fuck off"
+  },
+  "schriën": {
+    "tegenwoordige_tijd": {
+      "ik": "schrie",
+      "jij": "schriet",
+      "hij": "schriet",
+      "wij": "schriën",
+      "jullie": "schriën",
+      "zij": "schriën"
+    },
+    "verleden_tijd": {
+      "ik": "schriede",
+      "wij": "schrieden"
+    },
+    "voltooid_deelwoord": "geschried",
+    "hulpwerkwoord": "hebben",
+    "english": "to scream"
   },
   "inbreiden": {
     "tegenwoordige_tijd": {
@@ -63238,6 +66485,23 @@
     "voltooid_deelwoord": "nagereisd",
     "hulpwerkwoord": "hebben",
     "english": "to travel later, after somebody else"
+  },
+  "bingoën": {
+    "tegenwoordige_tijd": {
+      "ik": "bingo",
+      "jij": "bingoot",
+      "hij": "bingoot",
+      "wij": "bingoën",
+      "jullie": "bingoën",
+      "zij": "bingoën"
+    },
+    "verleden_tijd": {
+      "ik": "bingode",
+      "wij": "bingoden"
+    },
+    "voltooid_deelwoord": "gebingood",
+    "hulpwerkwoord": "hebben",
+    "english": "to play bingo"
   },
   "radbraken": {
     "tegenwoordige_tijd": {
@@ -64718,6 +67982,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to talk nonsense, to engage in crazy talk"
   },
+  "mee-eten": {
+    "tegenwoordige_tijd": {
+      "ik": "eet mee",
+      "jij": "eet mee",
+      "hij": "eet mee",
+      "wij": "eten mee",
+      "jullie": "eten mee",
+      "zij": "eten mee"
+    },
+    "verleden_tijd": {
+      "ik": "at mee",
+      "wij": "aten mee"
+    },
+    "voltooid_deelwoord": "meegegeten",
+    "hulpwerkwoord": "hebben",
+    "english": "to eat along with others, to join others for a meal"
+  },
   "toerekenen": {
     "tegenwoordige_tijd": {
       "ik": "reken toe",
@@ -64751,6 +68032,23 @@
     "voltooid_deelwoord": "meegerekend",
     "hulpwerkwoord": "hebben",
     "english": "to include, to take into account"
+  },
+  "doezen": {
+    "tegenwoordige_tijd": {
+      "ik": "does",
+      "jij": "doest",
+      "hij": "doest",
+      "wij": "doezen",
+      "jullie": "doezen",
+      "zij": "doezen"
+    },
+    "verleden_tijd": {
+      "ik": "doesde",
+      "wij": "doesden"
+    },
+    "voltooid_deelwoord": "gedoesd",
+    "hulpwerkwoord": "hebben",
+    "english": "to doze"
   },
   "dompen": {
     "tegenwoordige_tijd": {
@@ -66213,6 +69511,23 @@
     "voltooid_deelwoord": "opgeleukt",
     "hulpwerkwoord": "hebben",
     "english": "to embellish, to decorate, to make more stylish"
+  },
+  "reidansen": {
+    "tegenwoordige_tijd": {
+      "ik": "dans",
+      "jij": "danst",
+      "hij": "danst",
+      "wij": "dansen",
+      "jullie": "dansen",
+      "zij": "dansen"
+    },
+    "verleden_tijd": {
+      "ik": "danste",
+      "wij": "dansten"
+    },
+    "voltooid_deelwoord": "gedanst",
+    "hulpwerkwoord": "hebben",
+    "english": "to dance in a circle, to circle dance"
   },
   "tuinen": {
     "tegenwoordige_tijd": {
@@ -67693,6 +71008,23 @@
     "hulpwerkwoord": "hebben",
     "english": "Synonym of toejuichen"
   },
+  "beoliën": {
+    "tegenwoordige_tijd": {
+      "ik": "beolie",
+      "jij": "beoliet",
+      "hij": "beoliet",
+      "wij": "beoliën",
+      "jullie": "beoliën",
+      "zij": "beoliën"
+    },
+    "verleden_tijd": {
+      "ik": "beoliede",
+      "wij": "beolieden"
+    },
+    "voltooid_deelwoord": "beolied",
+    "hulpwerkwoord": "hebben",
+    "english": "to oil, to cover or lubricate with oil"
+  },
   "aanschreeuwen": {
     "tegenwoordige_tijd": {
       "ik": "schreeuw aan",
@@ -68526,6 +71858,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to sweeten (to make or to become sweeter)"
   },
+  "mislopen": {
+    "tegenwoordige_tijd": {
+      "ik": "misloop",
+      "jij": "misloopt",
+      "hij": "misloopt",
+      "wij": "mislopen",
+      "jullie": "mislopen",
+      "zij": "mislopen"
+    },
+    "verleden_tijd": {
+      "ik": "misliep",
+      "wij": "misliepen"
+    },
+    "voltooid_deelwoord": "mislopen",
+    "hulpwerkwoord": "hebben",
+    "english": "to go the wrong way"
+  },
   "aanzouten": {
     "tegenwoordige_tijd": {
       "ik": "zout aan",
@@ -69307,6 +72656,23 @@
     "voltooid_deelwoord": "getakeld",
     "hulpwerkwoord": "hebben",
     "english": "to hoist with a tackle or pulley"
+  },
+  "aansnellen": {
+    "tegenwoordige_tijd": {
+      "ik": "snel aan",
+      "jij": "snelt aan",
+      "hij": "snelt aan",
+      "wij": "snelen aan",
+      "jullie": "snelen aan",
+      "zij": "snelen aan"
+    },
+    "verleden_tijd": {
+      "ik": "snelde aan",
+      "wij": "snelden aan"
+    },
+    "voltooid_deelwoord": "aangesneld",
+    "hulpwerkwoord": "hebben",
+    "english": "to rush near"
   },
   "afgieten": {
     "tegenwoordige_tijd": {
@@ -70549,6 +73915,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to throw (to)"
   },
+  "kabaleren": {
+    "tegenwoordige_tijd": {
+      "ik": "kabaleer",
+      "jij": "kabaleert",
+      "hij": "kabaleert",
+      "wij": "kabeleren",
+      "jullie": "kabeleren",
+      "zij": "kabeleren"
+    },
+    "verleden_tijd": {
+      "ik": "kabaleerde",
+      "wij": "kabaleerden"
+    },
+    "voltooid_deelwoord": "gekabaleerd",
+    "hulpwerkwoord": "hebben",
+    "english": "to conspire, to cabal"
+  },
   "aanerven": {
     "tegenwoordige_tijd": {
       "ik": "erf aan",
@@ -71177,6 +74560,23 @@
     "voltooid_deelwoord": "voortgevloeid",
     "hulpwerkwoord": "hebben",
     "english": "to outflow, to flow"
+  },
+  "verdergaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga verder",
+      "jij": "gaat verder",
+      "hij": "gaat verder",
+      "wij": "gaan verder",
+      "jullie": "gaan verder",
+      "zij": "gaan verder"
+    },
+    "verleden_tijd": {
+      "ik": "ging verder",
+      "wij": "gingen verder"
+    },
+    "voltooid_deelwoord": "verdergegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to continue, to resume"
   },
   "bebolwerken": {
     "tegenwoordige_tijd": {
@@ -72844,6 +76244,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to preside, to lead a gathering"
   },
+  "wiiën": {
+    "tegenwoordige_tijd": {
+      "ik": "wii",
+      "jij": "wiit",
+      "hij": "wiit",
+      "wij": "wiiën",
+      "jullie": "wiiën",
+      "zij": "wiiën"
+    },
+    "verleden_tijd": {
+      "ik": "wiide",
+      "wij": "wiiden"
+    },
+    "voltooid_deelwoord": "gewiid",
+    "hulpwerkwoord": "hebben",
+    "english": "to play on a Nintendo Wii"
+  },
+  "dichtslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla dicht",
+      "jij": "slaat dicht",
+      "hij": "slaat dicht",
+      "wij": "slaan dicht",
+      "jullie": "slaan dicht",
+      "zij": "slaan dicht"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg dicht",
+      "wij": "sloegen dicht"
+    },
+    "voltooid_deelwoord": "dichtgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to slam shut, to be slammed shut"
+  },
   "verifiëren": {
     "tegenwoordige_tijd": {
       "ik": "verifieer",
@@ -72911,6 +76345,23 @@
     "voltooid_deelwoord": "voorgegeven",
     "hulpwerkwoord": "hebben",
     "english": "to feign, to pretend"
+  },
+  "neuriën": {
+    "tegenwoordige_tijd": {
+      "ik": "neurie",
+      "jij": "neuriet",
+      "hij": "neuriet",
+      "wij": "neuriën",
+      "jullie": "neuriën",
+      "zij": "neuriën"
+    },
+    "verleden_tijd": {
+      "ik": "neuriede",
+      "wij": "neurieden"
+    },
+    "voltooid_deelwoord": "geneuried",
+    "hulpwerkwoord": "hebben",
+    "english": "to hum (a melody)"
   },
   "dubben": {
     "tegenwoordige_tijd": {
@@ -73387,6 +76838,23 @@
     "voltooid_deelwoord": "gebroeid",
     "hulpwerkwoord": "hebben",
     "english": "to be hot"
+  },
+  "zitskiën": {
+    "tegenwoordige_tijd": {
+      "ik": "zitski",
+      "jij": "zitskiet",
+      "hij": "zitskiet",
+      "wij": "zitskiën",
+      "jullie": "zitskiën",
+      "zij": "zitskiën"
+    },
+    "verleden_tijd": {
+      "ik": "zitskiede",
+      "wij": "zitskieden"
+    },
+    "voltooid_deelwoord": "gezitskied",
+    "hulpwerkwoord": "hebben",
+    "english": "to sitski"
   },
   "vandaliseren": {
     "tegenwoordige_tijd": {
@@ -74170,6 +77638,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to walk"
   },
+  "opdoffen": {
+    "tegenwoordige_tijd": {
+      "ik": "dof op",
+      "jij": "doft op",
+      "hij": "doft op",
+      "wij": "doften op",
+      "jullie": "doften op",
+      "zij": "doften op"
+    },
+    "verleden_tijd": {
+      "ik": "dofte op",
+      "wij": "doften op"
+    },
+    "voltooid_deelwoord": "opgedoft",
+    "hulpwerkwoord": "hebben",
+    "english": "to dress up"
+  },
+  "ontboezemen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontboezem",
+      "jij": "ontboezemt",
+      "hij": "ontboezemt",
+      "wij": "ontboezemden",
+      "jullie": "ontboezemden",
+      "zij": "ontboezemden"
+    },
+    "verleden_tijd": {
+      "ik": "ontboezemde",
+      "wij": "ontboezemden"
+    },
+    "voltooid_deelwoord": "ontboezemd",
+    "hulpwerkwoord": "hebben",
+    "english": "to unbosom, to tell one's troubles"
+  },
   "overplaatsen": {
     "tegenwoordige_tijd": {
       "ik": "plaats over",
@@ -74203,6 +77705,23 @@
     "voltooid_deelwoord": "gebillijkt",
     "hulpwerkwoord": "hebben",
     "english": "to approve"
+  },
+  "schuilgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga schuil",
+      "jij": "gaat schuil",
+      "hij": "gaat schuil",
+      "wij": "gaan schuil",
+      "jullie": "gaan schuil",
+      "zij": "gaan schuil"
+    },
+    "verleden_tijd": {
+      "ik": "ging schuil",
+      "wij": "gingen schuil"
+    },
+    "voltooid_deelwoord": "schuilgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to hide"
   },
   "ontvlooien": {
     "tegenwoordige_tijd": {
@@ -74357,6 +77876,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to force, to compel"
   },
+  "vooruitgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga vooruit",
+      "jij": "gaat vooruit",
+      "hij": "gaat vooruit",
+      "wij": "gaan vooruit",
+      "jullie": "gaan vooruit",
+      "zij": "gaan vooruit"
+    },
+    "verleden_tijd": {
+      "ik": "ging vooruit",
+      "wij": "gingen vooruit"
+    },
+    "voltooid_deelwoord": "vooruitgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go forwards"
+  },
   "afsnauwen": {
     "tegenwoordige_tijd": {
       "ik": "snauw af",
@@ -74407,6 +77943,23 @@
     "voltooid_deelwoord": "gespeculeerd",
     "hulpwerkwoord": "hebben",
     "english": "to speculate, to imagine, to guess"
+  },
+  "heengaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga heen",
+      "jij": "gaat heen",
+      "hij": "gaat heen",
+      "wij": "gaan heen",
+      "jullie": "gaan heen",
+      "zij": "gaan heen"
+    },
+    "verleden_tijd": {
+      "ik": "ging heen",
+      "wij": "gingen heen"
+    },
+    "voltooid_deelwoord": "heengegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go away"
   },
   "afsmelten": {
     "tegenwoordige_tijd": {
@@ -74612,6 +78165,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to move in"
   },
+  "inrukken": {
+    "tegenwoordige_tijd": {
+      "ik": "ruk in",
+      "jij": "rukt in",
+      "hij": "rukt in",
+      "wij": "ruken in",
+      "jullie": "ruken in",
+      "zij": "ruken in"
+    },
+    "verleden_tijd": {
+      "ik": "rukte in",
+      "wij": "rukten in"
+    },
+    "voltooid_deelwoord": "ingerukt",
+    "hulpwerkwoord": "hebben",
+    "english": "to stand down"
+  },
   "gedijen": {
     "tegenwoordige_tijd": {
       "ik": "gedij",
@@ -74798,6 +78368,23 @@
     "voltooid_deelwoord": "terechtgewezen",
     "hulpwerkwoord": "hebben",
     "english": "to reprimand"
+  },
+  "misgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga mis",
+      "jij": "gaat mis",
+      "hij": "gaat mis",
+      "wij": "gaan mis",
+      "jullie": "gaan mis",
+      "zij": "gaan mis"
+    },
+    "verleden_tijd": {
+      "ik": "ging mis",
+      "wij": "gingen mis"
+    },
+    "voltooid_deelwoord": "misgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go wrong, fail"
   },
   "overhouden": {
     "tegenwoordige_tijd": {
@@ -75377,6 +78964,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to croak, sound like a frog"
   },
+  "gadeslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla gade",
+      "jij": "slaat gade",
+      "hij": "slaat gade",
+      "wij": "slaan gade",
+      "jullie": "slaan gade",
+      "zij": "slaan gade"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg gade",
+      "wij": "sloegen gade"
+    },
+    "voltooid_deelwoord": "gadegeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to observe thoroughly"
+  },
   "aanwerpen": {
     "tegenwoordige_tijd": {
       "ik": "werp aan",
@@ -75393,6 +78997,23 @@
     "voltooid_deelwoord": "aangeworpen",
     "hulpwerkwoord": "hebben",
     "english": "to throw (to)"
+  },
+  "aansmeren": {
+    "tegenwoordige_tijd": {
+      "ik": "smeer aan",
+      "jij": "smeert aan",
+      "hij": "smeert aan",
+      "wij": "smereen aan",
+      "jullie": "smereen aan",
+      "zij": "smereen aan"
+    },
+    "verleden_tijd": {
+      "ik": "smeerde aan",
+      "wij": "smeerden aan"
+    },
+    "voltooid_deelwoord": "aangesmeerd",
+    "hulpwerkwoord": "hebben",
+    "english": "to palm off (on/to)"
   },
   "klampen": {
     "tegenwoordige_tijd": {
@@ -75683,6 +79304,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to leaven"
   },
+  "iaën": {
+    "tegenwoordige_tijd": {
+      "ik": "ia",
+      "jij": "iaat",
+      "hij": "iaat",
+      "wij": "iaën",
+      "jullie": "iaën",
+      "zij": "iaën"
+    },
+    "verleden_tijd": {
+      "ik": "iade",
+      "wij": "iaden"
+    },
+    "voltooid_deelwoord": "geïaad",
+    "hulpwerkwoord": "hebben",
+    "english": "to hee-haw"
+  },
   "doorslikken": {
     "tegenwoordige_tijd": {
       "ik": "slik door",
@@ -75733,6 +79371,40 @@
     "voltooid_deelwoord": "afgezeikt",
     "hulpwerkwoord": "hebben",
     "english": "to criticise harshly, to ridicule"
+  },
+  "stukgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga stuk",
+      "jij": "gaat stuk",
+      "hij": "gaat stuk",
+      "wij": "gaan stuk",
+      "jullie": "gaan stuk",
+      "zij": "gaan stuk"
+    },
+    "verleden_tijd": {
+      "ik": "ging stuk",
+      "wij": "gingen stuk"
+    },
+    "voltooid_deelwoord": "stukgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to break down, go out of order, become broken"
+  },
+  "kapotgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga kapot",
+      "jij": "gaat kapot",
+      "hij": "gaat kapot",
+      "wij": "gaan kapot",
+      "jullie": "gaan kapot",
+      "zij": "gaan kapot"
+    },
+    "verleden_tijd": {
+      "ik": "ging kapot",
+      "wij": "gingen kapot"
+    },
+    "voltooid_deelwoord": "kapotgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to break down"
   },
   "bijklussen": {
     "tegenwoordige_tijd": {
@@ -77332,6 +81004,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to skim"
   },
+  "dichtgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga dicht",
+      "jij": "gaat dicht",
+      "hij": "gaat dicht",
+      "wij": "gaan dicht",
+      "jullie": "gaan dicht",
+      "zij": "gaan dicht"
+    },
+    "verleden_tijd": {
+      "ik": "ging dicht",
+      "wij": "gingen dicht"
+    },
+    "voltooid_deelwoord": "dichtgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to close, to shut"
+  },
   "beeldhouden": {
     "tegenwoordige_tijd": {
       "ik": "beeldhoud",
@@ -77365,6 +81054,23 @@
     "voltooid_deelwoord": "aangeworteld",
     "hulpwerkwoord": "hebben",
     "english": "to take root, to develop roots and thereby become anchored in the soil"
+  },
+  "misverstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "versta mis",
+      "jij": "verstaat mis",
+      "hij": "verstaat mis",
+      "wij": "verstaan mis",
+      "jullie": "verstaan mis",
+      "zij": "verstaan mis"
+    },
+    "verleden_tijd": {
+      "ik": "verstond mis",
+      "wij": "verstonden mis"
+    },
+    "voltooid_deelwoord": "misverstaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to misunderstand (language, words; hear incorrectly)"
   },
   "misvatten": {
     "tegenwoordige_tijd": {
@@ -78114,6 +81820,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to engage in courtship display, particularly said of birds"
   },
+  "lassoën": {
+    "tegenwoordige_tijd": {
+      "ik": "lasso",
+      "jij": "lassoot",
+      "hij": "lassoot",
+      "wij": "lassoën",
+      "jullie": "lassoën",
+      "zij": "lassoën"
+    },
+    "verleden_tijd": {
+      "ik": "lassode",
+      "wij": "lassoden"
+    },
+    "voltooid_deelwoord": "gelassood",
+    "hulpwerkwoord": "hebben",
+    "english": "to lasso"
+  },
   "herbebossen": {
     "tegenwoordige_tijd": {
       "ik": "herbebos",
@@ -78624,6 +82347,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to detick"
   },
+  "taxiën": {
+    "tegenwoordige_tijd": {
+      "ik": "taxi",
+      "jij": "taxiet",
+      "hij": "taxiet",
+      "wij": "taxiën",
+      "jullie": "taxiën",
+      "zij": "taxiën"
+    },
+    "verleden_tijd": {
+      "ik": "taxiede",
+      "wij": "taxieden"
+    },
+    "voltooid_deelwoord": "getaxied",
+    "hulpwerkwoord": "hebben",
+    "english": "to taxi (to move without flying)"
+  },
   "knisperen": {
     "tegenwoordige_tijd": {
       "ik": "knisper",
@@ -78691,6 +82431,23 @@
     "voltooid_deelwoord": "verslaafd",
     "hulpwerkwoord": "hebben",
     "english": "to addict; to make an addict of"
+  },
+  "vetoën": {
+    "tegenwoordige_tijd": {
+      "ik": "veto",
+      "jij": "vetoot",
+      "hij": "vetoot",
+      "wij": "vetoën",
+      "jullie": "vetoën",
+      "zij": "vetoën"
+    },
+    "verleden_tijd": {
+      "ik": "vetode",
+      "wij": "vetoden"
+    },
+    "voltooid_deelwoord": "gevetood",
+    "hulpwerkwoord": "hebben",
+    "english": "to veto"
   },
   "lobotomiseren": {
     "tegenwoordige_tijd": {
@@ -80783,6 +84540,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to slander, to calumniate"
   },
+  "omstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta om",
+      "jij": "staat om",
+      "hij": "staat om",
+      "wij": "staan om",
+      "jullie": "staan om",
+      "zij": "staan om"
+    },
+    "verleden_tijd": {
+      "ik": "stond om",
+      "wij": "stonden om"
+    },
+    "voltooid_deelwoord": "omgestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to stand around"
+  },
   "krieken": {
     "tegenwoordige_tijd": {
       "ik": "kriek",
@@ -80799,6 +84573,23 @@
     "voltooid_deelwoord": "gekriekt",
     "hulpwerkwoord": "hebben",
     "english": "to break, to dawn"
+  },
+  "doorbakken": {
+    "tegenwoordige_tijd": {
+      "ik": "bak door",
+      "jij": "bakt door",
+      "hij": "bakt door",
+      "wij": "bakken door",
+      "jullie": "bakken door",
+      "zij": "bakken door"
+    },
+    "verleden_tijd": {
+      "ik": "bakte door",
+      "wij": "bakten door"
+    },
+    "voltooid_deelwoord": "doorgebakken",
+    "hulpwerkwoord": "hebben",
+    "english": "to continue baking"
   },
   "zemen": {
     "tegenwoordige_tijd": {
@@ -81037,6 +84828,23 @@
     "voltooid_deelwoord": "ontkalkt",
     "hulpwerkwoord": "hebben",
     "english": "to descale"
+  },
+  "ontzouten": {
+    "tegenwoordige_tijd": {
+      "ik": "ontzout",
+      "jij": "ontzout",
+      "hij": "ontzout",
+      "wij": "ontzouten",
+      "jullie": "ontzouten",
+      "zij": "ontzouten"
+    },
+    "verleden_tijd": {
+      "ik": "ontzoutte",
+      "wij": "ontzoutten"
+    },
+    "voltooid_deelwoord": "ontzouten",
+    "hulpwerkwoord": "hebben",
+    "english": "to desalt, to desalinate"
   },
   "ontwinden": {
     "tegenwoordige_tijd": {
@@ -81649,6 +85457,23 @@
     "voltooid_deelwoord": "volvoerd",
     "hulpwerkwoord": "hebben",
     "english": "to fulfill, to successfully perform"
+  },
+  "voldragen": {
+    "tegenwoordige_tijd": {
+      "ik": "voldraag",
+      "jij": "voldraagt",
+      "hij": "voldraagt",
+      "wij": "voldragen",
+      "jullie": "voldragen",
+      "zij": "voldragen"
+    },
+    "verleden_tijd": {
+      "ik": "voldroeg",
+      "wij": "voldroegen"
+    },
+    "voltooid_deelwoord": "voldragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to carry out till completion"
   },
   "verwurgen": {
     "tegenwoordige_tijd": {
@@ -82347,6 +86172,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to add"
   },
+  "natafelen": {
+    "tegenwoordige_tijd": {
+      "ik": "tafel na",
+      "jij": "tafelt na",
+      "hij": "tafelt na",
+      "wij": "tafellen na",
+      "jullie": "tafellen na",
+      "zij": "tafellen na"
+    },
+    "verleden_tijd": {
+      "ik": "tafelde na",
+      "wij": "tafelden na"
+    },
+    "voltooid_deelwoord": "nagetafeld",
+    "hulpwerkwoord": "hebben",
+    "english": "to stay at the table after eating in order to continue talking"
+  },
   "stortregenen": {
     "tegenwoordige_tijd": {
       "ik": "stortregen",
@@ -82618,6 +86460,23 @@
     "voltooid_deelwoord": "oververhit",
     "hulpwerkwoord": "hebben",
     "english": "to overheat"
+  },
+  "overslapen": {
+    "tegenwoordige_tijd": {
+      "ik": "overslaap",
+      "jij": "overslaapt",
+      "hij": "overslaapt",
+      "wij": "overslapen",
+      "jullie": "overslapen",
+      "zij": "overslapen"
+    },
+    "verleden_tijd": {
+      "ik": "oversliep",
+      "wij": "oversliepen"
+    },
+    "voltooid_deelwoord": "overslapen",
+    "hulpwerkwoord": "hebben",
+    "english": "to oversleep"
   },
   "overprikkelen": {
     "tegenwoordige_tijd": {
@@ -83401,6 +87260,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to support (underneath)"
   },
+  "onderspannen": {
+    "tegenwoordige_tijd": {
+      "ik": "onderspan",
+      "jij": "onderspant",
+      "hij": "onderspant",
+      "wij": "onderspannen",
+      "jullie": "onderspannen",
+      "zij": "onderspannen"
+    },
+    "verleden_tijd": {
+      "ik": "onderspande",
+      "wij": "onderspanden"
+    },
+    "voltooid_deelwoord": "onderspannen",
+    "hulpwerkwoord": "hebben",
+    "english": "to tighten, stress, or strain insufficiently"
+  },
   "onderschrijden": {
     "tegenwoordige_tijd": {
       "ik": "onderschrijd",
@@ -83536,6 +87412,23 @@
     "voltooid_deelwoord": "omvlogen",
     "hulpwerkwoord": "hebben",
     "english": "to surround while flying"
+  },
+  "misdragen": {
+    "tegenwoordige_tijd": {
+      "ik": "misdraag",
+      "jij": "misdraagt",
+      "hij": "misdraagt",
+      "wij": "misdragen",
+      "jullie": "misdragen",
+      "zij": "misdragen"
+    },
+    "verleden_tijd": {
+      "ik": "misdroeg",
+      "wij": "misdroegen"
+    },
+    "voltooid_deelwoord": "misdragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to misbehave"
   },
   "mismaken": {
     "tegenwoordige_tijd": {
@@ -83910,6 +87803,40 @@
     "voltooid_deelwoord": "ontvallen",
     "hulpwerkwoord": "hebben",
     "english": "to slip out, to say something unintended"
+  },
+  "yogaën": {
+    "tegenwoordige_tijd": {
+      "ik": "yoga",
+      "jij": "yogaat",
+      "hij": "yogaat",
+      "wij": "yogaën",
+      "jullie": "yogaën",
+      "zij": "yogaën"
+    },
+    "verleden_tijd": {
+      "ik": "yogade",
+      "wij": "yogaden"
+    },
+    "voltooid_deelwoord": "geyogaad",
+    "hulpwerkwoord": "hebben",
+    "english": "to practice yoga"
+  },
+  "Nintendoën": {
+    "tegenwoordige_tijd": {
+      "ik": "Nintendo",
+      "jij": "Nintendoot",
+      "hij": "Nintendoot",
+      "wij": "Nintendoën",
+      "jullie": "Nintendoën",
+      "zij": "Nintendoën"
+    },
+    "verleden_tijd": {
+      "ik": "Nintendode",
+      "wij": "Nintendoden"
+    },
+    "voltooid_deelwoord": "geNintendood",
+    "hulpwerkwoord": "hebben",
+    "english": "to play games on a Nintendo console or hand-held"
   },
   "openbreken": {
     "tegenwoordige_tijd": {
@@ -84761,6 +88688,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to go wrong"
   },
+  "tegenstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta tegen",
+      "jij": "staat tegen",
+      "hij": "staat tegen",
+      "wij": "staan tegen",
+      "jullie": "staan tegen",
+      "zij": "staan tegen"
+    },
+    "verleden_tijd": {
+      "ik": "stond tegen",
+      "wij": "stonden tegen"
+    },
+    "voltooid_deelwoord": "tegengestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to resist, to oppose"
+  },
   "geduren": {
     "tegenwoordige_tijd": {
       "ik": "geduur",
@@ -85049,6 +88993,23 @@
     "voltooid_deelwoord": "geïntubeerd",
     "hulpwerkwoord": "hebben",
     "english": "to intubate"
+  },
+  "verspannen": {
+    "tegenwoordige_tijd": {
+      "ik": "verspan",
+      "jij": "verspant",
+      "hij": "verspant",
+      "wij": "verspannen",
+      "jullie": "verspannen",
+      "zij": "verspannen"
+    },
+    "verleden_tijd": {
+      "ik": "verspande",
+      "wij": "verspanden"
+    },
+    "voltooid_deelwoord": "verspannen",
+    "hulpwerkwoord": "hebben",
+    "english": "to span or harness in a different manner"
   },
   "fotobommen": {
     "tegenwoordige_tijd": {
@@ -85763,6 +89724,23 @@
     "voltooid_deelwoord": "opgepot",
     "hulpwerkwoord": "hebben",
     "english": "to store or put in pots, to pot"
+  },
+  "kanoën": {
+    "tegenwoordige_tijd": {
+      "ik": "kano",
+      "jij": "kanoot",
+      "hij": "kanoot",
+      "wij": "kanoën",
+      "jullie": "kanoën",
+      "zij": "kanoën"
+    },
+    "verleden_tijd": {
+      "ik": "kanode",
+      "wij": "kanoden"
+    },
+    "voltooid_deelwoord": "gekanood",
+    "hulpwerkwoord": "hebben",
+    "english": "to sail in a canoe"
   },
   "observeren": {
     "tegenwoordige_tijd": {
@@ -86579,6 +90557,23 @@
     "voltooid_deelwoord": "ontscholen",
     "hulpwerkwoord": "hebben",
     "english": "to escape by hiding"
+  },
+  "monopoliën": {
+    "tegenwoordige_tijd": {
+      "ik": "monopolie",
+      "jij": "monopoliet",
+      "hij": "monopoliet",
+      "wij": "monopoliën",
+      "jullie": "monopoliën",
+      "zij": "monopoliën"
+    },
+    "verleden_tijd": {
+      "ik": "monopoliede",
+      "wij": "monopolieden"
+    },
+    "voltooid_deelwoord": "gemonopolied",
+    "hulpwerkwoord": "hebben",
+    "english": "to play Monopoly"
   },
   "draperen": {
     "tegenwoordige_tijd": {
@@ -88212,6 +92207,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to decriminalise"
   },
+  "omzagen": {
+    "tegenwoordige_tijd": {
+      "ik": "zaag om",
+      "jij": "zaagt om",
+      "hij": "zaagt om",
+      "wij": "zagen om",
+      "jullie": "zagen om",
+      "zij": "zagen om"
+    },
+    "verleden_tijd": {
+      "ik": "zaagde om",
+      "wij": "zaagden om"
+    },
+    "voltooid_deelwoord": "omgezaagd",
+    "hulpwerkwoord": "hebben",
+    "english": "to cut down by sawing"
+  },
+  "brossen": {
+    "tegenwoordige_tijd": {
+      "ik": "bros",
+      "jij": "brost",
+      "hij": "brost",
+      "wij": "brossen",
+      "jullie": "brossen",
+      "zij": "brossen"
+    },
+    "verleden_tijd": {
+      "ik": "broste",
+      "wij": "brosten"
+    },
+    "voltooid_deelwoord": "gebrost",
+    "hulpwerkwoord": "hebben",
+    "english": "to wag, ditch school"
+  },
   "souperen": {
     "tegenwoordige_tijd": {
       "ik": "soupeer",
@@ -88926,6 +92955,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to become lonely"
   },
+  "ontwaarden": {
+    "tegenwoordige_tijd": {
+      "ik": "ontwaard",
+      "jij": "ontwaardt",
+      "hij": "ontwaardt",
+      "wij": "ontwaarden",
+      "jullie": "ontwaarden",
+      "zij": "ontwaarden"
+    },
+    "verleden_tijd": {
+      "ik": "ontwaardde",
+      "wij": "ontwaardden"
+    },
+    "voltooid_deelwoord": "ontwaard",
+    "hulpwerkwoord": "hebben",
+    "english": "to devalue"
+  },
   "onthaken": {
     "tegenwoordige_tijd": {
       "ik": "onthaak",
@@ -89623,6 +93669,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to clothe with a coat or cloak"
   },
+  "klaarstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta klaar",
+      "jij": "staat klaar",
+      "hij": "staat klaar",
+      "wij": "staan klaar",
+      "jullie": "staan klaar",
+      "zij": "staan klaar"
+    },
+    "verleden_tijd": {
+      "ik": "stond klaar",
+      "wij": "stonden klaar"
+    },
+    "voltooid_deelwoord": "klaargestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to be ready, get ready, prepare"
+  },
   "liberaliseren": {
     "tegenwoordige_tijd": {
       "ik": "liberaliseer",
@@ -89946,6 +94009,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to sulk"
   },
+  "waterskiën": {
+    "tegenwoordige_tijd": {
+      "ik": "waterski",
+      "jij": "waterskiet",
+      "hij": "waterskiet",
+      "wij": "waterskiën",
+      "jullie": "waterskiën",
+      "zij": "waterskiën"
+    },
+    "verleden_tijd": {
+      "ik": "waterskiede",
+      "wij": "waterskieden"
+    },
+    "voltooid_deelwoord": "gewaterskied",
+    "hulpwerkwoord": "hebben",
+    "english": "to water ski"
+  },
   "terugbetalen": {
     "tegenwoordige_tijd": {
       "ik": "betaal terug",
@@ -90133,6 +94213,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to gather, to obtain (information)"
   },
+  "verlezen": {
+    "tegenwoordige_tijd": {
+      "ik": "verlees",
+      "jij": "verleest",
+      "hij": "verleest",
+      "wij": "verlezen",
+      "jullie": "verlezen",
+      "zij": "verlezen"
+    },
+    "verleden_tijd": {
+      "ik": "verlas",
+      "wij": "verlazen"
+    },
+    "voltooid_deelwoord": "verlezen",
+    "hulpwerkwoord": "hebben",
+    "english": "to misread"
+  },
+  "vertreden": {
+    "tegenwoordige_tijd": {
+      "ik": "vertreed",
+      "jij": "vertreedt",
+      "hij": "vertreedt",
+      "wij": "vertreden",
+      "jullie": "vertreden",
+      "zij": "vertreden"
+    },
+    "verleden_tijd": {
+      "ik": "vertrad",
+      "wij": "vertraden"
+    },
+    "voltooid_deelwoord": "vertreden",
+    "hulpwerkwoord": "hebben",
+    "english": "to trample, to destroy by trampling"
+  },
   "versteken": {
     "tegenwoordige_tijd": {
       "ik": "versteek",
@@ -90149,6 +94263,23 @@
     "voltooid_deelwoord": "verstoken",
     "hulpwerkwoord": "hebben",
     "english": "to stab elsewhere"
+  },
+  "verwassen": {
+    "tegenwoordige_tijd": {
+      "ik": "verwas",
+      "jij": "verwast",
+      "hij": "verwast",
+      "wij": "verwassen",
+      "jullie": "verwassen",
+      "zij": "verwassen"
+    },
+    "verleden_tijd": {
+      "ik": "verwaste",
+      "wij": "verwasten"
+    },
+    "voltooid_deelwoord": "verwast",
+    "hulpwerkwoord": "hebben",
+    "english": "to rub with wax"
   },
   "vergraven": {
     "tegenwoordige_tijd": {
@@ -90184,6 +94315,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to repierce, to pierce or baste again in a different way"
   },
+  "verbraden": {
+    "tegenwoordige_tijd": {
+      "ik": "verbraad",
+      "jij": "verbraadt",
+      "hij": "verbraadt",
+      "wij": "verbraden",
+      "jullie": "verbraden",
+      "zij": "verbraden"
+    },
+    "verleden_tijd": {
+      "ik": "verbraadde",
+      "wij": "verbraadden"
+    },
+    "voltooid_deelwoord": "verbraden",
+    "hulpwerkwoord": "hebben",
+    "english": "to harm or destroy by roasting"
+  },
   "verzeggen": {
     "tegenwoordige_tijd": {
       "ik": "verzeg",
@@ -90200,6 +94348,23 @@
     "voltooid_deelwoord": "verzegd",
     "hulpwerkwoord": "hebben",
     "english": "to promise to give or do, to vow"
+  },
+  "verbakken": {
+    "tegenwoordige_tijd": {
+      "ik": "verbak",
+      "jij": "verbakt",
+      "hij": "verbakt",
+      "wij": "verbakken",
+      "jullie": "verbakken",
+      "zij": "verbakken"
+    },
+    "verleden_tijd": {
+      "ik": "verbakte",
+      "wij": "verbakten"
+    },
+    "voltooid_deelwoord": "verbakken",
+    "hulpwerkwoord": "hebben",
+    "english": "to use up by baking (flour)"
   },
   "verslijpen": {
     "tegenwoordige_tijd": {
@@ -90303,6 +94468,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to vaporize by cooking"
   },
+  "verbrouwen": {
+    "tegenwoordige_tijd": {
+      "ik": "verbrouw",
+      "jij": "verbrouwt",
+      "hij": "verbrouwt",
+      "wij": "verbrouwen",
+      "jullie": "verbrouwen",
+      "zij": "verbrouwen"
+    },
+    "verleden_tijd": {
+      "ik": "verbrouwde",
+      "wij": "verbrouwden"
+    },
+    "voltooid_deelwoord": "verbrouwen",
+    "hulpwerkwoord": "hebben",
+    "english": "to use up by brewing (corn, barley, malt)"
+  },
   "verstinken": {
     "tegenwoordige_tijd": {
       "ik": "verstink",
@@ -90319,6 +94501,23 @@
     "voltooid_deelwoord": "verstonken",
     "hulpwerkwoord": "hebben",
     "english": "to bother someone with stench"
+  },
+  "vereten": {
+    "tegenwoordige_tijd": {
+      "ik": "vereet",
+      "jij": "vereet",
+      "hij": "vereet",
+      "wij": "vereten",
+      "jullie": "vereten",
+      "zij": "vereten"
+    },
+    "verleden_tijd": {
+      "ik": "verat",
+      "wij": "veraten"
+    },
+    "voltooid_deelwoord": "vereten",
+    "hulpwerkwoord": "hebben",
+    "english": "to devour"
   },
   "bebinden": {
     "tegenwoordige_tijd": {
@@ -90473,6 +94672,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to underbid, to bid lower than"
   },
+  "bewassen": {
+    "tegenwoordige_tijd": {
+      "ik": "bewas",
+      "jij": "bewast",
+      "hij": "bewast",
+      "wij": "bewassen",
+      "jullie": "bewassen",
+      "zij": "bewassen"
+    },
+    "verleden_tijd": {
+      "ik": "bewaste",
+      "wij": "bewasten"
+    },
+    "voltooid_deelwoord": "bewast",
+    "hulpwerkwoord": "hebben",
+    "english": "to cover with wax"
+  },
   "bekerven": {
     "tegenwoordige_tijd": {
       "ik": "bekerf",
@@ -90541,6 +94757,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to scold at"
   },
+  "bespannen": {
+    "tegenwoordige_tijd": {
+      "ik": "bespan",
+      "jij": "bespant",
+      "hij": "bespant",
+      "wij": "bespannen",
+      "jullie": "bespannen",
+      "zij": "bespannen"
+    },
+    "verleden_tijd": {
+      "ik": "bespande",
+      "wij": "bespanden"
+    },
+    "voltooid_deelwoord": "bespannen",
+    "hulpwerkwoord": "hebben",
+    "english": "to span over, to span across"
+  },
+  "bezouten": {
+    "tegenwoordige_tijd": {
+      "ik": "bezout",
+      "jij": "bezout",
+      "hij": "bezout",
+      "wij": "bezouten",
+      "jullie": "bezouten",
+      "zij": "bezouten"
+    },
+    "verleden_tijd": {
+      "ik": "bezoutte",
+      "wij": "bezoutten"
+    },
+    "voltooid_deelwoord": "bezouten",
+    "hulpwerkwoord": "hebben",
+    "english": "to cover with salt"
+  },
   "benijpen": {
     "tegenwoordige_tijd": {
       "ik": "benijp",
@@ -90608,6 +94858,23 @@
     "voltooid_deelwoord": "beslepen",
     "hulpwerkwoord": "hebben",
     "english": "to grind, to remove the rough edges by grinding"
+  },
+  "bemeten": {
+    "tegenwoordige_tijd": {
+      "ik": "bemeet",
+      "jij": "bemeet",
+      "hij": "bemeet",
+      "wij": "bemeten",
+      "jullie": "bemeten",
+      "zij": "bemeten"
+    },
+    "verleden_tijd": {
+      "ik": "bemat",
+      "wij": "bematen"
+    },
+    "voltooid_deelwoord": "bemeten",
+    "hulpwerkwoord": "hebben",
+    "english": "to measure, measure off"
   },
   "besteken": {
     "tegenwoordige_tijd": {
@@ -90864,6 +95131,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to tear away, snatch (away), pluck off"
   },
+  "afpennen": {
+    "tegenwoordige_tijd": {
+      "ik": "pen af",
+      "jij": "pent af",
+      "hij": "pent af",
+      "wij": "penden af",
+      "jullie": "penden af",
+      "zij": "penden af"
+    },
+    "verleden_tijd": {
+      "ik": "pende af",
+      "wij": "penden af"
+    },
+    "voltooid_deelwoord": "afgepend",
+    "hulpwerkwoord": "hebben",
+    "english": "to copy down, transcribe, write"
+  },
   "ontschijnen": {
     "tegenwoordige_tijd": {
       "ik": "ontschijn",
@@ -90982,6 +95266,23 @@
     "voltooid_deelwoord": "ontkropen",
     "hulpwerkwoord": "hebben",
     "english": "to crawl away from"
+  },
+  "ontdragen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontdraag",
+      "jij": "ontdraagt",
+      "hij": "ontdraagt",
+      "wij": "ontdragen",
+      "jullie": "ontdragen",
+      "zij": "ontdragen"
+    },
+    "verleden_tijd": {
+      "ik": "ontdroeg",
+      "wij": "ontdroegen"
+    },
+    "voltooid_deelwoord": "ontdragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to carry away"
   },
   "desactiveren": {
     "tegenwoordige_tijd": {
@@ -91696,6 +95997,57 @@
     "voltooid_deelwoord": "bejegend",
     "hulpwerkwoord": "hebben",
     "english": "to treat (someone)"
+  },
+  "langsgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga langs",
+      "jij": "gaat langs",
+      "hij": "gaat langs",
+      "wij": "gaan langs",
+      "jullie": "gaan langs",
+      "zij": "gaan langs"
+    },
+    "verleden_tijd": {
+      "ik": "ging langs",
+      "wij": "gingen langs"
+    },
+    "voltooid_deelwoord": "langsgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to visit"
+  },
+  "samengaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga samen",
+      "jij": "gaat samen",
+      "hij": "gaat samen",
+      "wij": "gaan samen",
+      "jullie": "gaan samen",
+      "zij": "gaan samen"
+    },
+    "verleden_tijd": {
+      "ik": "ging samen",
+      "wij": "gingen samen"
+    },
+    "voltooid_deelwoord": "samengegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to fit together, to match"
+  },
+  "neergaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga neer",
+      "jij": "gaat neer",
+      "hij": "gaat neer",
+      "wij": "gaan neer",
+      "jullie": "gaan neer",
+      "zij": "gaan neer"
+    },
+    "verleden_tijd": {
+      "ik": "ging neer",
+      "wij": "gingen neer"
+    },
+    "voltooid_deelwoord": "neergegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to go down, to descend"
   },
   "inlopen": {
     "tegenwoordige_tijd": {
@@ -92666,6 +97018,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to multitask"
   },
+  "onderuitgaan": {
+    "tegenwoordige_tijd": {
+      "ik": "ga onderuit",
+      "jij": "gaat onderuit",
+      "hij": "gaat onderuit",
+      "wij": "gaan onderuit",
+      "jullie": "gaan onderuit",
+      "zij": "gaan onderuit"
+    },
+    "verleden_tijd": {
+      "ik": "ging onderuit",
+      "wij": "gingen onderuit"
+    },
+    "voltooid_deelwoord": "onderuitgegaan",
+    "hulpwerkwoord": "zijn",
+    "english": "to fall down (during movement)"
+  },
   "reguleren": {
     "tegenwoordige_tijd": {
       "ik": "reguleer",
@@ -93142,6 +97511,23 @@
     "hulpwerkwoord": "hebben",
     "english": "Synonym of afgelasten"
   },
+  "yahtzeeën": {
+    "tegenwoordige_tijd": {
+      "ik": "yahtzee",
+      "jij": "yahtzeet",
+      "hij": "yahtzeet",
+      "wij": "yahtzeeën",
+      "jullie": "yahtzeeën",
+      "zij": "yahtzeeën"
+    },
+    "verleden_tijd": {
+      "ik": "yahtzeede",
+      "wij": "yahtzeeden"
+    },
+    "voltooid_deelwoord": "geyahtzeed",
+    "hulpwerkwoord": "hebben",
+    "english": "to play Yahtzee"
+  },
   "sukkelen": {
     "tegenwoordige_tijd": {
       "ik": "sukkel",
@@ -93430,6 +97816,40 @@
     "voltooid_deelwoord": "gekletterd",
     "hulpwerkwoord": "hebben",
     "english": "to clatter, rattle"
+  },
+  "verbrassen": {
+    "tegenwoordige_tijd": {
+      "ik": "verbras",
+      "jij": "verbrast",
+      "hij": "verbrast",
+      "wij": "verbrasen",
+      "jullie": "verbrasen",
+      "zij": "verbrasen"
+    },
+    "verleden_tijd": {
+      "ik": "verbraste",
+      "wij": "verbrasten"
+    },
+    "voltooid_deelwoord": "verbrast",
+    "hulpwerkwoord": "hebben",
+    "english": "to squander, to waste"
+  },
+  "kapotslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla kapot",
+      "jij": "slaat kapot",
+      "hij": "slaat kapot",
+      "wij": "slaan kapot",
+      "jullie": "slaan kapot",
+      "zij": "slaan kapot"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg kapot",
+      "wij": "sloegen kapot"
+    },
+    "voltooid_deelwoord": "kapotgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to smash, to crush (break violently)"
   },
   "meekijken": {
     "tegenwoordige_tijd": {
@@ -93974,6 +98394,23 @@
     "voltooid_deelwoord": "ontstoffelijkt",
     "hulpwerkwoord": "hebben",
     "english": "to dematerialize, make something immaterial"
+  },
+  "kontlikken": {
+    "tegenwoordige_tijd": {
+      "ik": "kontlik",
+      "jij": "kontlikt",
+      "hij": "kontlikt",
+      "wij": "kontliken",
+      "jullie": "kontliken",
+      "zij": "kontliken"
+    },
+    "verleden_tijd": {
+      "ik": "kontlikte",
+      "wij": "kontlikten"
+    },
+    "voltooid_deelwoord": "gekontlikt",
+    "hulpwerkwoord": "hebben",
+    "english": "to lick ass; to rim"
   },
   "vergoelijken": {
     "tegenwoordige_tijd": {
@@ -95420,6 +99857,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to lift an anchor"
   },
+  "ontaromatiseren": {
+    "tegenwoordige_tijd": {
+      "ik": "ontaromatiseren",
+      "jij": "ontaromatiserent",
+      "hij": "ontaromatiserent",
+      "wij": "ontaromatiserenen",
+      "jullie": "ontaromatiserenen",
+      "zij": "ontaromatiserenen"
+    },
+    "verleden_tijd": {
+      "ik": "ontaromatiserende",
+      "wij": "ontaromatiserenden"
+    },
+    "voltooid_deelwoord": "ontaromatiserend",
+    "hulpwerkwoord": "hebben",
+    "english": "to dearomatize"
+  },
   "ontdagen": {
     "tegenwoordige_tijd": {
       "ik": "ontdaag",
@@ -95504,6 +99958,23 @@
     "voltooid_deelwoord": "ontbakerd",
     "hulpwerkwoord": "hebben",
     "english": "to remove swaddles"
+  },
+  "ontballasten": {
+    "tegenwoordige_tijd": {
+      "ik": "ontbalast",
+      "jij": "ontbalast",
+      "hij": "ontbalast",
+      "wij": "ontbalasten",
+      "jullie": "ontbalasten",
+      "zij": "ontbalasten"
+    },
+    "verleden_tijd": {
+      "ik": "ontbalastte",
+      "wij": "ontbalastten"
+    },
+    "voltooid_deelwoord": "ontbalast",
+    "hulpwerkwoord": "hebben",
+    "english": "to remove a load (of a ship)"
   },
   "ontbanen": {
     "tegenwoordige_tijd": {
@@ -95640,6 +100111,23 @@
     "voltooid_deelwoord": "ontbarst",
     "hulpwerkwoord": "hebben",
     "english": "to break loose, start to burst"
+  },
+  "ontbeurzen": {
+    "tegenwoordige_tijd": {
+      "ik": "ontbeurs",
+      "jij": "ontbeurst",
+      "hij": "ontbeurst",
+      "wij": "ontbeursen",
+      "jullie": "ontbeursen",
+      "zij": "ontbeursen"
+    },
+    "verleden_tijd": {
+      "ik": "ontbeurste",
+      "wij": "ontbeursten"
+    },
+    "voltooid_deelwoord": "ontbeurst",
+    "hulpwerkwoord": "hebben",
+    "english": "to pay for"
   },
   "ontbitteren": {
     "tegenwoordige_tijd": {
@@ -96780,6 +101268,40 @@
     "hulpwerkwoord": "hebben",
     "english": "to fill with writing"
   },
+  "openstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta open",
+      "jij": "staat open",
+      "hij": "staat open",
+      "wij": "staan open",
+      "jullie": "staan open",
+      "zij": "staan open"
+    },
+    "verleden_tijd": {
+      "ik": "stond open",
+      "wij": "stonden open"
+    },
+    "voltooid_deelwoord": "opengestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to be open"
+  },
+  "wikiën": {
+    "tegenwoordige_tijd": {
+      "ik": "wiki",
+      "jij": "wikiet",
+      "hij": "wikiet",
+      "wij": "wikiën",
+      "jullie": "wikiën",
+      "zij": "wikiën"
+    },
+    "verleden_tijd": {
+      "ik": "wikiede",
+      "wij": "wikieden"
+    },
+    "voltooid_deelwoord": "gewikied",
+    "hulpwerkwoord": "hebben",
+    "english": "to wiki"
+  },
   "monkelen": {
     "tegenwoordige_tijd": {
       "ik": "monkel",
@@ -96898,6 +101420,23 @@
     "voltooid_deelwoord": "getukt",
     "hulpwerkwoord": "hebben",
     "english": "Synonym of slapen (“to sleep”)"
+  },
+  "aaneenrijgen": {
+    "tegenwoordige_tijd": {
+      "ik": "rijg aaneen",
+      "jij": "rijgt aaneen",
+      "hij": "rijgt aaneen",
+      "wij": "regen aaneen",
+      "jullie": "regen aaneen",
+      "zij": "regen aaneen"
+    },
+    "verleden_tijd": {
+      "ik": "reeg aaneen",
+      "wij": "reegen aaneen"
+    },
+    "voltooid_deelwoord": "aaneengeregen",
+    "hulpwerkwoord": "hebben",
+    "english": "to string together; join, concatenate"
   },
   "aankruisen": {
     "tegenwoordige_tijd": {
@@ -98055,6 +102594,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to buttress, prop up, support"
   },
+  "frisbeeën": {
+    "tegenwoordige_tijd": {
+      "ik": "frisbee",
+      "jij": "frisbeet",
+      "hij": "frisbeet",
+      "wij": "frisbeeën",
+      "jullie": "frisbeeën",
+      "zij": "frisbeeën"
+    },
+    "verleden_tijd": {
+      "ik": "frisbeede",
+      "wij": "frisbeeden"
+    },
+    "voltooid_deelwoord": "gefrisbeed",
+    "hulpwerkwoord": "hebben",
+    "english": "to Frisbee"
+  },
   "bevooroordelen": {
     "tegenwoordige_tijd": {
       "ik": "bevooroordeel",
@@ -98531,6 +103087,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to amortize (to alienate property in mortmain)"
   },
+  "tv-kijken": {
+    "tegenwoordige_tijd": {
+      "ik": "kijk tv-",
+      "jij": "kijkt tv-",
+      "hij": "kijkt tv-",
+      "wij": "kijken tv-",
+      "jullie": "kijken tv-",
+      "zij": "kijken tv-"
+    },
+    "verleden_tijd": {
+      "ik": "keek tv-",
+      "wij": "keken tv-"
+    },
+    "voltooid_deelwoord": "tv-gekeken",
+    "hulpwerkwoord": "hebben",
+    "english": "to watch television"
+  },
   "thuisblijven": {
     "tegenwoordige_tijd": {
       "ik": "blijf thuis",
@@ -98921,6 +103494,23 @@
     "voltooid_deelwoord": "doorweekt",
     "hulpwerkwoord": "hebben",
     "english": "to soak fully, drench through and through"
+  },
+  "de-installeren": {
+    "tegenwoordige_tijd": {
+      "ik": "de-installeer",
+      "jij": "de-installeert",
+      "hij": "de-installeert",
+      "wij": "de-installeren",
+      "jullie": "de-installeren",
+      "zij": "de-installeren"
+    },
+    "verleden_tijd": {
+      "ik": "de-installeerde",
+      "wij": "de-installeerden"
+    },
+    "voltooid_deelwoord": "gede-installeerd",
+    "hulpwerkwoord": "hebben",
+    "english": "to uninstall"
   },
   "mutileren": {
     "tegenwoordige_tijd": {
@@ -99602,6 +104192,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to rustle"
   },
+  "uitwassen": {
+    "tegenwoordige_tijd": {
+      "ik": "was uit",
+      "jij": "wast uit",
+      "hij": "wast uit",
+      "wij": "wassen uit",
+      "jullie": "wassen uit",
+      "zij": "wassen uit"
+    },
+    "verleden_tijd": {
+      "ik": "waste uit",
+      "wij": "wasten uit"
+    },
+    "voltooid_deelwoord": "uitgewassen",
+    "hulpwerkwoord": "hebben",
+    "english": "to remove by washing"
+  },
   "klodderen": {
     "tegenwoordige_tijd": {
       "ik": "klodder",
@@ -99738,6 +104345,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to broom (sweep with a broom)"
   },
+  "doorslaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sla door",
+      "jij": "slaat door",
+      "hij": "slaat door",
+      "wij": "slaan door",
+      "jullie": "slaan door",
+      "zij": "slaan door"
+    },
+    "verleden_tijd": {
+      "ik": "sloeg door",
+      "wij": "sloegen door"
+    },
+    "voltooid_deelwoord": "doorgeslagen",
+    "hulpwerkwoord": "hebben",
+    "english": "to puncture with a blow"
+  },
   "aanhaken": {
     "tegenwoordige_tijd": {
       "ik": "haak aan",
@@ -99788,6 +104412,23 @@
     "voltooid_deelwoord": "geknikkerd",
     "hulpwerkwoord": "hebben",
     "english": "to play marbles"
+  },
+  "aanstaan": {
+    "tegenwoordige_tijd": {
+      "ik": "sta aan",
+      "jij": "staat aan",
+      "hij": "staat aan",
+      "wij": "staan aan",
+      "jullie": "staan aan",
+      "zij": "staan aan"
+    },
+    "verleden_tijd": {
+      "ik": "stond aan",
+      "wij": "stonden aan"
+    },
+    "voltooid_deelwoord": "aangestaan",
+    "hulpwerkwoord": "hebben",
+    "english": "to be switched on or otherwise active"
   },
   "aansnijden": {
     "tegenwoordige_tijd": {
@@ -99856,6 +104497,23 @@
     "voltooid_deelwoord": "geclaxonneerd",
     "hulpwerkwoord": "hebben",
     "english": "to honk"
+  },
+  "back-uppen": {
+    "tegenwoordige_tijd": {
+      "ik": "back-up",
+      "jij": "back-upt",
+      "hij": "back-upt",
+      "wij": "back-uppen",
+      "jullie": "back-uppen",
+      "zij": "back-uppen"
+    },
+    "verleden_tijd": {
+      "ik": "back-upte",
+      "wij": "back-upten"
+    },
+    "voltooid_deelwoord": "geback-upt",
+    "hulpwerkwoord": "hebben",
+    "english": "to back up (to copy data)"
   },
   "meevoelen": {
     "tegenwoordige_tijd": {
@@ -100554,6 +105212,23 @@
     "hulpwerkwoord": "hebben",
     "english": "to laugh one's head off, die laughing"
   },
+  "bekleven": {
+    "tegenwoordige_tijd": {
+      "ik": "bekleef",
+      "jij": "bekleeft",
+      "hij": "bekleeft",
+      "wij": "bekleven",
+      "jullie": "bekleven",
+      "zij": "bekleven"
+    },
+    "verleden_tijd": {
+      "ik": "bekleefde",
+      "wij": "bekleefden"
+    },
+    "voltooid_deelwoord": "bekleefd",
+    "hulpwerkwoord": "hebben",
+    "english": "to beglue, stick with glue"
+  },
   "airfryen": {
     "tegenwoordige_tijd": {
       "ik": "airfry",
@@ -101131,6 +105806,23 @@
     "voltooid_deelwoord": "meegetorst",
     "hulpwerkwoord": "hebben",
     "english": "to carry along with difficulty"
+  },
+  "toedragen": {
+    "tegenwoordige_tijd": {
+      "ik": "draag mee",
+      "jij": "draagt mee",
+      "hij": "draagt mee",
+      "wij": "dragen mee",
+      "jullie": "dragen mee",
+      "zij": "dragen mee"
+    },
+    "verleden_tijd": {
+      "ik": "droeg mee",
+      "wij": "droegen mee"
+    },
+    "voltooid_deelwoord": "meegedragen",
+    "hulpwerkwoord": "hebben",
+    "english": "to cherish (feelings)"
   },
   "doorhakken": {
     "tegenwoordige_tijd": {
