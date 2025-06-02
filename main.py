@@ -1,7 +1,4 @@
 import os
-print("RAILWAY ENV DEBUG:", dict(os.environ))
-
-import os
 import json
 from datetime import datetime
 import requests
@@ -166,7 +163,6 @@ async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     count = get_user_count()
     await update.message.reply_text(f"Уникальных пользователей: {count}")
 
-print("BOT_TOKEN:", repr(BOT_TOKEN))
 app = ApplicationBuilder().token(BOT_TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
