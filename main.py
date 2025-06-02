@@ -1,43 +1,49 @@
 import os
 import json
 from datetime import datetime
+import requests
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, ContextTypes, filters
 
-USERS_FILE = "users.txt"
-LOG_FILE = "logs.txt"
+# --- Settings from Railway environment variables
+BOT_TOKEN = os.getenv("BOT_TOKEN")
+LOG_CHAT_ID = os.getenv("CHAT_ID")
 
+# --- In-memory storage for unique users (resets on restart)
+KNOWN_USERS = set()
 
-def load_users():
-    if not os.path.exists(USERS_FILE):
-        return set()
-    with open(USERS_FILE, "r") as f:
-        return set(line.strip() for line in f if line.strip())
-
+# --- Telegram logging helper
+def send_log_to_telegram(message):
+    try:
+        requests.post(
+            f"https://api.telegram.org/bot{BOT_TOKEN}/sendMessage",
+            data={
+                "chat_id": LOG_CHAT_ID,
+                "text": message
+            }
+        )
+    except Exception as e:
+        print("Failed to send log to Telegram:", e)
 
 def save_user(user_id):
-    users = load_users()
-    if str(user_id) not in users:
-        with open(USERS_FILE, "a") as f:
-            f.write(f"{user_id}\n")
-
+    if user_id not in KNOWN_USERS:
+        KNOWN_USERS.add(user_id)
+        now = datetime.now().isoformat(sep=' ', timespec='seconds')
+        log_msg = f"[{now}] 👤 New user: {user_id}"
+        send_log_to_telegram(log_msg)
 
 def get_user_count():
-    users = load_users()
-    return len(users)
-
+    return len(KNOWN_USERS)
 
 def log_user_verb(user_id, text):
-    with open(LOG_FILE, "a", encoding="utf-8") as f:
-        now = datetime.now().isoformat(sep=' ', timespec='seconds')
-        f.write(f"{now}\t{user_id}\t{text.strip()}\n")
-
+    now = datetime.now().isoformat(sep=' ', timespec='seconds')
+    log_msg = f"[{now}] User {user_id} sent: {text.strip()}"
+    send_log_to_telegram(log_msg)
 
 # --- Load verbs
 def load_verbs():
     with open("verbs.json", encoding="utf-8") as f:
         return json.load(f)
-
 
 VERBS = load_verbs()
 VERBS_LIST = list(VERBS.keys())
@@ -81,8 +87,9 @@ async def start(update: Update, context: ContextTypes.DEFAULT_TYPE):
                                     "back all the forms and translation.")
 
 async def handle_message(update: Update, context: ContextTypes.DEFAULT_TYPE):
-    save_user(update.effective_user.id)  # <--- сохраняем пользователя
-    log_user_verb(update.effective_user.id, update.message.text)
+    save_user(update.effective_user.id)  # Save new user
+    log_user_verb(update.effective_user.id, update.message.text)  # Log every message
+
     verb = update.message.text
     matches = find_verb(verb)
 
@@ -132,7 +139,6 @@ async def send_verb_info(update_or_query, infinitive, data, edit=False):
     else:
         await update_or_query.message.reply_markdown(response)
 
-
 async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TYPE):
     query = update.callback_query
     await query.answer()
@@ -152,15 +158,15 @@ async def handle_callback_query(update: Update, context: ContextTypes.DEFAULT_TY
             reply_markup=keyboard
         )
 
-# --- Команда для просмотра статистики
+# --- /stats command
 async def stats(update: Update, context: ContextTypes.DEFAULT_TYPE):
     count = get_user_count()
     await update.message.reply_text(f"Уникальных пользователей: {count}")
 
-app = ApplicationBuilder().token("8063866034:AAEp0_cYkvV0raFBBmyfGCkx_1ONyL5xlfw").build()
+app = ApplicationBuilder().token(BOT_TOKEN).build()
 
 app.add_handler(CommandHandler("start", start))
-app.add_handler(CommandHandler("stats", stats))  # команда /stats
+app.add_handler(CommandHandler("stats", stats))  # /stats command
 app.add_handler(MessageHandler(filters.TEXT & ~filters.COMMAND, handle_message))
 app.add_handler(CallbackQueryHandler(handle_callback_query))
 
