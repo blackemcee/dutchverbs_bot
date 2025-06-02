@@ -1,4 +1,7 @@
 import os
+print("RAILWAY ENV DEBUG:", dict(os.environ))
+
+import os
 import json
 from datetime import datetime
 import requests
